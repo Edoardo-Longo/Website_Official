@@ -37,7 +37,7 @@
 }
 
 .topbar_leftcontainer>a{
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     color:rgb(212 212 216);
     font-weight:bold;
@@ -84,7 +84,7 @@
 .request_btn{
     height: max-content;
     padding: 12px 16px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fffffd;
     background-color: #3abab4;
     border: none;
