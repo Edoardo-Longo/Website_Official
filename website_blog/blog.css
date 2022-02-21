@@ -1,6 +1,6 @@
 .section{
     /* height: 100vh; */
-    border: 1px solid black;  
+    border: 1px solid black; 
 }
 .topbar{
     border: 1px solid rgb(9, 99, 110);
@@ -97,7 +97,4 @@
     height:147px;
     width: 258px;
     border:1px solid black;
-    float: left;
-
-    
 }
