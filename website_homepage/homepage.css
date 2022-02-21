@@ -187,10 +187,13 @@ gap:70px;
     height: 33%;
     text-align: center;
     margin-top:150px;
+    
 }
 .middle{
     border: 1px solid blue;
     height: 33%;
+    display:flex;
+    justify-content: center;
 }
 .bottom{
     border: 1px solid blue;
@@ -204,4 +207,13 @@ gap:70px;
 .top>p{
     font-size: 25px;
     
+}
+
+.block1 {
+
+    border: 1px solid black;
+    height: 8cm;
+    width: 11cm;
+    padding: 0.5cm;
+display:inline-block
 }
