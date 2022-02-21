@@ -1,6 +1,6 @@
 .section{
     height: 100vh;
-    border: 1px solid black;  
+    border: 1px solid rgba(255, 0, 0, 0);  
     
 }
 .topbar{
@@ -95,7 +95,7 @@
 }
 
 
-div>h1{
+.title>h1{
     font-size: 90px;
 }
 
@@ -180,4 +180,28 @@ gap:70px;
 .container_info>h1 {
 
     font-size: 50px;
+}
+
+.top{
+    border: 1px solid blue;
+    height: 33%;
+    text-align: center;
+    margin-top:150px;
+}
+.middle{
+    border: 1px solid blue;
+    height: 33%;
+}
+.bottom{
+    border: 1px solid blue;
+    height: 33%;
+}
+
+.top>h1{
+    font-size: 60px;
+
+}
+.top>p{
+    font-size: 25px;
+    
 }
