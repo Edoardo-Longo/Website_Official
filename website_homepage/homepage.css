@@ -164,3 +164,20 @@ gap:70px;
     font-size: 1rem;
     padding:20px 40px;
 }
+
+.container_info {
+
+    border: 1px solid black;
+    background-color: whitesmoke;
+    padding: 1px;
+    margin: 1cm;
+    height: max-content;
+    width: 230px;
+    display:inline-block;
+    text-align: center;
+}
+
+.container_info>h1 {
+
+    font-size: 50px;
+}
