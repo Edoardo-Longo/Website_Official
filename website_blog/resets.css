@@ -23,7 +23,7 @@ body {line-height: 1.4;}
 html, body {height: 100%;}
    
 /* Removes the unwanted ability to overflow content */
-img, picture, video, canvas, svg, iframe, object {
+img, figure, video, canvas, svg, iframe, object {
     display: block;
     max-width: 100%;
 }
