@@ -485,3 +485,26 @@ ul>span{
         background-color: #96a2a8;
         display: flex;
     }
+
+    footer {
+
+        color: white;
+        gap: 30px;
+        justify-content: center;
+    
+    }
+
+    .listbottom {
+
+        display: flex;
+        gap: 35px;
+        justify-content: center;
+
+    }
+
+    .piedipag {
+
+        display: flex;
+        justify-content: space-between;
+        
+    }
