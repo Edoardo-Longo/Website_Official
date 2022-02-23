@@ -153,10 +153,7 @@ body{
     border: 1px solid blue;
     width: 30%;
     height:700px;
-    background-image: url("img/iphone-mockup.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  
 
 }
 
@@ -251,27 +248,7 @@ ul>span{
         display:inline-block
         
     }
-    .rock1{
-        height: 25rem;
-        width: 30rem;
-        background-image: url("img/rock1.jpg");
-        background-position: center;
-        background-size: cover;
-    }
-    .rock2{
-        height: 25rem;
-        width: 30rem;
-        background-image: url("img/rock2.jpg");
-        background-position: center;
-        background-size: cover;
-    }
-    .rock3{
-        height: 25rem;
-        width: 30rem;
-        background-image: url("img/rock3.jpg");
-        background-position: center;
-        background-size: cover;
-    }
+    
     .bottom_s2{
         border: 1px solid blue;
         height: 33%;
@@ -281,7 +258,6 @@ ul>span{
 
     
     .bottom_s2>img{
-        height:70px;
         margin:30px 60px;
 
     }
@@ -338,10 +314,6 @@ ul>span{
         font-weight: bold;
         margin-right: 2rem;
     }
-    .video_description>img{
-        height:200px;
-        width: 350px;
-    }
     .bottom_s3{
         height: 33%;
         border: 1px solid green;
@@ -383,13 +355,7 @@ ul>span{
     .bottomphone {
 
         border: 1px solid blue;
-        width: 700px;
-        height:700px;
-        background-image: url("img/iphone-mockup.png");
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        display: flex;
+
     }
 
     .divphone {
@@ -495,5 +461,27 @@ ul>span{
 
     .sez5align {
 
+        display: flex;
+    }
+    .container_boxs{
+        display: flex;
+        justify-content: space-around;
+    }
+    .square{
+        height: 70px;
+        width: 70px;
+        background-color: violet;
+    }
+    .seven_title{
+        font-size: 50px;
+        text-align: center;
+        color:white;
+    }
+
+    .ending_input{
+        margin-top: 100px;
+        height: 100px;
+        display: flex;
+        background-color: #96a2a8;
         display: flex;
     }
