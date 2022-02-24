@@ -3,6 +3,7 @@
     border: 1px solid black;  
 }
 .topbar{
+    background-color: rgba(0, 0, 0, 0.637);
     border: 1px solid rgb(9, 99, 110);
     height: 10vh;
     display: flex;
@@ -28,13 +29,6 @@
     margin-right: 5vw;
 }
 
-
-.logo{
-    width:50px;
-    height: 50%;
-    border: 1px solid black;
-    align-self: center;
-}
 
 .topbar_leftcontainer>a{
     font-size: 1rem;
@@ -93,3 +87,60 @@
     align-self: center;
 }
 
+.background-img {
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid rgb(64, 187, 228);
+    
+    background-image: url("./asset/hero-bg-03.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.text1 {
+
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.text-2 {
+    color:#3abab4;
+}
+
+.logo{
+    width:50px;
+    height: 50%;
+    border: 1px solid black;
+    align-self: center;
+}
+.background-black {
+    background-color: rgba(0, 0, 0, 0.637);
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.img-square {
+height: 400px;
+width: 700px;
+border: 1px solid rgb(255, 0, 128);
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+display:flex;
+justify-content: space-evenly;
+background-image: url("asset/about-hero.jpg");
+background-size: contain;
+position: absolute;
+z-index: 0;
+}
