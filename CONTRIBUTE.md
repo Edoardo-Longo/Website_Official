@@ -25,7 +25,6 @@ Tutti i team si vedranno ogni mattina dalle 9 alle 9.15 per avere una visione ge
 - FARE COMMIT ATOMICI, in modo da dare flessibilità al progetto, niente blocchi enormi in un singolo commit
 - CONTROLLARE LA SEZIONE PROJECT, Le task saranno inserite lì per tutti
 - LAVORARE SULLA BRANCH PERSONALE, MAI SU UNA UFFICIALE
-
 # BRANCH:
 
 Il team lavorerà su branch personali seguendo questa convenzione:
