@@ -1,11 +1,6 @@
 section {
   /*height: 100vh;*/
   border: 1px solid black;
-
-}
-
-body{
-  background-color: #39393f;
 }
 .topbar {
   border: 1px solid rgb(9, 99, 110);
@@ -96,30 +91,4 @@ body{
   align-self: center;
 }
 
-.card_middle{
-  border: 1px solid green;
-  padding-left: 60px;
-}
 
-.post{
-  width:250px;
-height:150px;
-border: 1px solid blue;
-}
-
-.post__container{
-  display: flex;
-  gap: 50px;
-  justify-content: center;
-  margin-top: 50px;
-}
-.title__link>h1{
-
-font-size: 70px;
-color:white;
-}
-
-.subtitle{
-  color:#9a9aa4;
-  font-size: 25px;
-}
