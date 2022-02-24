@@ -2,8 +2,8 @@
 
 # OBIETTIVI:
 
-- Creazione homepage: https://preview.cruip.com/appy/ (Gabriel e Sebastian)
-- Creazione About: https://preview.cruip.com/appy/about.html (Andrea e Nazareno)
+- Creazione homepage: https://preview.cruip.com/appy/ (Gabriel e Nazareno)
+- Creazione About: https://preview.cruip.com/appy/about.html (Andrea e Sebastian)
 - Creazione Blog: https://preview.cruip.com/appy/blog.html (Edoardo e Vito)
 
 # FASI:
