@@ -8,9 +8,9 @@
 
 # FASI:
 
-- Pianificazione, organizzazione e documentazione <-- Siamo qui
+- Pianificazione, organizzazione e documentazione 
 - Sviluppo struttura HTML
-- Revisione
+- Revisione <-- Siamo qui
 - Miglioramento CSS
 - Revisione
 - Release
@@ -19,19 +19,23 @@
 
 Tutti i team si vedranno ogni mattina dalle 9 alle 9.15 per avere una visione generale dell'andamento del progetto, ogni team sarà poi indipendente nella coordinazione con il suo compagno.
 
+L'orario di lavoro sarà dal Lunedì al venerdì 9-11
+
 # WORKFLOW:
 
 - LAVORARE SOLO SU REPO SINCRONIZZATE, Assicurarsi che siano sincronizzate sia da github che da locale.
 - FARE COMMIT ATOMICI, in modo da dare flessibilità al progetto, niente blocchi enormi in un singolo commit
 - CONTROLLARE LA SEZIONE PROJECT, Le task saranno inserite lì per tutti
-- LAVORARE SULLA BRANCH PERSONALE, MAI SU UNA UFFICIALE
+- LAVORARE SULLA BRANCH CONDIVISA, MAI SULL' UFFICIALE (Develop) - (Main)
 # BRANCH:
 
-Il team lavorerà su branch personali seguendo questa convenzione:
+Il team lavorerà su branch condivisa:
 
-nome-pagina ---> vito-blog.
+Develop-about
+Develop-homepage
+Develop-blog
 
-Nella vostra branch personale potete sviluppare queste sotto-branch:
+Nella vostra branch condivisa potete sviluppare queste sotto-branch:
 
 Nuova feature: feat/name-of-feature ---> Nuova feature
 
