@@ -8,9 +8,9 @@
 
 # FASI:
 
-- Pianificazione, organizzazione e documentazione <-- Siamo qui
+- Pianificazione, organizzazione e documentazione
 - Sviluppo struttura HTML
-- Revisione
+- Revisione <-- Siamo qui
 - Miglioramento CSS
 - Revisione
 - Release
@@ -19,20 +19,24 @@
 
 Tutti i team si vedranno ogni mattina dalle 9 alle 9.15 per avere una visione generale dell'andamento del progetto, ogni team sarà poi indipendente nella coordinazione con il suo compagno.
 
+L'orario di lavoro sarà dal Lunedì al venerdì 9-11
 
 # WORKFLOW:
 
 - LAVORARE SOLO SU REPO SINCRONIZZATE, Assicurarsi che siano sincronizzate sia da github che da locale.
 - FARE COMMIT ATOMICI, in modo da dare flessibilità al progetto, niente blocchi enormi in un singolo commit
 - CONTROLLARE LA SEZIONE PROJECT, Le task saranno inserite lì per tutti
-- LAVORARE SULLA BRANCH PERSONALE, MAI SU UNA UFFICIALE
+- LAVORARE SULLA BRANCH CONDIVISA, MAI SULL' UFFICIALE (Develop) - (Main)
+
 # BRANCH:
 
-Il team lavorerà su branch personali seguendo questa convenzione:
+Il team lavorerà su branch condivisa:
 
-nome-pagina ---> vito-blog.
+Develop-about
+Develop-homepage
+Develop-blog
 
-Nella vostra branch personale potete sviluppare queste sotto-branch:
+Nella vostra branch condivisa potete sviluppare queste sotto-branch:
 
 Nuova feature: feat/name-of-feature ---> Nuova feature
 
@@ -46,14 +50,13 @@ Style: style/new-style ---> cambiamenti minori estetici sul css
 
 I commit devono spiegare la modifica al codice effettuata, utilizzando questa convenzione:
 
-Nuova feature:       commit -m "feat: name of feature" 
-Bugfix:              commit -m "fix: bug fixed - hash"
-Style:               commit -m "style: style's change" 
-Refactor:            commit -m "ref: refactoring"
+Nuova feature: commit -m "feat: name of feature"
+Bugfix: commit -m "fix: bug fixed - hash"
+Style: commit -m "style: style's change"
+Refactor: commit -m "ref: refactoring"
 
 # SVILUPPO
 
 Il goal finale è la STRUTTURA HTML e la sua priorità è assoluta, il CSS sarà il minimo indispensabile per dare ordine al codice HTML, step by step e niente over-working!
 
 Arrivati alla struttura HTML, penseremo al miglioramento del css.
-
