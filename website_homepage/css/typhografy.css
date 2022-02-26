@@ -1,0 +1,168 @@
+/*-------------- TOPBAR -------------- */
+
+
+.topbar__leftcontainer>a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(212 212 216);
+    font-weight: bold;
+    align-self: center;
+
+}
+
+/*-------------- END OF TOPBAR -------------- */
+/*-------------- FIRST SECTION -------------- */
+
+.container__left--title>h1 {
+    font-size: 90px;
+    color: #f4f4f5;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container__left--description>p {
+    font-size: 20px;
+    color: #96a2a8;
+}
+
+.card__container--right {
+
+    width: 30%;
+    height: max-conpx;
+    display: flex;
+    justify-content: center;
+
+
+}
+/*-------------- END FIRST SECTION -------------- */
+/*-------------- SECOND SECTION -------------- */
+ul>span {
+    color: #4fd1c5;
+}
+
+.topcontainer>h1 {
+    font-size: 60px;
+    color: #f4f4f5;
+}
+.topcontainer>p {
+    font-size: 25px;
+    color: #9a9a9b;
+}
+
+
+.block__info>h1 {
+
+    color: #f4f4f5;
+    font-size: 50px;
+}
+
+.block__info>p {
+    color: #9a9a9b;
+}
+
+.s2title>h1 {
+    font-size: 60px;
+    color: #f4f4f5;
+}
+/*-------------- END SECOND SECTION -------------- */
+/*----------------- THIRD SECTION --------------- */
+
+.s2title>p {
+    font-size: 25px;
+    color: #9a9a9b;
+}
+
+.s3top>h1 {
+    align-self: center;
+    color: #f4f4f5;
+    font-size: 50px;
+}
+
+.s3top>p {
+    align-self: center;
+    color: #9a9a9b;
+    font-size: 20px;
+}
+
+/*-------------- END THIRD SECTION -------------- */
+/*---------------FOURTH SECTION --------------- */
+.s4title{
+    margin-top: 5rem;
+    font-size: 60px;
+    text-align: center;
+    color: #f4f4f5;
+}
+
+.s4subtitle {
+    font-size: 23px;
+    text-align: center;
+    color: #9a9a9b;
+}
+/*-------------- END FOURTH SECTION -------------- */
+/*------------------FIFTH SECTION --------------- */
+.box__up>span {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box__price {
+    font-size: 40px;
+}
+
+.box__middle>span:nth-child(1) {
+    font-weight: bold;
+    color: #f4f4f5;
+}
+
+.box__middle>span:nth-child(2) {
+    color: #9a9a9b;
+}
+
+.box__middle>p {
+    color: #9a9a9b;
+}
+/*-------------- END FIFTH SECTION -------------- */
+/*----------------- SIXTH SECTION --------------- */
+.name {
+
+    color: black;
+    font-weight: bold;
+
+}
+
+.site {
+
+    color: #3abab4;
+    font-weight: bold;
+}
+/*-------------- END SIXTH SECTION -------------- */
+/*--------------- SEVENTH SECTION --------------- */
+.s7title {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+.infobox__square--details>h4 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.infobox__square--details>p {
+    font-size: 1.3rem;
+    color: white;
+}
+.s7card__endbar>h1 {
+    align-self: center;
+    font-size: 2.5rem;
+    color:white;
+}
+
+.s7card__endbar>label {
+    align-self: center;
+
+}
+.listblock>ul{
+    color:#84a2a8;
+}
+

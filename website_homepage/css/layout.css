@@ -1,0 +1,26 @@
+body {
+    background-color: #1d1d20;
+}
+
+header {
+    height: min-content;
+}
+
+section {
+    border-left: none;
+    border-right: none;
+    background-color: #1d1d20;
+    max-height: max-content;
+    min-height: min-content;
+
+}
+
+
+footer {
+
+    color: white;
+    gap: 30px;
+    justify-content: center;
+
+}
+
