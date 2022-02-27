@@ -2,7 +2,6 @@
 
 
 .topbar__leftcontainer>a {
-    font-size: 1rem;
     text-decoration: none;
     color: rgb(212 212 216);
     font-weight: bold;
@@ -14,13 +13,13 @@
 /*-------------- FIRST SECTION -------------- */
 
 .container__left--title>h1 {
-    font-size: 90px;
+    font-size: 9rem;
     color: #f4f4f5;
     font-family: 'Red Hat Display', sans-serif;
 }
 
 .container__left--description>p {
-    font-size: 20px;
+    font-size: 2rem;
     color: #96a2a8;
 }
 
@@ -40,11 +39,11 @@ ul>span {
 }
 
 .topcontainer>h1 {
-    font-size: 60px;
+    font-size: 6rem;
     color: #f4f4f5;
 }
 .topcontainer>p {
-    font-size: 25px;
+    font-size: 2.5rem;
     color: #9a9a9b;
 }
 
@@ -52,7 +51,7 @@ ul>span {
 .block__info>h1 {
 
     color: #f4f4f5;
-    font-size: 50px;
+    font-size: 6rem;
 }
 
 .block__info>p {
@@ -60,52 +59,58 @@ ul>span {
 }
 
 .s2title>h1 {
-    font-size: 60px;
+    font-size: 6rem;
     color: #f4f4f5;
 }
 /*-------------- END SECOND SECTION -------------- */
 /*----------------- THIRD SECTION --------------- */
 
 .s2title>p {
-    font-size: 25px;
+    font-size: 2.5rem;
     color: #9a9a9b;
 }
 
 .s3top>h1 {
     align-self: center;
     color: #f4f4f5;
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 .s3top>p {
     align-self: center;
     color: #9a9a9b;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 /*-------------- END THIRD SECTION -------------- */
 /*---------------FOURTH SECTION --------------- */
 .s4title{
     margin-top: 5rem;
-    font-size: 60px;
+    font-size: 6rem;
     text-align: center;
     color: #f4f4f5;
 }
 
 .s4subtitle {
-    font-size: 23px;
+    font-size: 2rem;
     text-align: center;
     color: #9a9a9b;
 }
 /*-------------- END FOURTH SECTION -------------- */
 /*------------------FIFTH SECTION --------------- */
+.s5top>h1{
+    align-self: center;
+}
+.s5top>p{
+    align-self: center;
+}
 .box__up>span {
-    font-size: 20px;
+    font-size: 2rem;
     color: #ffffff;
     font-weight: bold;
 }
 .box__price {
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .box__middle>span:nth-child(1) {
@@ -122,6 +127,9 @@ ul>span {
 }
 /*-------------- END FIFTH SECTION -------------- */
 /*----------------- SIXTH SECTION --------------- */
+.s6card__testimonial--box>p{
+    font-size: 1.8rem;
+}
 .name {
 
     color: black;
@@ -137,24 +145,22 @@ ul>span {
 /*-------------- END SIXTH SECTION -------------- */
 /*--------------- SEVENTH SECTION --------------- */
 .s7title {
-    font-size: 50px;
+    font-size: 5rem;
     text-align: center;
     color: white;
-
 }
 
-.infobox__square--details>h4 {
-    font-size: 1.5rem;
+
+
+.infobox__square--details>h5 {
     color: white;
 }
 
 .infobox__square--details>p {
-    font-size: 1.3rem;
     color: white;
 }
-.s7card__endbar>h1 {
+.s7card__endbar>h4 {
     align-self: center;
-    font-size: 2.5rem;
     color:white;
 }
 
@@ -162,7 +168,8 @@ ul>span {
     align-self: center;
 
 }
-.listblock>ul{
+.s7list__block>ul{
     color:#84a2a8;
+    font-size: 1.6rem;
 }
 

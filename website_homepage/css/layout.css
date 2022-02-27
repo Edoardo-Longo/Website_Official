@@ -6,6 +6,16 @@ header {
     height: min-content;
 }
 
+footer {
+
+    color: white;
+    gap: 30px;
+    justify-content: center;
+border: 1px solid blue;
+margin-top: 5rem;
+
+}
+
 section {
     border-left: none;
     border-right: none;
@@ -16,11 +26,32 @@ section {
 }
 
 
-footer {
 
-    color: white;
-    gap: 30px;
-    justify-content: center;
-
+h1{
+    font-size: 6rem;
+}
+h2{
+    font-size: 5rem;
+}
+h3{
+    font-size: 4rem;
+}
+h4{
+    font-size: 3rem;
 }
 
+h5{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+a{
+    font-size: 2rem; 
+}
+
+button{
+    font-size: 1.5rem;
+}
