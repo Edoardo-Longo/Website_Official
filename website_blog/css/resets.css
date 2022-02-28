@@ -14,6 +14,7 @@
 /* Switches font-size to 10px (implicit value) while allowing zooming via browser */
 html {
     font-family: sans-serif;
+    font-size: 10px;
 }
    
 /* Uses a more accessible and spacious line-height, refer to theme.css for the value */
