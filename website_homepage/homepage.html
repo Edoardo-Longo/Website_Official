@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nazareno e Gabri">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="homepage.css">
+
+    <link rel="stylesheet" href="index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,8 +21,12 @@
 
     <section>
         <!-- Topbar -->
-        <header class="topbar">
-            <div class="topbar_leftcontainer">
+        <header class=" topbar 
+        flex-row-nowrap  
+        justify-between">
+            <div class="
+            topbar__leftcontainer 
+            flex-row-nowrap">
 
                 <div class="logo">
 
@@ -49,14 +53,21 @@
                 <a href="">Testimonials</a>
                 <a href="">Resources</a>
             </div>
-            <div class="topbar_rightcontainer">
-                <div class="switchbtn">
+            <div class="
+            topbar__rightcontainer
+            w-max-content
+            flex-row-nowrap
+            justify-around">
+
+                <div class="
+                rightcontainer__switchbtn 
+                justify-between ">
                     <div></div>
                     <div>
-                        <div id="switchitem"></div>
+                        <div class="rightcontainer__switchitem"></div>
                     </div>
                 </div>
-                <button class="request_btn">Request code</button>
+                <button class="rightcontainer__requestBtn">Request code</button>
             </div>
 
         </header>
@@ -65,18 +76,22 @@
 
         <main>
             <!-- adding title and flavour-->
-            <div class="card">
-                <div class="card_up">
-                    <div class="card_container-left">
+            <div class="card flex-column">
+                <div class="card__container
+                 flex-row 
+                 justify-center  ">
+                    <div class="card_container--left
+                     w-max-content
+                     flex-column">
                         <article>
-                            <div class="title">
+                            <div class="container__left--title">
 
                                 <h1> Your website,</h1>
                                 <h1>reimagined </h1>
                             </div>
                         </article>
                         <article>
-                            <div class="description">
+                            <div class="container__left--description">
                                 <p> Our landing page template works on all devices, so you only have </p>
                                 <p>to set it up once, and get
                                     beautiful results forever.</p>
@@ -84,12 +99,17 @@
                         </article>
                         <!-- adding button phone number-->
                         <form action="">
-                            <label class="card_number">
-                                <input type="text" class="input_text" placeholder="Phone Number">
-                                <button class="request">Request code </button>
+                            <label class="
+                            cardNumber
+                            w-max-content
+                            flex-row">
+                                <input type="text" class="cardNumber__text" placeholder="Phone Number">
+                                <button class="cardNumber__request">Request code </button>
                             </label>
                         </form>
-                        <div class="list">
+                        <div class="list
+                        w-max-content
+                        flex-column">
                             <!-- adding list-->
                             <ul> <span>✓</span> Lorem ipsum is placeholder text commonly.</ul>
                             <ul> <span>✓</span> Excepteur sint occaecat cupidatat.</ul>
@@ -98,27 +118,32 @@
 
                     </div>
                     <!-- image iphone-->
-                    <picture class="card_container-right">
+                    <picture>
                         <img src="img/iphone-mockup.png" alt="Iphone mockup" width="340" height="654">
                     </picture>
 
                 </div>
 
                 <!-- add 4 blocks-->
-                <div class="form_container">
-                    <div class="container_info">
+                <div class="block flex-row
+                 justify-center">
+                    <div class="block__info
+                     w-max-content">
                         <h1>2.4M </h1>
                         <p> days turn around </p>
                     </div>
-                    <div class="container_info">
+                    <div class="block__info
+                     w-max-content">
                         <h1>7M </h1>
                         <p> days turn around </p>
                     </div>
-                    <div class="container_info">
+                    <div class="block__info
+                     w-max-content">
                         <h1> 7.4% </h1>
                         <p> days turn around </p>
                     </div>
-                    <div class="container_info">
+                    <div class="block__info
+                     w-max-content">
                         <h1>49K </h1>
                         <p> days turn around</p>
                     </div>
@@ -127,7 +152,7 @@
 
     <!-- Second section -->
     <section>
-        <article class="top_s2">
+        <article class="s2title">
             <h1>From rough design files, to<h1> powerful products</h1>
             </h1>
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat <p>nulla
@@ -135,18 +160,20 @@
             </p>
         </article>
 
-        <picture class="middle_s2">
+        <picture class="s2picture 
+        flex-row 
+        justify-center ">
 
             <img src="img/rock1.jpg" alt="rock1" width="412" height="366">
 
-            <img src="img/rock2.jpg" alt="rock1" width="412" height="366">
+            <img src="img/rock2.jpg" alt="rock2" width="412" height="366">
 
-            <img src="img/rock3.jpg" alt="rock1" width="412" height="366">
+            <img src="img/rock3.jpg" alt="rock3" width="412" height="366">
 
         </picture>
 
 
-        <picture class="bottom_s2">
+        <picture class="s2bottom">
             <img src="img/ArrowL.PNG" alt="Left arrow" height="56">
             <img src="img/ArrowR.PNG" alt="right arrow" height="56">
         </picture>
@@ -157,7 +184,9 @@
 
     <section>
 
-        <article class="top_s3">
+        <article class="s3top
+         flex-column 
+         justify-center">
             <!--Title -->
             <h1>Turn your ideas in to reality in</h1>
             <h1>seconds</h1>
@@ -165,9 +194,12 @@
             <p> nulla pariatur excepteur sint occaecat cupidatat.</p>
         </article>
         <!--Buttons-->
-        <div class="middle_s3">
+        <div class="s3middle
+         flex-row ">
 
-            <nav class="button_form">
+            <nav class="button_form 
+            flex-column
+             w-max-content">
                 <button>Getting started</button>
                 <button>Getting started</button>
                 <button>Getting started</button>
@@ -176,20 +208,20 @@
             </nav>
 
             <!-- video block-->
-            <div class="video_description"> <img src="img/video.PNG" alt="" height="200" width="350">
-                <p>Using index pages</p>
+            <div class="videoDescription"> <img src="img/video.PNG" alt="" height="200" width="350">
+                <p> using index pages </p>
             </div>
-
-            <div class="video_description"> <img src="img/video.PNG" alt="" height="200" width="350">
-                <p>Using index pages</p>
+            <div class="videoDescription"> <img src="img/video.PNG" alt="" height="200" width="350">
+                <p> using index pages </p>
             </div>
 
         </div>
-        <div class="bottom_s3">
-            <div class="video_description"> <img src="img/video.PNG" alt="" height="200" width="350">
+        <div class="s3bottom 
+        flex-row ">
+            <div class="videoDescription"> <img src="img/video.PNG" alt="" height="200" width="350">
                 <p> using index pages </p>
             </div>
-            <div class="video_description"> <img src="img/video.PNG" alt="" height="200" width="350">
+            <div class="videoDescription"> <img src="img/video.PNG" alt="" height="200" width="350">
                 <p> using index pages </p>
             </div>
 
@@ -199,26 +231,39 @@
     <!-- fourth section-->
     <section>
         <article>
-            <h1 class="section4h1"> Build and style every <br>element to perfection</h1>
-            
-            <p class="flavour4"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            <h1 class="s4title"> Build and style every <br>element to perfection</h1>
+
+            <p class="s4subtitle"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat
             </p>
-            <p class="flavour4">nulla pariatur excepteur sint occaecat cupidatat</p>
+            <p class="s4subtitle">nulla pariatur excepteur sint occaecat cupidatat</p>
         </article>
-        <div class="card4">
-            <picture class="divphone">
-                <button class="button4"> 1 </button>
-                <img class="bottomphone" src="img/iphone-mockup.png" height="630" width="330"></img>
+
+        <div class="s4card 
+        flex-row 
+        justify-evenly ">
+            <picture class="s4card__divphone 
+            flex-column 
+            justify-center 
+            w-max-content ">
+                <button class="s4card__button"> 1 </button>
+                <img src="img/iphone-mockup.png" height="630" width="330"></img>
             </picture>
 
-            <picture class="divphone">
-                <button class="button4"> 2 </button>
-                <img class="bottomphone" src="img/iphone-mockup.png" height="630" width="330"></img>
+            <picture class="s4card__divphone 
+            flex-column 
+            justify-center 
+            w-max-content">
+                <button class="s4card__button"> 2 </button>
+                <img src="img/iphone-mockup.png" height="630" width="330"></img>
             </picture>
 
-            <picture class="divphone">
-                <button class="button4"> 3 </button>
-                <img class="bottomphone" src="img/iphone-mockup.png" height="630" width="330"></img>
+            <picture class="s4card__divphone 
+            flex-column 
+            justify-center 
+            w-max-content">
+                <button class="s4card__button"> 3 </button>
+                <img src="img/iphone-mockup.png" height="630" width="330"></img>
             </picture>
         </div>
 
@@ -226,13 +271,15 @@
     <!-- Fifth section -->
 
     <section>
-        <article class="card5top">
-            <h1 class="section4h1"> Start building for free, then </h1>
-            <h1 class="section4h1">add a plan to go live </h1>
-            <p class="flavour4"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-            <p class="flavour4">mollit laborum — semper quis lectus nulla </p>
+        <article class="s5top flex-column 
+        justify-between">
+            <h1> Start building for free, then<br>add a plan to go live </h1>
+            <p> <br>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt <br> mollit laborum —
+                semper quis lectus nulla</p>
         </article>
-        <div class="card5bottom">
+        <div class="s5bottom flex-row 
+        justify-evenly">
             <aside class="list">
                 <ul> All plans include</ul>
                 <ul> <span>✔ </span> unlimited domains </ul>
@@ -245,50 +292,56 @@
                 <ul> <span>✔ </span> Smart forms and reports </ul>
             </aside>
             <!-- Box Yearly-->
-            <div class=" box">
+            <div class="box flex-column 
+            justify-between ">
                 <div>
-                    <div class="box_up"><span>Yearly</span>
-                        <div class="pricetag">-40%</div>
+                    <div class="flex-row 
+                    justify-between"><span>Yearly</span>
+                        <div class="box__pricetag">-40%</div>
                     </div>
 
-                    <div class="box_middle">
-                        <span class="price">$27/</span>
+                    <div class="box__middle">
+                        <span class="box__price">$27/</span>
                         <span>Billed yearly</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p>
                     </div>
                 </div>
-                <button class="premium">Go premium</button>
+                <button class="box__premium">Go premium</button>
             </div>
             <!-- Box Monthly-->
-            <div class=" box">
+            <div class=" box flex-column 
+            justify-between ">
                 <div>
-                    <div class="box_up"><span>Monthly</span>
+                    <div class="flex-row 
+                    justify-between"><span>Monthly</span>
 
                     </div>
 
-                    <div class="box_middle">
-                        <span class="price">$47/</span>
+                    <div class="box__middle">
+                        <span class="box__price">$47/</span>
                         <span>Billed yearly</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p>
                     </div>
                 </div>
-                <button class="premium">Go premium</button>
+                <button class="box__premium">Go premium</button>
             </div>
 
             <!-- Box Lifetime-->
-            <div class=" box">
+            <div class=" box flex-column 
+            justify-between ">
                 <div>
-                    <div class="box_up"><span>Lifetime</span>
+                    <div class="flex-row 
+                    justify-between"><span>Lifetime</span>
 
                     </div>
 
-                    <div class="box_middle">
-                        <span class="price">$27/</span>
+                    <div class="box__middle">
+                        <span class="box__price">$27/</span>
                         <span>Billed yearly</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p>
                     </div>
                 </div>
-                <button class="premium">Go premium</button>
+                <button class="box__premium">Go premium</button>
             </div>
         </div>
     </section>
@@ -297,56 +350,66 @@
     <section>
 
         <!--Testimonials-->
-        <div class="card_testimonial">
-            <div class="sez5align">
-                <article class="square5">
+        <div class="s6card flex-column 
+        justify-center ">
+            <div class="s6card__testimonial 
+            flex-row">
+                <article class="s6card__testimonial--box">
 
                     <picture>
                         <img src="img/testimonial-01.jpg" alt="testimonial-01" height="56" width="56">
                     </picture>
-                    <p> “ This is a great app and the value is <p>amazing. Since I purchased it I have been </p>
-                        <p>using it
-                            everyday!
-                            Highly recommend it. “</p>
-                        <p> <span class="spcl1"> —Andy Croll, </span> <span class="spcl2"> Appy.com </span> </p>
+                    <p> “ This is a great app and the value is amazing. <br> Since I purchased it I have been
+                        using it <br>
+                        everyday!
+                        Highly recommend it. “</p>
+                    <p><span class="name"> —Andy Croll,</span> <span class="site"> Appy.com </span> </p>
                 </article>
 
-                <article class="square5">
+                <article class="s6card__testimonial--box 
+                flex-column 
+                justify-center">
 
                     <picture>
-                        <img src="img/testimonial-02.jpg" alt="testimonial-01" height="56" width="56">
+                        <img src="img/testimonial-02.jpg" alt="testimonial-02" height="56" width="56">
                     </picture>
-                    <p> “ This is a great app and the value is <p>amazing. Since I purchased it I have been </p>
-                        <p>using it
-                            everyday!
-                            Highly recommend it. “</p>
-                        <p> <span class="spcl1"> —Andy Croll, </span> <span class="spcl2"> Appy.com </span> </p>
+                    <p> “ This is a great app and the value is amazing. <br> Since I purchased it I have been
+                        using it <br>
+                        everyday!
+                        Highly recommend it. “</p>
+                    <p><span class="name"> —Patricia Lepisov,</span> <span class="site"> Nobi Bank </span> </p>
                 </article>
             </div>
 
-            <div class="sez5align">
-                <article class="square5">
+            <div class="s6card__testimonial 
+            flex-row">
+                <article class="s6card__testimonial--box 
+                flex-column 
+                justify-center">
 
                     <picture>
-                        <img src="img/testimonial-03.jpg" alt="testimonial-01" height="56" width="56">
+                        <img src="img/testimonial-03.jpg" alt="testimonial-03" height="56" width="56">
                     </picture>
-                    <p> “ This is a great app and the value is <p>amazing. Since I purchased it I have been </p>
-                        <p>using it
-                            everyday!
-                            Highly recommend it. “</p>
-                        <p> <span class="spcl1"> —Andy Croll, </span> <span class="spcl2"> Appy.com </span> </p>
+                    <p> “ This is a great app and the value is amazing. <br> Since I purchased it I have been
+                        using it <br>
+                        everyday!
+                        Highly recommend it. “</p>
+                    <p><span class="name">—Zhenya Ritz,</span> <span class="site"> Sync </span> </p>
                 </article>
 
-                <article class="square5">
+
+                <article class="s6card__testimonial--box 
+                flex-column 
+                justify-center">
 
                     <picture>
-                        <img src="img/testimonial-04.jpg" alt="testimonial-01" height="56" width="56">
+                        <img src="img/testimonial-04.jpg" alt="testimonial-04" height="56" width="56">
                     </picture>
-                    <p> “ This is a great app and the value is <p>amazing. Since I purchased it I have been </p>
-                        <p>using it
-                            everyday!
-                            Highly recommend it. “</p>
-                        <p> <span class="spcl1"> —Andy Croll, </span> <span class="spcl2"> Appy.com </span> </p>
+                    <p> “ This is a great app and the value is amazing. <br> Since I purchased it I have been
+                        using it <br>
+                        everyday!
+                        Highly recommend it. “</p>
+                    <p><span class="name"> —Lisa Champ,</span> <span class="site"> Appicu </span> </p>
                 </article>
             </div>
         </div>
@@ -356,64 +419,78 @@
 
     <!--Seventh section-->
     <section>
-        <div class="section">
-
-            <h1 class="seven_title">Put clarity at the center of your website</h1>
-            <div class="container_boxs">
-
-                <div class="square blue">
-                    <div></div>
-                    <article class="square_container">
-                        <h4>Simple sharing</h4>
-                        <p>Lorem ipsum dolor amet sit consect</p>
-                    </article>
-                    <div></div>
-                </div>
-
-                <div class="square violet">
-                    <div></div>
-                    <article class="square_container">
-                        <h4>Simple sharing</h4>
-                        <p>Lorem ipsum dolor amet sit consect</p>
-                    </article>
-                    <div></div>
-                </div>
 
 
-                <div class="square sky">
-                    <div></div>
-                    <article class="square_container">
-                        <h4>Simple sharing</h4>
-                        <p>Lorem ipsum dolor amet sit consect</p>
-                    </article>
-                    <div></div>
-                </div>
+        <h1 class="s7title">Put clarity at the center of your website</h1>
+        <div class="infobox 
+        flex-row 
+        justify-around ">
 
-                <div class="square pink">
-                    <div></div>
-                    <article class="square_container">
-                        <h4>Simple sharing</h4>
-                        <p>Lorem ipsum dolor amet sit consect</p>
-                    </article>
-                    <div></div>
-                </div>
-
+            <div class="infobox__square blue 
+            flex-column 
+            justify-between ">
+                <div></div>
+                <article class="infobox__square--details">
+                    <h5>Simple sharing</h5>
+                    <p>Lorem ipsum dolor amet sit consect</p>
+                </article>
+                <div></div>
             </div>
 
-            <!-- Ending input of number-->
-
-            <div class="card6">
-            
-                <form class="endbar "action="">
-                    <h1>Free until you’re ready <br> to launch</h1>
-            
-                    <label for="Mioserver.com">
-                        <input type="text">
-                        <button>Request Code</button>
-                    </label>
-                </form>
+            <div class="infobox__square violet 
+            flex-column 
+            justify-between ">
+                <div></div>
+                <article class="infobox__square--details">
+                    <h5>Simple sharing</h5>
+                    <p>Lorem ipsum dolor amet sit consect</p>
+                </article>
+                <div></div>
             </div>
 
+
+            <div class="infobox__square sky 
+            flex-column 
+            justify-between ">
+                <div></div>
+                <article class="infobox__square--details">
+                    <h5>Simple sharing</h5>
+                    <p>Lorem ipsum dolor amet sit consect</p>
+                </article>
+                <div></div>
+            </div>
+
+            <div class="infobox__square pink 
+            flex-column 
+            justify-between ">
+                <div></div>
+                <article class="infobox__square--details">
+                    <h5>Simple sharing</h5>
+                    <p>Lorem ipsum dolor amet sit consect</p>
+                </article>
+                <div></div>
+            </div>
+
+
+
+
+        </div>
+        <!-- Ending form number-->
+
+        <div class="s7card
+         flex-row 
+         justify-center ">
+
+            <form class="s7card__endbar 
+            flex-row 
+            justify-between" action="">
+                <h4>Free until you’re ready <br> to launch</h4>
+
+                <label for="#">
+                    <input type="text">
+                    <button>Request Code</button>
+                </label>
+            </form>
         </div>
     </section>
 
@@ -421,16 +498,18 @@
     <section>
         </main>
         <footer>
-            <div class="listbottom">
+            <div class="s7list 
+            flex-row 
+            justify-evenly ">
                 <div class="logo"></div>
-                <div class="listblock">
+                <div class="s7list__block">
                     <p> PRODUCTS</p>
                     <ul> Drag </ul>
                     <ul> Visual </ul>
                     <ul> Easy </ul>
                 </div>
 
-                <div class="listblock">
+                <div class="s7list__block">
                     <p> RESOURCES </p>
                     <ul> industries </ul>
                     <ul> use cases </ul>
@@ -440,7 +519,7 @@
 
                 </div>
 
-                <div class="listblock">
+                <div class="s7list__block">
                     <p> COMPANY </p>
                     <ul> diversity </ul>
                     <ul> about us </ul>
@@ -450,7 +529,7 @@
 
                 </div>
 
-                <div class="listblock">
+                <div class="s7list__block">
                     <p> SUPPORT</p>
                     <ul> documentation </ul>
                     <ul> tutorial </ul>
@@ -461,7 +540,9 @@
                 </div>
             </div>
 
-            <div class="piedipag">
+            <div class="policy 
+            flex-row 
+            justify-between">
 
                 <p> 2020 appy. all rights reserved</p>
                 <p> terms privacy policy </p>

@@ -1,0 +1,373 @@
+/*-------------- TOPBAR -------------- */
+.topbar {
+
+    height: 10vh;
+}
+.topbar__leftcontainer {
+    height: 100%;
+    margin-left: 5vw;
+    gap: 4rem;
+}
+
+.topbar__rightcontainer {
+    height: 100%;
+    gap: 1.5rem;
+    margin-right: 5vw;
+}
+
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    align-self: center;
+    border:1px solid white;
+}
+.rightcontainer__switchbtn {
+    height: 2.5rem;
+    width: 4.5rem;
+    border-radius: 2rem;
+    background-color: #3abab4;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 3px;
+    align-self: center;
+}
+
+.rightcontainer__switchbtn>div:first-child {
+    background-color: #39393f;
+    height: 2rem;
+    width: 2rem;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.rightcontainer__switchbtn>div:last-child {
+    background-color: #80d2ce;
+    height: 1.5rem;
+    width: 1.5rem;
+    align-self: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightcontainer__switchitem{
+    height: 0.7rem;
+    width: 0.7rem;
+    background-color: aliceblue;
+    align-self: center;
+    border-radius: 50%;
+
+}
+
+.rightcontainer__requestBtn{
+    height: max-content;
+    padding: 1.2rem 1.6rem;
+    color: #fffffd;
+    background-color: #3abab4;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    align-self: center;
+}
+
+/*-------------- END OF TOPBAR -------------- */
+/*-------------- FIRST SECTION -------------- */
+
+
+.card__container{
+height: max-content;
+    gap: 7rem; 
+    margin-top: 10vh;
+
+}
+
+.card_container--left {
+    gap: 20px;
+}
+
+.container__left--title {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.container__left--description {
+
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardNumber {
+    gap: 1rem;
+}
+
+.cardNumber__text {
+    padding: 1.4rem 1.9rem;
+    width: 25rem;
+    background-color: #39393f;
+    border: none;
+    border-radius: 4px;
+    border-color: rgb(82 82 90);
+}
+
+.cardNumber__request {
+    padding: 1.2rem 4rem;
+    background-color: #3abab4;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.list{
+    font-size: 2rem;
+    color: #9a9a9b;
+}
+
+.block {
+
+    gap: 1.5rem;
+    margin: 7.5rem;
+}
+
+
+.block__info {
+
+    height: max-content;
+    display: inline-block;
+    text-align: center;
+    padding: 3rem 7rem;
+    background-color: #2e2e33;
+
+}
+
+/*-------------- SECOND SECTION -------------- */
+/*-------------- END OF SECTION -------------- */
+
+.s2title {
+    height: 33%;
+    text-align: center;
+}
+
+.s2picture{
+
+    height: max-content;
+    gap: 2rem;
+    margin: 3.5rem 0px;
+}
+
+.s2bottom{
+
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s2bottom>img {
+    margin: 3rem 6rem;
+
+}
+
+
+/*-------------- END OF SECOND SECTION -------------- */
+/*----------------- THIRD SECTION ------------------- */
+
+.s3top {
+    height: max-content;
+}
+.s3middle{
+    height: max-content;
+    margin-top: 3rem;
+}
+.s3bottom {
+    height: max-content;
+    padding-left: 33%;
+
+}
+.button_form {
+    gap: 5px;
+}
+.button_form>button {
+    margin-left: 10px;
+    padding: 15px 130px 15px 30px;
+    background-color: #2e2e33;
+    border: none;
+    color: #9a9a9b;
+    border-radius: 5px;
+    margin-right: 16rem;
+}
+.videoDescription{
+    height: 23rem;
+    width: 35rem;
+    color: #9a9a9b;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+/*-------------- END THIRD SECTION -------------- */
+/*---------------FOURTH SECTION ----------------- */
+.s4card{
+
+    margin: 5rem 0rem;
+
+}
+
+
+.s4card__button {
+    margin-bottom: 3rem;
+    align-self: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #223c3d;
+    border: none;
+    border-radius: 50%;
+    color: #4fd1c5;
+    font-weight: bold;
+}
+/*-------------- END FOURTH SECTION -------------- */
+/*------------------FIFTH SECTION --------------- */
+.s5top {
+    margin-top: 5rem;
+    border: 1px solid red;
+}
+.s5bottom {
+    margin-top: 3rem;
+    margin-top: 5rem;
+}
+.box {
+    width: 25rem;
+    height: 32.5rem;
+    background-color: #2e2e33;
+    padding: 2.5rem;
+
+
+}
+
+.box__pricetag {
+    background-color: #3abab475;
+    padding: 2px 1rem;
+    border-radius: 30px;
+    color: #3ec9c5;
+    display: flex;
+    flex-direction: column;
+}
+
+.box__premium {
+    background-color: #3ec9c5;
+    border: none;
+    padding: 1rem 0px;
+    border-radius: 4px;
+    color: #f4f4f5;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+/*-------------- END FIFTH SECTION -------------- */
+/*----------------- SIXTH SECTION --------------- */
+
+.s6card {
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid blueviolet;
+    gap: 15rem;
+
+}
+
+.s6card__testimonial {
+
+    width: max-content;
+    align-self: center;
+    gap: 15rem;
+    margin-top: 2rem;
+    border:1px solid red;
+
+
+}
+.s6card__testimonial--box>picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.s6card__testimonial--box {
+
+    width: max-content;
+    height: 20rem;
+    color: gray;
+
+    text-align: center;
+
+}
+/*-------------- END SIXTH SECTION -------------- */
+/*--------------- SEVENTH SECTION --------------- */
+.infobox {
+    margin: 3rem 0rem;
+    border: 1px solid yellow;
+}
+.infobox__square {
+    height: 20rem;
+    width: 25rem;
+    padding: 1rem;
+}
+
+
+.blue {
+    background-color: #3abab4;
+}
+
+.violet {
+    background-color: #9f7aea;
+}
+
+.sky {
+    background-color: #667eea;
+}
+
+.pink {
+    background-color: #ed64a6;
+}
+
+.s7card{
+    height: 10rem;
+}
+.s7card__endbar {
+
+    width: 95%;
+    height: 18rem;
+    padding:7rem 15rem;
+    gap: 3rem;
+    background-color: #2e2e33;
+}
+
+label[for="#"]{
+    display: flex;
+    gap:2rem;
+}
+
+label>input {
+    padding: 0.6rem 2.5rem;
+    border: none;
+    background-color: #353536;
+    border-radius: 4px;
+}
+
+label>button {
+    padding: 1.5rem 4rem;
+    border: none;
+    background-color: #3abab4;
+    border-radius: 4px;
+    color: white;
+}
+.s7list {
+    margin-top:5.5rem;
+    gap: 3.5rem;
+    padding: 4rem;
+}
+.policy {
+    padding: 0rem 3rem;
+
+    height: max-content;
+
+}

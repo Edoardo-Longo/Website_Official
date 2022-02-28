@@ -1,12 +1,12 @@
 # DOCUMENTAZIONE PER WEBSITE_OFFICIAL
 
-# OBIETTIVI:
+## OBIETTIVI:
 
 - Creazione homepage: https://preview.cruip.com/appy/ (Gabriel e Nazareno)
 - Creazione About: https://preview.cruip.com/appy/about.html (Andrea e Sebastian)
 - Creazione Blog: https://preview.cruip.com/appy/blog.html (Edoardo e Vito)
 
-# FASI:
+## FASI:
 
 - Pianificazione, organizzazione e documentazione
 - Sviluppo struttura HTML
@@ -16,80 +16,78 @@
 - Revisione
 - Release
 
-# ORGANIZZAZIONE:
+## ORGANIZZAZIONE:
 
 Tutti i team si vedranno ogni mattina dalle 9 alle 9.15 per avere una visione generale dell'andamento del progetto, ogni team sarà poi indipendente nella coordinazione con il suo compagno.
 
 L'orario di lavoro sarà dal Lunedì al venerdì 9-11
 
-# WORKFLOW:
+## WORKFLOW:
 
 - LAVORARE SOLO SU REPO SINCRONIZZATE, Assicurarsi che siano sincronizzate sia da github che da locale.
 - FARE COMMIT ATOMICI, in modo da dare flessibilità al progetto, niente blocchi enormi in un singolo commit
 - CONTROLLARE LA SEZIONE PROJECT, Le task saranno inserite lì per tutti
 - LAVORARE SULLA BRANCH CONDIVISA, MAI SULL' UFFICIALE (Develop) - (Main)
 
-# BRANCH:
+## BRANCH:
 
 Il team lavorerà su branch condivisa:
 
-Develop-about
-Develop-homepage
-Develop-blog
+- Develop-about
+- Develop-homepage
+- Develop-blog
+------------------------------
+ Nella vostra branch condivisa potete sviluppare queste sotto-branch:
 
-Nella vostra branch condivisa potete sviluppare queste sotto-branch:
+- Nuova feature: feat/name-of-feature ---> Nuova feature
 
-Nuova feature: feat/name-of-feature ---> Nuova feature
+- Bugfix: fix/bug-fixed-hash ---> Fix di bug
 
-Bugfix: fix/bug-fixed-hash ---> Fix di bug
+- Refactor: ref/what-i-have-changed ---> Pulizia del codice e miglioramento
 
-Refactor: ref/what-i-have-changed ---> Pulizia del codice e miglioramento
+- Style: style/new-style ---> cambiamenti minori estetici sul css
 
-Style: style/new-style ---> cambiamenti minori estetici sul css
-
-# COMMIT
+## COMMIT
 
 I commit devono spiegare la modifica al codice effettuata, utilizzando questa convenzione:
 
-Nuova feature: commit -m "feat: name of feature"
-Bugfix: commit -m "fix: bug fixed - hash"
-Style: commit -m "style: style's change"
-Refactor: commit -m "ref: refactoring"
+- Nuova feature: commit -m "feat: name of feature"
+- Bugfix: commit -m "fix: bug fixed - hash"
+- Style: commit -m "style: style's change"
+- Refactor: commit -m "ref: refactoring"
 
-# SVILUPPO
 
-Il primo obiettivo è la struttura CSS, ordinare i blocchi nello spazio, niente focus sui dettagli e niente overworking.
 
 # CSS
 
-# Organizzazione
+## ORGANIZZAZIONE
 
 - La struttura deve essere suddivisa in cinque fogli di lavoro:
 - - index.css: importa tutti gli altri css;
-- - layout.css: componenti grandi della pagina (blocchi es. <section>);
-- - components.css: componenti minori della pagina (es <button>, piccoli <div>);
+- - layout.css: componenti grandi della pagina (blocchi es. section);
+- - components.css: componenti minori della pagina (es buttons, piccoli div);
 - - typhografy.css: fonts;
 - - helpers.css: per le classi helper;
 
-# Convenzioni
 
-# Notazione BEM
 
-Per i nomi delle classi utilizzeremo la notazione BEM
+## NOTAZIONE BEM
 
-https://www.html.it/pag/50349/bem-block-element-modifier/
+- Per i nomi delle classi utilizzeremo la notazione BEM
 
-- La struttura BEM si compone di tre campi: block\_\_elemnt--modifier;
+- - https://www.html.it/pag/50349/bem-block-element-modifier/
+
+- La struttura BEM si compone di tre campi: "block__elemnt--modifier";
 
 - - Blocco: nome del contenitore madre (es. card);
 - - Element: tipo di elemento (es. title);
 - - Modifier: varizione elemento (ed. red);
 
-card\_\_title--red;
+"card__title--red";
 
-card\_\_title--blue;
+"card__title--blue";
 
-# Portabilità
+# PORTABILITA'
 
 Si lavora SOLO con quattro unità di misura:
 
@@ -100,7 +98,7 @@ Si lavora SOLO con quattro unità di misura:
 
   0.25 rem = 4px / 0.5 rem = 8px / 1 rem = 16px
 
-# Conoscenze necessarie
+# CONOSCENZE NECESSARIE
 
 - display: flex;
 - - justify-content;
@@ -110,3 +108,7 @@ Si lavora SOLO con quattro unità di misura:
 - - flex-direction;
 
 - position: absolute;
+
+## SVILUPPO
+
+Il primo obiettivo è la struttura CSS, ordinare i blocchi nello spazio, niente focus sui dettagli e niente overworking sui dettagli.
