@@ -1,3 +1,21 @@
--Prima struttura CSS posizionamento blocchi
-- Lavorazione su più fogli CSS
-- Si usa la notazione BEM per le classi
+/*inizio-section1-------------*/
+
+
+.s1card__title--link>h1{
+    font-size: 7rem;
+    color:white;
+    }
+.s1card__subtitle{
+    color:#9a9aa4;
+    font-size: 2.5rem;
+    }
+
+    .s1card__description>a{
+        color: white;
+      }
+
+      /*inizio-section2----------*/
+
+      article>p{
+        color: white;
+      }

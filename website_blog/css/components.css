@@ -1,0 +1,202 @@
+/*inizio topbar------------*/
+
+
+.topbar {
+    border: 1px solid rgb(9, 99, 110);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .topbar_leftcontainer {
+    height: 100%;
+    border: 1px solid blue;
+    margin-left: 5vw;
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .topbar_rightcontainer {
+    height: 100%;
+    border: 1px solid rgb(255, 8, 0);
+    width: max-content;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-around;
+    margin-right: 5vw;
+  }
+  
+  .logo {
+    width: 5rem;
+    height: 50%;
+    border: 1px solid black;
+    align-self: center;
+  }
+  
+  .topbar_leftcontainer > a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(212 212 216);
+    font-weight: bold;
+    align-self: center;
+  }
+  
+  .switchbtn {
+    height: 2.5rem;
+    width: 4.5rem;
+    border-radius: 20px;
+    background-color: #3abab4;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 3px;
+    justify-content: space-between;
+    align-self: center;
+  }
+  
+  .switchbtn > div:first-child {
+    background-color: #39393f;
+    height: 2rem;
+    width: 2rem;
+    align-self: center;
+    border-radius: 50%;
+  }
+  .switchbtn > div:last-child {
+    background-color: #80d2ce;
+    height: 1.5rem;
+    width: 1.5rem;
+    align-self: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  #switchitem {
+    height: 0.7rem;
+    width: 0.7rem;
+    background-color: aliceblue;
+    align-self: center;
+    border-radius: 50%;
+  }
+  
+  .request_btn {
+    height: max-content;
+    padding: 1.2rem 1.6rem;
+    font-size: 1rem;
+    color: #fffffd;
+    background-color: #3abab4;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    align-self: center;
+  }
+
+
+  /*fine-topbar-----------*/
+/*inizio-section1----------*/
+
+.s1card{
+    border: 1px solid green;
+    padding-left: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+  }
+  
+  
+  .block{
+    display: flex;
+    gap: 5rem;
+    margin-top: 5rem;
+  }
+  
+  
+  .s1card__testimonial{
+    border: 1px solid red;
+    height: 8rem;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .s1card__description{
+    border: 1px solid blue;
+    align-self: center;
+    color: gray;
+  }
+  
+  
+  
+  .green{
+    background-color:#3ABAB4 ;
+    background-image: url("./images/related-post-03.jpg");
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .purple{
+    background-color: #9F7AEA;
+    background-image: url("./images/related-post-04.jpg");
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .blu{
+    background-color: #667EEA;
+    background-image: url("./images/related-post-05.jpg");
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .red{
+    background-color: #ED64A6;
+    background-image: url("./images/related-post-06.jpg");
+    background-position: center;
+    background-size: contain;
+  }
+
+  /*fine-section1-------------------*/
+  /*inizio-section2--------------*/
+
+  .s2leftContainer{
+      width: max-content;
+      border:1px solid yellow;
+  }
+  .s2rightContainer{
+    width: max-content;
+    border:1px solid red;
+
+  }
+  .s2Card{
+      border:1px solid pink;
+      display:flex;
+  }
+  h4{
+      color: white;
+  }
+  .latest__title{
+      width:100%;
+      height: max-content;
+      border: 1px solid green;
+  }
+  .latest__images{
+      border:1px solid blue;
+      width: 100%;
+      height: max-content;
+      display: flex;
+  }
+  .latest__images--leftColumn{
+    border:1px solid brown;
+    width: 50%;
+    height: max-content;
+
+  }
+  .latest__images--rightColumn{
+    border:1px solid skyblue;
+    width: 50%;
+    height: max-content;
+
+  }
+  
