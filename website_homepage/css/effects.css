@@ -12,5 +12,14 @@
     cursor: pointer;
 }
 
+/* <!-- Second section> */
+
 .cardNumber__request:hover {background-color: #066661}
 
+.s2_arrowbuttonL {cursor: pointer}
+
+.s2_arrowbuttonL:hover {background-color: #066661;
+
+}
+
+.s2_arrowbuttonR {cursor: pointer}

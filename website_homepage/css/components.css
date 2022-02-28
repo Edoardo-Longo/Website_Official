@@ -182,13 +182,34 @@ height: max-content;
 
     height: 33%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
-.s2bottom>img {
-    margin: 3rem 6rem;
+
+
+.s2_arrowbuttonL {
+background-image: url('../img/ArrowL.PNG');
+background-position: center;
+background-size: contain;
+padding: 5rem;
+width: 5px;
+height: 5px;
+font-size: 2rem;
+margin:0rem 10rem;
 
 }
+
+.s2_arrowbuttonR {
+    background-image: url('../img/ArrowR.PNG');
+    background-position: center;
+    background-size: contain;
+    padding: 5rem;
+    width: 5px;
+    height: 5px;
+    font-size: 2rem;
+    margin: 0rem 10rem;
+    
+    }
 
 
 /*-------------- END OF SECOND SECTION -------------- */
