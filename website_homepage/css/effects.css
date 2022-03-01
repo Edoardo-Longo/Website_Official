@@ -1,0 +1,38 @@
+
+/* <!-- topbar -->  */
+.topbar_button:hover {background-color: #066661}
+  
+.topbar_button:active {
+  background-color: #3abab4;
+  transform: translateY(4px);
+}
+
+.topbar_switch {
+
+    cursor: pointer;
+}
+
+/* <!-- Second section> */
+
+.cardNumber__request:hover {background-color: #066661}
+
+.s2_arrowbuttonL:hover {background-color: #066661;
+
+}
+
+.s2_arrowbuttonR {cursor: pointer}
+
+/*<!--Third section>*/
+
+#navbar>button:hover { background-color: #e2ebeb3b;}
+
+
+
+#navbar>button:active {background-color: #066661;}
+
+#buttonbox>button:hover {background-color: #066661;}
+
+.button__style--1:hover {background-color: #066661;}
+
+.button__style--2:hover{ background-color: #dfebea0c;}
+

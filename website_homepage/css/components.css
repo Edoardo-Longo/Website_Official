@@ -9,6 +9,25 @@
     gap: 4rem;
 }
 
+.topbar_button {
+    padding: 1.1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    background-color: #3abab4;
+    border: 1px;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-color: white;
+    margin-top: 2rem;
+    
+  }
+  
+ 
 .topbar__rightcontainer {
     height: 100%;
     gap: 1.5rem;
@@ -119,6 +138,7 @@ height: max-content;
     border: none;
     border-radius: 4px;
     color: white;
+    cursor: pointer;
 }
 
 .list{
@@ -162,13 +182,34 @@ height: max-content;
 
     height: 33%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
-.s2bottom>img {
-    margin: 3rem 6rem;
+
+
+.s2_arrowbuttonL {
+background-image: url('../img/ArrowL.PNG');
+background-position: center;
+background-size: contain;
+padding: 5rem;
+width: 5px;
+height: 5px;
+font-size: 2rem;
+margin:0rem 10rem;
 
 }
+
+.s2_arrowbuttonR {
+    background-image: url('../img/ArrowR.PNG');
+    background-position: center;
+    background-size: contain;
+    padding: 5rem;
+    width: 5px;
+    height: 5px;
+    font-size: 2rem;
+    margin: 0rem 10rem;
+    
+    }
 
 
 /*-------------- END OF SECOND SECTION -------------- */
@@ -205,6 +246,8 @@ height: max-content;
     font-weight: bold;
     margin-right: 2rem;
 }
+
+
 /*-------------- END THIRD SECTION -------------- */
 /*---------------FOURTH SECTION ----------------- */
 .s4card{
@@ -225,6 +268,8 @@ height: max-content;
     color: #4fd1c5;
     font-weight: bold;
 }
+
+
 /*-------------- END FOURTH SECTION -------------- */
 /*------------------FIFTH SECTION --------------- */
 .s5top {
@@ -261,6 +306,13 @@ height: max-content;
     color: #f4f4f5;
     margin-top: 3rem;
     font-weight: bold;
+}
+
+.button__style--2 {
+
+    background-color: #3f3f45;
+    color: #4fd1c5;
+
 }
 /*-------------- END FIFTH SECTION -------------- */
 /*----------------- SIXTH SECTION --------------- */

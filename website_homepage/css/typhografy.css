@@ -96,6 +96,14 @@ ul>span {
     text-align: center;
     color: #9a9a9b;
 }
+
+#navbar>button {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+
+
+}
 /*-------------- END FOURTH SECTION -------------- */
 /*------------------FIFTH SECTION --------------- */
 .s5top>h1{
@@ -124,6 +132,16 @@ ul>span {
 
 .box__middle>p {
     color: #9a9a9b;
+}
+
+.button__style--1 {
+
+    font-family: 'Inter', sans-serif;
+}
+
+.button__style--2 {
+
+    font-family: 'Inter', sans-serif; 
 }
 /*-------------- END FIFTH SECTION -------------- */
 /*----------------- SIXTH SECTION --------------- */
