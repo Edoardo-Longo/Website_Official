@@ -23,3 +23,20 @@
 }
 
 .s2_arrowbuttonR {cursor: pointer}
+
+/*<!--Third section>*/
+
+#navbar>button {
+
+cursor: pointer;
+
+}
+
+#navbar>button:hover { background-color: #e2ebeb3b;}
+
+
+
+#navbar>button:active {background-color: #066661;}
+
+
+
