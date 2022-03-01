@@ -16,8 +16,6 @@
 
 .cardNumber__request:hover {background-color: #066661}
 
-.s2_arrowbuttonL {cursor: pointer}
-
 .s2_arrowbuttonL:hover {background-color: #066661;
 
 }
@@ -26,17 +24,15 @@
 
 /*<!--Third section>*/
 
-#navbar>button {
-
-cursor: pointer;
-
-}
-
 #navbar>button:hover { background-color: #e2ebeb3b;}
 
 
 
 #navbar>button:active {background-color: #066661;}
 
+#buttonbox>button:hover {background-color: #066661;}
 
+.button__style--1:hover {background-color: #066661;}
+
+.button__style--2:hover{ background-color: #dfebea0c;}
 
