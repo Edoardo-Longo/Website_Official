@@ -1,3 +1,19 @@
-.s1card__title>a:hover{
-    text-decoration: none;
-  }
+.s1card__title>a:hover {
+  text-decoration: none;
+}
+
+.testimonial__image:hover {
+  cursor: pointer;
+}
+
+.block>a:hover {
+  text-decoration: underline white;
+}
+
+article>a:hover {
+  text-decoration: underline white;
+}
+
+.article>div>.profile__picture>img:hover {
+  cursor: pointer;
+}
