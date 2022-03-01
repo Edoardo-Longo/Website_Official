@@ -2,6 +2,17 @@ body {
     background-color: #1d1d20;
 }
 
+
+.padding{
+    height: max-content;
+    width: 100%;
+    border: 1px solid yellow;
+  /*  border: 1px solid #2e2e33; */
+    padding:0% 6%;
+   /* border-top:none;
+    border-right:none;
+    border-left:none; */
+}
 header {
     height: min-content;
 }
@@ -29,6 +40,8 @@ section {
 
 h1{
     font-size: 6rem;
+    font-family: 'Red Hat Display', sans-serif;
+    
 }
 h2{
     font-size: 5rem;
@@ -45,14 +58,22 @@ h5{
 }
 
 p{
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
 }
 
 a{
-    font-size: 2rem; 
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
 }
 
 button{
     font-size: 1.5rem;
     cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+ul{
+    font-size: 1.6rem;
+    line-height: 2;
 }

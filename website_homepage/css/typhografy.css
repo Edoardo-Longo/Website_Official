@@ -9,6 +9,12 @@
 
 }
 
+.topbar_button {
+    color: white;
+    font-weight: 800;
+
+}
+
 /*-------------- END OF TOPBAR -------------- */
 /*-------------- FIRST SECTION -------------- */
 
@@ -16,11 +22,18 @@
     font-size: 9rem;
     color: #f4f4f5;
     font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.1;
+}
+
+.cardNumber__text::placeholder {
+    font-size: 1.6rem;
+    color: #a29b9d;
 }
 
 .container__left--description>p {
     font-size: 2rem;
-    color: #96a2a8;
+    font-weight: bold;
+    color: #A2A2A8;
 }
 
 .card__container--right {
@@ -32,6 +45,7 @@
 
 
 }
+
 /*-------------- END FIRST SECTION -------------- */
 /*-------------- SECOND SECTION -------------- */
 ul>span {
@@ -42,6 +56,7 @@ ul>span {
     font-size: 6rem;
     color: #f4f4f5;
 }
+
 .topcontainer>p {
     font-size: 2.5rem;
     color: #9a9a9b;
@@ -51,7 +66,7 @@ ul>span {
 .block__info>h1 {
 
     color: #f4f4f5;
-    font-size: 6rem;
+    font-size: 5.6rem;
 }
 
 .block__info>p {
@@ -62,11 +77,25 @@ ul>span {
     font-size: 6rem;
     color: #f4f4f5;
 }
+
+.s2picture__btnLearn {
+    color: white;
+}
+
+.s2picture__btnService {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.videoDescription__visual {
+    font-size: 1.2rem;
+}
+
 /*-------------- END SECOND SECTION -------------- */
 /*----------------- THIRD SECTION --------------- */
 
 .s2title>p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #9a9a9b;
 }
 
@@ -84,8 +113,8 @@ ul>span {
 
 /*-------------- END THIRD SECTION -------------- */
 /*---------------FOURTH SECTION --------------- */
-.s4title{
-    margin-top: 5rem;
+.s4title {
+    margin-top: 10rem;
     font-size: 6rem;
     text-align: center;
     color: #f4f4f5;
@@ -104,30 +133,37 @@ ul>span {
 
 
 }
+
 /*-------------- END FOURTH SECTION -------------- */
 /*------------------FIFTH SECTION --------------- */
-.s5top>h1{
+.s5top>h1 {
+    font-size: 5.6rem;
+    color: white;
     align-self: center;
+    line-height: 1.3;
 }
-.s5top>p{
-    align-self: center;
+
+.s5top>p {
+    font-size: 2rem;
+    color: #a2a29b;
+     align-self: center;
 }
-.box__up>span {
+
+.flex-row>span {
     font-size: 2rem;
     color: #ffffff;
     font-weight: bold;
 }
-.box__price {
-    font-size: 4rem;
-}
 
 .box__middle>span:nth-child(1) {
     font-weight: bold;
+    font-size: 4rem;
     color: #f4f4f5;
 }
 
 .box__middle>span:nth-child(2) {
     color: #9a9a9b;
+    font-size: 1.6rem;
 }
 
 .box__middle>p {
@@ -141,16 +177,33 @@ ul>span {
 
 .button__style--2 {
 
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
+}
+
+.box__pricetag {
+    font-size: 1.2rem;
+    color: #3ec9c5;
+}
+
+
+.list>p{
+    font-size: 1.8rem;
+    font-family: 'Red Hat Display', sans-serif;
+    color:white;
 }
 /*-------------- END FIFTH SECTION -------------- */
 /*----------------- SIXTH SECTION --------------- */
-.s6card__testimonial--box>p{
-    font-size: 1.8rem;
+.s6card__testimonial--box>p {
+    font-size: 2rem;
+    font-weight: bold;
+
 }
+
+
+
 .name {
 
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 
 }
@@ -160,6 +213,7 @@ ul>span {
     color: #3abab4;
     font-weight: bold;
 }
+
 /*-------------- END SIXTH SECTION -------------- */
 /*--------------- SEVENTH SECTION --------------- */
 .s7title {
@@ -177,17 +231,18 @@ ul>span {
 .infobox__square--details>p {
     color: white;
 }
+
 .s7card__endbar>h4 {
     align-self: center;
-    color:white;
+    color: white;
 }
 
 .s7card__endbar>label {
     align-self: center;
 
 }
-.s7list__block>ul{
-    color:#84a2a8;
+
+.s7list__block>ul {
+    color: #84a2a8;
     font-size: 1.6rem;
 }
-

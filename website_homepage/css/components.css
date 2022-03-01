@@ -3,35 +3,29 @@
 
     height: 10vh;
 }
+
 .topbar__leftcontainer {
     height: 100%;
-    margin-left: 5vw;
     gap: 4rem;
 }
 
 .topbar_button {
-    padding: 1.1rem;
-    font-size: 2rem;
-    font-weight: 500;
-    text-align: center;
-    cursor: pointer;
+    height:4rem;
+    width: 13.7rem;
+    padding: 0.8rem 1.6rem;
     outline: none;
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255/var(--tw-text-opacity));
     background-color: #3abab4;
     border: 1px;
     border-radius: 0.25rem;
     border-width: 1px;
-    border-color: white;
     margin-top: 2rem;
-    
-  }
-  
- 
+
+}
+
+
 .topbar__rightcontainer {
     height: 100%;
     gap: 1.5rem;
-    margin-right: 5vw;
 }
 
 
@@ -39,8 +33,9 @@
     width: 5rem;
     height: 5rem;
     align-self: center;
-    border:1px solid white;
+    border: 1px solid white;
 }
+
 .rightcontainer__switchbtn {
     height: 2.5rem;
     width: 4.5rem;
@@ -70,7 +65,7 @@
     justify-content: space-around;
 }
 
-.rightcontainer__switchitem{
+.rightcontainer__switchitem {
     height: 0.7rem;
     width: 0.7rem;
     background-color: aliceblue;
@@ -79,7 +74,7 @@
 
 }
 
-.rightcontainer__requestBtn{
+.rightcontainer__requestBtn {
     height: max-content;
     padding: 1.2rem 1.6rem;
     color: #fffffd;
@@ -94,15 +89,17 @@
 /*-------------- FIRST SECTION -------------- */
 
 
-.card__container{
-height: max-content;
-    gap: 7rem; 
+.card__container {
+    height: max-content;
+    gap:2rem;
     margin-top: 10vh;
+    border: 1px solid violet;
 
 }
 
 .card_container--left {
     gap: 20px;
+    border: 1px solid red;
 }
 
 .container__left--title {
@@ -110,6 +107,7 @@ height: max-content;
     display: flex;
     flex-direction: column;
     margin-top: 120px;
+    border:1px solid orange
 }
 
 .container__left--description {
@@ -127,9 +125,8 @@ height: max-content;
     padding: 1.4rem 1.9rem;
     width: 25rem;
     background-color: #39393f;
-    border: none;
     border-radius: 4px;
-    border-color: rgb(82 82 90);
+    border: 1px solid #505058;
 }
 
 .cardNumber__request {
@@ -141,75 +138,129 @@ height: max-content;
     cursor: pointer;
 }
 
-.list{
+.list {
+    width: 22%;
     font-size: 2rem;
     color: #9a9a9b;
+    border: 1px solid yellow;
+    position:relative;
 }
 
+
+.list__arrow{
+    width: 8.6rem;
+    height: 2.5rem;
+    fill:#2e2e33;
+    position:absolute;
+    top:-10%;
+    right:-10%;
+
+}
 .block {
 
-    gap: 1.5rem;
-    margin: 7.5rem;
+    gap: 1.9rem;
+    margin: 7.5rem 0rem;
 }
 
 
 .block__info {
 
-    height: max-content;
+    height: 14.4rem;
+    width: 25.1rem;
     display: inline-block;
     text-align: center;
-    padding: 3rem 7rem;
+    padding: 3.2rem 5.5rem;
     background-color: #2e2e33;
 
 }
 
 /*-------------- SECOND SECTION -------------- */
-/*-------------- END OF SECTION -------------- */
+/*----------- END OF SECOND SECTION ---------- */
 
 .s2title {
-    height: 33%;
+    margin-top: 8rem;
+    border: 1px solid red;
+    height: max-content;
     text-align: center;
 }
 
-.s2picture{
+.s2picture {
 
     height: max-content;
     gap: 2rem;
-    margin: 3.5rem 0px;
-}
-
-.s2bottom{
-
-    height: 33%;
-    display: flex;
-    justify-content:space-between;
+    margin: 7rem 0px;
 }
 
 
-
-.s2_arrowbuttonL {
-background-image: url('../img/ArrowL.PNG');
-background-position: center;
-background-size: contain;
-padding: 5rem;
-width: 5px;
-height: 5px;
-font-size: 2rem;
-margin:0rem 10rem;
-
-}
-
-.s2_arrowbuttonR {
-    background-image: url('../img/ArrowR.PNG');
+.s2picture>picture:nth-child(2){
+    border: 1px solid green;
+    background-image: url("../img/carousel-item-02.jpg");
+    height: 40.6rem;
+    width: 47.2rem;
     background-position: center;
     background-size: contain;
-    padding: 5rem;
-    width: 5px;
-    height: 5px;
+    position: relative;
+}
+
+.s2picture__btnLearn{
+    background-color: #3abab4;
+    border:none;
+    border-radius: 4px;
+    padding:1rem 2rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+
+.s2picture__btnService{
+    position:absolute;
+    top:90%;
+    right:5%;
+    border-radius: 20px;
+    border:none;
+    padding:0.8rem 1.2rem;
+    background-color: #1d1d2080;
+    
+}
+.s2bottom {
+    border: 1px solid brown;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.s2bottom__arrow--L {
+    background-color: #2e2e33;
+    width: 5.6rem;
+    height: 5.6rem;
     font-size: 2rem;
     margin: 0rem 10rem;
+    border:none;
+    padding:2rem;
+
+}
+
+.s2bottom__arrow--R {
+    width: 5.6rem;
+    height: 5.6rem;
+    font-size: 2rem;
+    margin: 0rem 10rem;
+    background-color: #2e2e33;
+    border:none;
+    padding:2rem;
     
-    }
+
+}
+
+.arrowcolor{
+    fill: #A2A2A8;
+
+}
 
 
 /*-------------- END OF SECOND SECTION -------------- */
@@ -217,40 +268,72 @@ margin:0rem 10rem;
 
 .s3top {
     height: max-content;
+    border:1px solid blueviolet;
 }
-.s3middle{
+
+.s3middle {
+    border: 1px solid red;
     height: max-content;
     margin-top: 3rem;
 }
+
 .s3bottom {
-    height: max-content;
-    padding-left: 33%;
+    height:45rem;
+    width:80rem;
+    gap:20px;
+    border:1px solid green;
+   
+
 
 }
+
 .button_form {
     gap: 5px;
 }
+
 .button_form>button {
-    margin-left: 10px;
-    padding: 15px 130px 15px 30px;
+    display: flex;
+    padding:1.2rem 0.5rem;
+    text-align: left;
+    gap:1rem;
+    height:4rem;
+    width: 26rem;
     background-color: #2e2e33;
     border: none;
     color: #9a9a9b;
     border-radius: 5px;
-    margin-right: 16rem;
 }
-.videoDescription{
+
+.button__icon{
+    height:1.6rem;
+    width: 1.6rem;
+    fill:#f4f4f583;
+    align-self: center;
+}
+    .videoDescription {
     height: 23rem;
     width: 35rem;
     color: #9a9a9b;
     font-weight: bold;
-    margin-right: 2rem;
 }
 
+.videoDescription>div{
+    margin-top: 0.9rem;
+    padding: 0rem 2rem;
+}
+
+.videoDescription__visual{
+    background-color: #243b3c;
+    color: #44b4aa;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
 
 /*-------------- END THIRD SECTION -------------- */
 /*---------------FOURTH SECTION ----------------- */
-.s4card{
+
+
+.s4card {
 
     margin: 5rem 0rem;
 
@@ -258,10 +341,11 @@ margin:0rem 10rem;
 
 
 .s4card__button {
+
     margin-bottom: 3rem;
     align-self: center;
-    width: 3rem;
-    height: 3rem;
+    width: 5.6rem;
+    height: 5.6rem;
     background-color: #223c3d;
     border: none;
     border-radius: 50%;
@@ -276,10 +360,12 @@ margin:0rem 10rem;
     margin-top: 5rem;
     border: 1px solid red;
 }
+
 .s5bottom {
     margin-top: 3rem;
     margin-top: 5rem;
 }
+
 .box {
     width: 25rem;
     height: 32.5rem;
@@ -290,15 +376,18 @@ margin:0rem 10rem;
 }
 
 .box__pricetag {
-    background-color: #3abab475;
-    padding: 2px 1rem;
+    height:2.6rem;
+    width: 5.4rem;
+    background-color:#2e484b;
+    padding: 2px 1.5rem;
     border-radius: 30px;
-    color: #3ec9c5;
-    display: flex;
-    flex-direction: column;
-}
 
-.box__premium {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+    .box__premium {
     background-color: #3ec9c5;
     border: none;
     padding: 1rem 0px;
@@ -314,11 +403,18 @@ margin:0rem 10rem;
     color: #4fd1c5;
 
 }
+
 /*-------------- END FIFTH SECTION -------------- */
 /*----------------- SIXTH SECTION --------------- */
 
+.row{
+    margin-top: 20rem;
+    border: 1px solid gray;
+    width: 100%;
+}
+
 .s6card {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     width: 100%;
     height: 100vh;
     border: 1px solid blueviolet;
@@ -332,14 +428,39 @@ margin:0rem 10rem;
     align-self: center;
     gap: 15rem;
     margin-top: 2rem;
-    border:1px solid red;
+    border: 1px solid red;
 
 
 }
+
+.testimonial1{
+    background-image: url("../img/testimonial-01.jpg");
+    background-position: center;
+    background-size: contain;
+}
+.testimonial2{
+    background-image: url("../img/testimonial-02.jpg");
+    background-position: center;
+    background-size: contain;
+}
+.testimonial3{
+    background-image: url("../img/testimonial-03.jpg");
+    background-position: center;
+    background-size: contain;
+}
+.testimonial4{
+    background-image: url("../img/testimonial-04.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
 .s6card__testimonial--box>picture {
-    display: flex;
-    justify-content: center;
+    align-self: center;
     margin-bottom: 20px;
+    height: 5.6rem;
+    width: 5.6rem;
+    border: 1px solid blue;
+    border-radius: 50%;
 }
 
 
@@ -352,12 +473,14 @@ margin:0rem 10rem;
     text-align: center;
 
 }
+
 /*-------------- END SIXTH SECTION -------------- */
 /*--------------- SEVENTH SECTION --------------- */
 .infobox {
     margin: 3rem 0rem;
     border: 1px solid yellow;
 }
+
 .infobox__square {
     height: 20rem;
     width: 25rem;
@@ -381,21 +504,22 @@ margin:0rem 10rem;
     background-color: #ed64a6;
 }
 
-.s7card{
+.s7card {
     height: 10rem;
 }
+
 .s7card__endbar {
 
     width: 95%;
     height: 18rem;
-    padding:7rem 15rem;
+    padding: 7rem 15rem;
     gap: 3rem;
     background-color: #2e2e33;
 }
 
-label[for="#"]{
+label[for="#"] {
     display: flex;
-    gap:2rem;
+    gap: 2rem;
 }
 
 label>input {
@@ -412,11 +536,13 @@ label>button {
     border-radius: 4px;
     color: white;
 }
+
 .s7list {
-    margin-top:5.5rem;
+    margin-top: 5.5rem;
     gap: 3.5rem;
     padding: 4rem;
 }
+
 .policy {
     padding: 0rem 3rem;
 
