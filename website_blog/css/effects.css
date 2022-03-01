@@ -17,3 +17,6 @@ article>a:hover {
 .article>div>.profile__picture>img:hover {
   cursor: pointer;
 }
+ul{
+  list-style: none;
+}

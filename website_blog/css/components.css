@@ -259,3 +259,6 @@ h4 {
   background-size: contain;
   align-self: center;
 }
+li>div{
+  border-bottom: 1px solid grey;
+}
