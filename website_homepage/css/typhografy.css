@@ -96,6 +96,14 @@ ul>span {
     text-align: center;
     color: #9a9a9b;
 }
+
+#navbar>button {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+
+
+}
 /*-------------- END FOURTH SECTION -------------- */
 /*------------------FIFTH SECTION --------------- */
 .s5top>h1{
