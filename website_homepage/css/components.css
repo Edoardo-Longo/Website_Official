@@ -549,3 +549,28 @@ label>button {
     height: max-content;
 
 }
+
+/* --- footer --- */
+
+ .social_f {
+
+    background-color: #1d1d20;
+    border: none;
+}
+
+.social_t {
+    
+        background-color: #1d1d20;
+        border: none;    
+}
+
+.social_i {
+    background-color: #1d1d20;
+    border: none;
+}
+
+.social_l {
+
+    background-color: #1d1d20;
+    border: none;
+}
