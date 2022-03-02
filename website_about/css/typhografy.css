@@ -1,3 +1,30 @@
--Prima struttura CSS posizionamento blocchi
-- Lavorazione su più fogli CSS
-- Si usa la notazione BEM per le classi
+/*first section*/
+
+.text1 {
+
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.text-2 {
+    color: #3abab4;
+}
+
+/*end first section*/
+/*second section*/
+
+.s2topCard>h1 {
+    align-self: center;
+    color: white;
+}
+
+.s2topCard>p {
+    align-self: center;
+    color: grey;
+    
+}
