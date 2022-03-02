@@ -17,6 +17,11 @@ article>a:hover {
 .article>div>.profile__picture>img:hover {
   cursor: pointer;
 }
-ul{
+
+ul {
   list-style: none;
+}
+
+.title>a:hover {
+  text-decoration: underline white;
 }

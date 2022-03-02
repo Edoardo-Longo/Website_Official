@@ -1,3 +1,7 @@
+body {
+  padding: 0 8%;
+}
+
 /*inizio topbar------------*/
 
 
@@ -94,6 +98,7 @@
 
 
 /*fine-topbar-----------*/
+
 /*inizio-section1----------*/
 
 .s1card {
@@ -103,6 +108,27 @@
   flex-direction: column;
   align-content: space-around;
 }
+
+
+.s1card__testimonial {
+  border: 1px solid red;
+  height: max-content;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.s1card__description {
+  border: 1px solid blue;
+  align-self: center;
+  color: gray;
+}
+
+/*fine-section1-------------------*/
+
+/*inizio-section2--------------*/
 
 .block__container {
   display: flex;
@@ -123,22 +149,6 @@
 
 .block__title {
   margin-bottom: 1rem;
-}
-
-.s1card__testimonial {
-  border: 1px solid red;
-  height: max-content;
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.s1card__description {
-  border: 1px solid blue;
-  align-self: center;
-  color: gray;
 }
 
 .green {
@@ -170,8 +180,10 @@
   background-size: contain;
 }
 
-/*fine-section1-------------------*/
-/*inizio-section2--------------*/
+/*---fine section2*/
+
+/*---inizio section3*/
+
 
 .s2leftContainer {
   display: flex;
@@ -216,6 +228,7 @@ h4 {
   border: 1px solid brown;
   width: 50%;
   height: max-content;
+  padding: 1rem 0.5rem 1rem 1rem;
 }
 
 .latest__images--rightColumn {
@@ -225,6 +238,7 @@ h4 {
   border: 1px solid skyblue;
   width: 50%;
   height: max-content;
+  padding: 1rem 1rem 1rem 0.5rem;
 }
 
 .testimonial__image {
@@ -237,18 +251,8 @@ h4 {
   align-self: center;
 }
 
-/*---inizio section3*/
-
 .latest__title>h4 {
   margin-bottom: 3.2rem;
-}
-
-.article>div {
-  height: max-content;
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
 }
 
 .article>div>.profile__picture>img {
@@ -259,6 +263,15 @@ h4 {
   background-size: contain;
   align-self: center;
 }
-li>div{
+
+li>div {
   border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

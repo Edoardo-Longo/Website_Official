@@ -71,21 +71,32 @@ article>p {
 
 /*column-right-----*/
 
-.popular>h4{
+.popular>h4 {
   font-size: 2.608rem;
 }
-li>div>.title>a>h4{
-  font-size:1.6rem;
+
+.title>a>h4 {
+  font-size: 1.6rem;
 }
-li>div>.num{
+
+li>div>.num {
   font-size: 2.608rem;
+  gap: 1rem;
 }
 
 li>div>span {
   color: #6e6e76;
   font-size: 1.4rem;
 }
-li>div>span>a {
-  color: red;
+
+li>div>span>a,
+li>div>span>a:visited {
+  color: #a2a2a8;
   font-size: 1.4rem;
+}
+
+.num>.align-self-center {
+  font-size: 2.608rem;
+  font-weight: 700;
+  color: #52525a;
 }
