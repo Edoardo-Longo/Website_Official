@@ -28,3 +28,27 @@
     color: grey;
     
 }
+
+/*Sixth section*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.s6title>h2{
+    align-self: center;
+    color: white;
+
+}
+
+.s6title>p{
+    align-self: center;
+    color: #A2A2A8;
+}
+
+.s6img>.profile__container>.name>h4{
+    color: #D4D4D8;
+    font-size: 1.8rem;
+    font-weight: 300;
+
+}
