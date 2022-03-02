@@ -1,3 +1,5 @@
+/*first section*/
+
 .text1 {
 
     font-size: 60px;
@@ -10,12 +12,19 @@
 }
 
 .text-2 {
-    color:#3abab4;
+    color: #3abab4;
 }
 
-.logo{
-    width:50px;
-    height: 50%;
-    border: 1px solid black;
+/*end first section*/
+/*second section*/
+
+.s2topCard>h1 {
     align-self: center;
+    color: white;
+}
+
+.s2topCard>p {
+    align-self: center;
+    color: grey;
+    
 }
