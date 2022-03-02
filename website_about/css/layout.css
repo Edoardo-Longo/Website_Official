@@ -1,3 +1,23 @@
+header {
+    height: min-content;
+}
+
+footer {
+    color: white;
+    gap: 30px;
+    justify-content: center;
+    border: 1px solid blue;
+    margin-top: 5rem;
+}
+
+section {
+    border-left: none;
+    border-right: none;
+    background-color: #1d1d20;
+    max-height: max-content;
+    min-height: min-content;
+}
+
 h1{
     font-size: 6rem;
 }
@@ -27,16 +47,7 @@ button{
     font-size: 1.5rem;
 }
 
-.section{
-    height: 100vh;
-    border: 1px solid black;  
-}
-
 body {
 
     background-color: rgb(92, 92, 92);
 }
-
-
-
-
