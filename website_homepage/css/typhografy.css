@@ -146,7 +146,7 @@ ul>span {
 .s5top>p {
     font-size: 2rem;
     color: #a2a29b;
-     align-self: center;
+    align-self: center;
 }
 
 .flex-row>span {
@@ -186,11 +186,12 @@ ul>span {
 }
 
 
-.list>p{
+.list>p {
     font-size: 1.8rem;
     font-family: 'Red Hat Display', sans-serif;
-    color:white;
+    color: white;
 }
+
 /*-------------- END FIFTH SECTION -------------- */
 /*----------------- SIXTH SECTION --------------- */
 .s6card__testimonial--box>p {
@@ -217,9 +218,10 @@ ul>span {
 /*-------------- END SIXTH SECTION -------------- */
 /*--------------- SEVENTH SECTION --------------- */
 .s7title {
-    font-size: 5rem;
+    font-size: 5.6rem;
     text-align: center;
     color: white;
+    margin-top: 10rem;
 }
 
 
@@ -243,6 +245,7 @@ ul>span {
 }
 
 .s7list__block>ul {
-    color: #84a2a8;
-    font-size: 1.6rem;
+    color: #A2A2A8;
+    font-size: 1.4rem;
+    line-height: 1.4;
 }

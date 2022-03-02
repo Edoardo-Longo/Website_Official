@@ -28,8 +28,12 @@
 }
 
 .s2_arrowbuttonR {
-  cursor: pointer
+  cursor: pointer;
 }
+
+
+
+
 
 /*<!--Third section>*/
 
@@ -93,7 +97,8 @@
 
 
 /* -----------FOOTER ----------*/
-footer>button { cursor: pointer;
+footer>button { 
+  cursor: pointer;
  
   
   }
