@@ -90,3 +90,12 @@
 .button_form>button:active {
   background-color: #066661;
 }
+
+
+/* -----------FOOTER ----------*/
+footer>button { cursor: pointer;
+ 
+  
+  }
+
+ 
