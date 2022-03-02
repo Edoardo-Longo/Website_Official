@@ -26,5 +26,10 @@
 .s2topCard>p {
     align-self: center;
     color: grey;
-    
+
+}
+
+.s3topCard>p {
+
+    color: gray;
 }
