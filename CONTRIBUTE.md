@@ -8,10 +8,11 @@
 
 # FASI:
 
-- Pianificazione, organizzazione e documentazione 
+- Pianificazione, organizzazione e documentazione
 - Sviluppo struttura HTML
-- Revisione <-- Siamo qui
-- Miglioramento CSS
+- Revisione
+- Pianificazione, organizzazione e struttura CSS <-- Siamo qui
+- Sviluppo struttura CSS
 - Revisione
 - Release
 
@@ -27,6 +28,7 @@ L'orario di lavoro sarà dal Lunedì al venerdì 9-11
 - FARE COMMIT ATOMICI, in modo da dare flessibilità al progetto, niente blocchi enormi in un singolo commit
 - CONTROLLARE LA SEZIONE PROJECT, Le task saranno inserite lì per tutti
 - LAVORARE SULLA BRANCH CONDIVISA, MAI SULL' UFFICIALE (Develop) - (Main)
+
 # BRANCH:
 
 Il team lavorerà su branch condivisa:
@@ -56,6 +58,55 @@ Refactor: commit -m "ref: refactoring"
 
 # SVILUPPO
 
-Il goal finale è la STRUTTURA HTML e la sua priorità è assoluta, il CSS sarà il minimo indispensabile per dare ordine al codice HTML, step by step e niente over-working!
+Il primo obiettivo è la struttura CSS, ordinare i blocchi nello spazio, niente focus sui dettagli e niente overworking.
 
-Arrivati alla struttura HTML, penseremo al miglioramento del css.
+# CSS
+
+# Organizzazione
+
+- La struttura deve essere suddivisa in cinque fogli di lavoro:
+- - index.css: importa tutti gli altri css;
+- - layout.css: componenti grandi della pagina (blocchi es. <section>);
+- - components.css: componenti minori della pagina (es <button>, piccoli <div>);
+- - typhografy.css: fonts;
+- - helpers.css: per le classi helper;
+
+# Convenzioni
+
+# Notazione BEM
+
+Per i nomi delle classi utilizzeremo la notazione BEM
+
+https://www.html.it/pag/50349/bem-block-element-modifier/
+
+- La struttura BEM si compone di tre campi: block\_\_elemnt--modifier;
+
+- - Blocco: nome del contenitore madre (es. card);
+- - Element: tipo di elemento (es. title);
+- - Modifier: varizione elemento (ed. red);
+
+card\_\_title--red;
+
+card\_\_title--blue;
+
+# Portabilità
+
+Si lavora SOLO con quattro unità di misura:
+
+- rem
+- %: si basa sulla dimensione totale del contenitore
+- viewport: si bassa sulla dimensione dello schermo
+- px (solo per piccole dimensioni, max 5px)
+
+  0.25 rem = 4px / 0.5 rem = 8px / 1 rem = 16px
+
+# Conoscenze necessarie
+
+- display: flex;
+- - justify-content;
+- - align-content;
+- - align-self;
+- - gap;
+- - flex-direction;
+
+- position: absolute;

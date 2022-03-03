@@ -1,0 +1,32 @@
+.s1card__title>a:hover {
+  text-decoration: none;
+}
+
+.testimonial__image:hover {
+  cursor: pointer;
+}
+
+.block>a:hover {
+  text-decoration: underline white;
+}
+
+article>a:hover {
+  text-decoration: underline white;
+}
+
+.article>div>.profile__picture>img:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.title>a:hover {
+  text-decoration: underline white;
+}
+
+.button__article:hover {
+  color: white;
+  cursor: pointer;
+}
