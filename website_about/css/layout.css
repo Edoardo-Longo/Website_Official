@@ -38,7 +38,6 @@ h5{
 
 h6 {
     font-size: 1rem;
-    color: white;
 }
 
 p{
@@ -56,4 +55,9 @@ button{
 body {
 
     background-color: rgb(92, 92, 92);
+}
+
+
+li{
+    list-style: none;
 }

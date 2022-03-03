@@ -3,9 +3,12 @@
 *{
     font-family: 'Inter', sans-serif;
 }
-/*first section*/
+/*------------ TOP BAR --------------*/
+/*------------ END OF TOP BAR --------------*/
 
-.text1 {
+
+/*----------------- FIRST SECTION -----------------*/
+.s1title {
     font-size: 60px;
     color: white;
     position: absolute;
@@ -15,12 +18,12 @@
     z-index: 2;
 }
 
-.text-2 {
+.s1title>span {
     color: #3abab4;
 }
 
-/*end first section*/
-/*second section*/
+/*----------------- END OF FIRST SECTION -----------------*/
+/*----------------- SECOND SECTION -----------------*/
 
 .s2topCard>h1 {
     align-self: center;
@@ -63,4 +66,22 @@
     font-size: 14px;
     color: grey;
 
+}
+/*----------------- END OF FIRST SECTION -----------------*/
+/*----------------- FOURTH SECTION -----------------*/
+.s4topCard__title {
+    font-size: 5rem;
+    align-self: center;
+}
+.s4topCard__description {
+
+    color: grey;
+    align-self: center;
+}
+
+
+.s4list>h3 {
+
+    color: white;
+    font-size: 25px;
 }
