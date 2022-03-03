@@ -1,0 +1,643 @@
+/*-------------- TOPBAR -------------- */
+.topbar {
+    align-items: center;
+    height: 10vh;
+}
+
+.topbar__leftcontainer {
+    height: 100%;
+    gap: 4rem;
+}
+
+.topbar__button {
+    height: 4rem;
+    width: 13.7rem;
+    padding: 0.8rem 1.6rem;
+    outline: none;
+    background-color: #3abab4;
+    border: 1px;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    margin-top: 2rem;
+
+}
+
+
+.topbar__rightcontainer {
+    height: 100%;
+    gap: 1.5rem;
+}
+
+
+.logo {
+    width: 3.6rem;
+    height: 3.6rem;
+
+}
+
+.rightcontainer__switchbtn {
+    height: 2.5rem;
+    width: 4.5rem;
+    border-radius: 2rem;
+    background-color: #3abab4;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 3px;
+    align-self: center;
+}
+
+.rightcontainer__switchbtn>div:first-child {
+    background-color: #39393f;
+    height: 2rem;
+    width: 2rem;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.rightcontainer__switchbtn>div:last-child {
+    background-color: #80d2ce;
+    height: 1.5rem;
+    width: 1.5rem;
+    align-self: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightcontainer__switchitem {
+    height: 0.7rem;
+    width: 0.7rem;
+    background-color: aliceblue;
+    align-self: center;
+    border-radius: 50%;
+
+}
+
+.rightcontainer__requestBtn {
+    height: max-content;
+    padding: 1.2rem 1.6rem;
+    color: #fffffd;
+    background-color: #3abab4;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    align-self: center;
+}
+
+/*-------------- END OF TOPBAR -------------- */
+/*-------------- FIRST SECTION -------------- */
+
+
+.card__container {
+    height: max-content;
+    gap: 2rem;
+    margin-top: 10vh;
+
+
+}
+
+.card__container--left {
+    gap: 20px;
+
+}
+
+.container__left--title {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+
+}
+
+.container__left--description {
+
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.iphoneContainer {
+    height: 654px;
+    width: 340px;
+
+    position: relative;
+}
+
+.iphoneMockup {
+
+    height: 654px;
+    width: 340px;
+    background-image: url("../img/iphone-mockup.png");
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: trasparent;
+}
+
+.iphoneScreen {
+    height: 628px;
+    width: 329px;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px;
+}
+
+.one {
+    background-image: url("../img/mockup-image-01.jpg");
+}
+
+.iphoneScreen>img {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.cardNumber {
+    gap: 1rem;
+}
+
+.cardNumber__text {
+    padding: 1.4rem 1.9rem;
+    width: 25rem;
+    background-color: #2e2e33;
+    border-radius: 4px;
+    border: 1px solid #52525a;
+}
+
+.cardNumber__request {
+    padding: 1.2rem 4rem;
+    background-color: #3abab4;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.list {
+    width: 22%;
+    font-size: 2rem;
+    color: #9a9a9b;
+    position: relative;
+}
+
+
+.list__arrow {
+    width: 8.6rem;
+    height: 2.5rem;
+    fill: #2e2e33;
+    position: absolute;
+    top: -10%;
+    right: -10%;
+
+}
+
+.block {
+
+    gap: 1.9rem;
+    margin: 7.5rem 0rem;
+}
+
+
+.block__info {
+
+    height: 14.4rem;
+    width: 25.1rem;
+    display: inline-block;
+    text-align: center;
+    padding: 3.2rem 5.5rem;
+    background-color: #2e2e33;
+
+}
+
+/*----------- END OF FIRST SECTION ---------- */
+/*-------------- SECOND SECTION -------------- */
+
+.s2title {
+    margin-top: 8rem;
+    height: max-content;
+    text-align: center;
+}
+
+.s2picture {
+
+    height: max-content;
+    gap: 2rem;
+    margin: 7rem 0px;
+}
+
+
+.s2picture>picture:nth-child(2) {
+
+    background-image: url("../img/carousel-item-02.jpg");
+    height: 40.6rem;
+    width: 47.2rem;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+.s2picture__btnLearn {
+    background-color: #3abab4;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.s2picture__btnService {
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    border-radius: 20px;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    background-color: #1d1d2080;
+
+}
+
+.s2bottom {
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.s2bottom__arrow--L {
+    background-color: #2e2e33;
+    width: 5.6rem;
+    height: 5.6rem;
+    font-size: 2rem;
+    margin: 0rem 10rem;
+    border: none;
+    padding: 2rem;
+
+}
+
+.s2bottom__arrow--R {
+    width: 5.6rem;
+    height: 5.6rem;
+    font-size: 2rem;
+    margin: 0rem 10rem;
+    background-color: #2e2e33;
+    border: none;
+    padding: 2rem;
+
+
+}
+
+.arrowcolor {
+    fill: #A2A2A8;
+
+}
+
+
+/*-------------- END OF SECOND SECTION -------------- */
+/*----------------- THIRD SECTION ------------------- */
+
+.s3top {
+    margin-top: 4rem;
+    height: max-content;
+}
+
+.s3middle {
+
+    height: max-content;
+    margin-top: 3rem;
+}
+
+.s3bottom {
+    height: 45rem;
+    width: 80rem;
+    gap: 20px;
+
+}
+
+.button__form {
+    gap: 5px;
+}
+
+.button__form>button {
+    display: flex;
+    padding: 1.2rem 0.5rem;
+    text-align: left;
+    gap: 1rem;
+    height: 4rem;
+    width: 26rem;
+    background-color: #2e2e33;
+    border: none;
+    color: #9a9a9b;
+    border-radius: 5px;
+}
+
+.button__icon {
+    height: 1.6rem;
+    width: 1.6rem;
+    fill: #f4f4f583;
+    align-self: center;
+}
+
+.videoDescription {
+    height: 23rem;
+    width: 35rem;
+    color: #9a9a9b;
+    font-weight: bold;
+}
+
+.videoDescription>div {
+    margin-top: 0.9rem;
+    padding: 0rem 2rem;
+}
+
+.videoDescription__visual {
+    background-color: #243b3c;
+    color: #44b4aa;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+/*-------------- END THIRD SECTION -------------- */
+/*---------------FOURTH SECTION ----------------- */
+
+.two {
+
+    background-image: url("../img/mockup-image-02.jpg");
+
+}
+
+.three {
+
+    background-image: url("../img/mockup-image-03.jpg");
+
+}
+
+.four {
+
+    background-image: url("../img/mockup-image-04.jpg");
+
+}
+
+.s4card {
+
+    margin: 5rem 0rem;
+
+}
+
+
+.s4card__button {
+
+    margin-bottom: 3rem;
+    align-self: center;
+    width: 5.6rem;
+    height: 5.6rem;
+    background-color: #223c3d;
+    border: none;
+    border-radius: 50%;
+    color: #4fd1c5;
+    font-weight: bold;
+}
+
+
+/*-------------- END FOURTH SECTION -------------- */
+/*------------------FIFTH SECTION --------------- */
+.s5top {
+    margin-top: 8rem;
+}
+
+.s5bottom {
+    margin-top: 3rem;
+    margin-top: 5rem;
+}
+
+.box {
+    width: 25rem;
+    height: 32.5rem;
+    background-color: #2e2e33;
+    padding: 2.5rem;
+
+
+}
+
+.box__pricetag {
+    height: 2.6rem;
+    width: 5.4rem;
+    background-color: #2e484b;
+    padding: 2px 1.5rem;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.box__premium {
+    background-color: #3ec9c5;
+    border: none;
+    padding: 1rem 0px;
+    border-radius: 4px;
+    color: #f4f4f5;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.button__style--2 {
+
+    background-color: #3f3f45;
+    color: #4fd1c5;
+
+}
+
+/*-------------- END FIFTH SECTION -------------- */
+/*----------------- SIXTH SECTION --------------- */
+
+.row {
+    margin: 5rem 0rem;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.s6card {
+    margin-top: 1rem;
+    width: 100%;
+    height: max-content;
+    gap: 15rem;
+
+
+}
+
+.s6card__testimonial {
+
+    width: max-content;
+    align-self: center;
+    gap: 15rem;
+    margin-top: 2rem;
+
+
+}
+
+.testimonial1 {
+    background-image: url("../img/testimonial-01.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+.testimonial2 {
+    background-image: url("../img/testimonial-02.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+.testimonial3 {
+    background-image: url("../img/testimonial-03.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+.testimonial4 {
+    background-image: url("../img/testimonial-04.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+.s6card__testimonial--box>picture {
+    align-self: center;
+    margin-bottom: 20px;
+    height: 5.6rem;
+    width: 5.6rem;
+    border-radius: 50%;
+}
+
+
+.s6card__testimonial--box {
+
+    width: max-content;
+    height: 20rem;
+    color: gray;
+
+    text-align: center;
+
+}
+
+/*-------------- END SIXTH SECTION -------------- */
+/*--------------- SEVENTH SECTION --------------- */
+.infobox {
+    margin: 3rem 0rem;
+}
+
+.infobox__square {
+    height: 20rem;
+    width: 25rem;
+    padding: 2rem;
+}
+
+.infobox__square--logo {
+    height: 32px;
+    width: 32px;
+    fill: white;
+}
+
+.blue {
+    background-color: #3abab4;
+}
+
+.violet {
+    background-color: #9f7aea;
+}
+
+.sky {
+    background-color: #667eea;
+}
+
+.pink {
+    background-color: #ed64a6;
+}
+
+.s7card {
+    height: 10rem;
+    margin: 10rem 0rem;
+}
+
+.s7card__endbar {
+
+    width: 95%;
+    height: 18rem;
+    padding: 3.5rem 10rem;
+    background-color: #2e2e33;
+}
+
+label[for="#"] {
+    display: flex;
+    gap: 2rem;
+}
+
+label>input {
+    padding: 0.6rem 2.5rem;
+    border: none;
+    background-color: #2e2e33;
+    border-radius: 4px;
+    border: 1px solid #52525a;
+}
+
+label>button {
+    padding: 1.5rem 4rem;
+    border: none;
+    background-color: #3abab4;
+    border-radius: 4px;
+    color: white;
+}
+
+.s7list {
+    margin-top: 5.5rem;
+    gap: 3.5rem;
+    padding: 4rem;
+}
+
+.policy {
+    padding: 0rem 3rem;
+
+    height: max-content;
+
+}
+
+/* --- footer --- */
+
+.social__f {
+
+    background-color: #1d1d20;
+    border: none;
+}
+
+.social__t {
+
+    background-color: #1d1d20;
+    border: none;
+}
+
+.social__i {
+    background-color: #1d1d20;
+    border: none;
+}
+
+.social__l {
+
+    background-color: #1d1d20;
+    border: none;
+}

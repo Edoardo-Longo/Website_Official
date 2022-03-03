@@ -1,0 +1,105 @@
+/* <!-- topbar -->  */
+.topbar__button:hover {
+  background-color: #4fd1c5;
+}
+
+.topbar__button:active {
+  background-color: #3abab4;
+  transform: translateY(4px);
+}
+
+.rightcontainer__switchbtn {
+
+  cursor: pointer;
+}
+
+/*--------------END OF TOPBAR ---------------*/
+/*--------------FIRST SECTION -------------*/
+
+
+
+.cardNumber__request:hover {
+  background-color: #066661
+}
+
+.s2_arrowbuttonL:hover {
+  background-color: #066661;
+
+}
+
+.s2_arrowbuttonR {
+  cursor: pointer;
+}
+
+
+
+
+
+/*<!--Third section>*/
+
+
+
+
+
+
+#buttonbox>button:hover {
+  background-color: #066661;
+}
+
+.button__style--1:hover {
+  background-color: #066661;
+}
+
+.button__style--2:hover {
+  background-color: #dfebea0c;
+}
+
+/*-----------END OF FIRST SECTION ----------*/
+/*--------------SECOND SECTION -------------*/
+
+.s2picture__btnLearn:hover {
+  background-color: #4fd1c5;
+}
+
+.s2picture__btnService:hover {
+  background-color: #1d1d20;
+  transition: 0.3s ease;
+}
+
+.s2bottom__arrow--L:hover {
+  background-color: #254545;
+}
+
+.s2bottom__arrow--R:hover {
+  background-color: #254545;
+}
+
+.s2bottom__arrow--L:hover .arrowcolor {
+  fill: #3abab4;
+
+}
+
+
+.s2bottom__arrow--R:hover .arrowcolor {
+  fill: #3abab4;
+
+}
+
+/*-----------END OF SECOND SECTION ----------*/
+/*----------------THIRD SECTION -------------*/
+
+.button__form>button:hover {
+  background-color: #e2ebeb3b;
+}
+
+.button__form>button:active {
+  background-color: #066661;
+}
+
+
+/* -----------FOOTER ----------*/
+footer>button {
+  cursor: pointer;
+
+
+}
