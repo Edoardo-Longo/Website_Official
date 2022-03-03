@@ -9,7 +9,7 @@
 
 }
 
-.topbar_button {
+.topbar__button {
     color: white;
     font-weight: 800;
 
@@ -48,7 +48,7 @@
 
 /*-------------- END FIRST SECTION -------------- */
 /*-------------- SECOND SECTION -------------- */
-ul>span {
+li>span {
     color: #4fd1c5;
 }
 

@@ -1,9 +1,9 @@
 /* <!-- topbar -->  */
-.topbar_button:hover {
+.topbar__button:hover {
   background-color: #4fd1c5;
 }
 
-.topbar_button:active {
+.topbar__button:active {
   background-color: #3abab4;
   transform: translateY(4px);
 }
@@ -84,23 +84,22 @@
   fill: #3abab4;
 
 }
+
 /*-----------END OF SECOND SECTION ----------*/
 /*----------------THIRD SECTION -------------*/
 
-.button_form>button:hover{
+.button__form>button:hover {
   background-color: #e2ebeb3b;
 }
 
-.button_form>button:active {
+.button__form>button:active {
   background-color: #066661;
 }
 
 
 /* -----------FOOTER ----------*/
-footer>button { 
+footer>button {
   cursor: pointer;
- 
-  
-  }
 
- 
+
+}
