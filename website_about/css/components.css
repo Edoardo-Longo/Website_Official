@@ -164,11 +164,9 @@
 .s3 {
     display: flex;
     flex-wrap: wrap;
-    
-    }
+}
 
 .s3topCard {
-
     height: max-content;
     width: 100%;
     border: 1px solid aqua;
@@ -176,11 +174,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    
 }
 
 .s3leftBar {
-
     height: max-content;
     width: max-content;
     border: 1px solid aqua;
@@ -189,7 +185,6 @@
 }
 
 .s3bottomBox {
-
     height: max-content;
     width:max-content; 
     border: 1px solid aqua;
@@ -197,6 +192,120 @@
 }
 
 .s3bottomBox>a {
-
     color: #3abab4;
+    border: 1px solid green;
 }
+/*end third section*/
+
+/*fourth section*/
+.s4topCard{
+    height: max-content;
+    width: max-content;
+    border: 1px solid green;
+}
+
+.s4leftNav{
+    height: max-content;
+    width: max-content;
+    border: 1px solid green;
+}
+
+.s4leftNav>a {
+    color:#3abab4;
+}
+
+.s4careersBox{
+    height: max-content;
+    width: max-content;
+    border: 1px solid violet;
+}
+/*end fourth section*/
+
+/*fifth section*/
+
+.s5upperCard
+
+{
+    height: max-content;
+    width: max-content;
+    border: 1px solid violet;
+    display: flex;
+    justify-content: center;
+}
+
+.s5Graphic {
+
+    height: max-content;
+    width: 100%;
+    border: 1px solid violet;
+    display: flex;
+    justify-content: center;  
+}
+
+/*end of fifth section*/
+
+/*Sixth section*/
+.s6title {
+    width: 100%;
+    height: 20rem;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s6img {
+    width: 100%;
+    height: 50rem;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.s6img>.profile__container {
+    border: 1px solid green;
+    height: max-content;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s6img>.profile__container>picture {
+    width: 8rem;
+    height: 8rem;
+    align-self: center;
+}
+
+.s6img>.profile__container>picture>img {
+    border-radius: 50%;
+}
+
+.s6img>.profile__container>.icon {
+    width: 2rem;
+    height: 2rem;
+    align-self: center;
+}
+
+/*end of sixth section*/
+
+/*footer*/
+
+.fmain {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid salmon;
+    display: flex;
+    flex-direction: row;
+}
+
+.fmain_prod {}
+
+.fmain_res {}
+
+.fmain_comp {}
+
+.fmain_supp {}
