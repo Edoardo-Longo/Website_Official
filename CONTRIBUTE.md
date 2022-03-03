@@ -29,13 +29,15 @@ L'orario di lavoro sarà dal Lunedì al venerdì 9-11
 - CONTROLLARE LA SEZIONE PROJECT, Le task saranno inserite lì per tutti
 - LAVORARE SULLA BRANCH CONDIVISA, MAI SULL' UFFICIALE (Develop) - (Main)
 
-## BRANCH:
+# BRANCH:
 
 Il team lavorerà su branch condivisa:
 
-- Develop-about
-- Develop-homepage
-- Develop-blog
+Develop-about
+Develop-homepage
+Develop-blog
+
+Nella vostra branch condivisa potete sviluppare queste sotto-branch:
 
 ---
 
@@ -53,39 +55,45 @@ Nella vostra branch condivisa potete sviluppare queste sotto-branch:
 
 I commit devono spiegare la modifica al codice effettuata, utilizzando questa convenzione:
 
-- Nuova feature: commit -m "feat: name of feature"
-- Bugfix: commit -m "fix: bug fixed - hash"
-- Style: commit -m "style: style's change"
-- Refactor: commit -m "ref: refactoring"
+Nuova feature: commit -m "feat: name of feature"
+Bugfix: commit -m "fix: bug fixed - hash"
+Style: commit -m "style: style's change"
+Refactor: commit -m "ref: refactoring"
 
 # CSS
 
-## ORGANIZZAZIONE
+Il primo obiettivo è la struttura CSS, ordinare i blocchi nello spazio, niente focus sui dettagli e niente overworking.
+
+# CSS
+
+# Organizzazione
 
 - La struttura deve essere suddivisa in cinque fogli di lavoro:
 - - index.css: importa tutti gli altri css;
-- - layout.css: componenti grandi della pagina (blocchi es. section);
-- - components.css: componenti minori della pagina (es buttons, piccoli div);
+- - layout.css: componenti grandi della pagina (blocchi es. <section>);
+- - components.css: componenti minori della pagina (es <button>, piccoli <div>);
 - - typhografy.css: fonts;
 - - helpers.css: per le classi helper;
 
-## NOTAZIONE BEM
+# Convenzioni
 
-- Per i nomi delle classi utilizzeremo la notazione BEM
+# Notazione BEM
 
-- - https://www.html.it/pag/50349/bem-block-element-modifier/
+Per i nomi delle classi utilizzeremo la notazione BEM
 
-- La struttura BEM si compone di tre campi: "block\_\_elemnt--modifier";
+https://www.html.it/pag/50349/bem-block-element-modifier/
+
+- La struttura BEM si compone di tre campi: block\_\_elemnt--modifier;
 
 - - Blocco: nome del contenitore madre (es. card);
 - - Element: tipo di elemento (es. title);
 - - Modifier: varizione elemento (ed. red);
 
-"card\_\_title--red";
+card\_\_title--red;
 
-"card\_\_title--blue";
+card\_\_title--blue;
 
-# PORTABILITA'
+# Portabilità
 
 Si lavora SOLO con quattro unità di misura:
 
@@ -96,7 +104,7 @@ Si lavora SOLO con quattro unità di misura:
 
   0.25 rem = 4px / 0.5 rem = 8px / 1 rem = 16px
 
-# CONOSCENZE NECESSARIE
+# Conoscenze necessarie
 
 - display: flex;
 - - justify-content;

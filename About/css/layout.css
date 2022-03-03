@@ -1,32 +1,28 @@
-body {
-    background-color: #39393f;
-}
-
 header {
     height: min-content;
 }
 
 footer {
-
     color: white;
     gap: 30px;
     justify-content: center;
     border: 1px solid blue;
     margin-top: 5rem;
-
 }
 
 section {
     border-left: none;
     border-right: none;
+    background-color: #1d1d20;
     max-height: max-content;
     min-height: min-content;
-
 }
 
 h1 {
     font-size: 6rem;
     font-family: 'Red Hat Display', sans-serif;
+    ;
+    color: white;
 }
 
 h2 {
@@ -39,11 +35,14 @@ h3 {
 
 h4 {
     font-size: 3rem;
-    color: white;
 }
 
 h5 {
     font-size: 2rem;
+}
+
+h6 {
+    font-size: 1rem;
 }
 
 p {
@@ -53,6 +52,7 @@ p {
 
 a {
     font-size: 1.6rem;
+    font-size: 1.6rem;
     font-family: 'Inter', sans-serif;
 }
 
@@ -60,4 +60,14 @@ button {
     font-size: 1.5rem;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
+}
+
+body {
+
+    background-color: rgb(92, 92, 92);
+}
+
+
+li {
+    list-style: none;
 }

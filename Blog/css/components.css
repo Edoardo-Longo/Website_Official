@@ -1,60 +1,52 @@
-body {
-  padding: 0 8%;
-}
-
-/*inizio topbar------------*/
-
-
+/*-------------- TOPBAR -------------- */
 .topbar {
+  align-items: center;
   height: 10vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
-.topbar_leftcontainer {
+.topbar__leftcontainer {
   height: 100%;
-  margin-left: 5vw;
-  display: flex;
   gap: 4rem;
 }
 
-.topbar_rightcontainer {
-  height: 100%;
-  width: max-content;
-  display: flex;
-  gap: 1.5rem;
-  justify-content: space-around;
-  margin-right: 5vw;
+.topbar__button {
+  height: 4rem;
+  width: 13.7rem;
+  padding: 0.8rem 1.6rem;
+  outline: none;
+  background-color: #3abab4;
+  border: 1px;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  margin-top: 2rem;
+
 }
+
+
+.topbar__rightcontainer {
+  height: 100%;
+  gap: 1.5rem;
+}
+
 
 .logo {
-  width: 5rem;
-  height: 50%;
-  align-self: center;
+  width: 3.6rem;
+  height: 3.6rem;
+
 }
 
-.topbar_leftcontainer>a {
-  font-size: 1rem;
-  text-decoration: none;
-  color: rgb(212 212 216);
-  font-weight: bold;
-  align-self: center;
-}
-
-.switchbtn {
+.rightcontainer__switchbtn {
   height: 2.5rem;
   width: 4.5rem;
-  border-radius: 20px;
+  border-radius: 2rem;
   background-color: #3abab4;
   display: flex;
   flex-direction: row-reverse;
   padding: 3px;
-  justify-content: space-between;
   align-self: center;
 }
 
-.switchbtn>div:first-child {
+.rightcontainer__switchbtn>div:first-child {
   background-color: #39393f;
   height: 2rem;
   width: 2rem;
@@ -62,7 +54,7 @@ body {
   border-radius: 50%;
 }
 
-.switchbtn>div:last-child {
+.rightcontainer__switchbtn>div:last-child {
   background-color: #80d2ce;
   height: 1.5rem;
   width: 1.5rem;
@@ -72,18 +64,18 @@ body {
   justify-content: space-around;
 }
 
-#switchitem {
+.rightcontainer__switchitem {
   height: 0.7rem;
   width: 0.7rem;
   background-color: aliceblue;
   align-self: center;
   border-radius: 50%;
+
 }
 
-.request_btn {
+.rightcontainer__requestBtn {
   height: max-content;
   padding: 1.2rem 1.6rem;
-  font-size: 1rem;
   color: #fffffd;
   background-color: #3abab4;
   border: none;
@@ -92,8 +84,7 @@ body {
   align-self: center;
 }
 
-
-/*fine-topbar-----------*/
+/*-------------- END OF TOPBAR -------------- */
 
 /*inizio-section1----------*/
 
@@ -281,4 +272,27 @@ li>div {
   width: 1.6rem;
   height: 1.6rem;
   fill: #d4d4d8;
+}
+
+.social__f {
+
+  background-color: #1d1d20;
+  border: none;
+}
+
+.social__t {
+
+  background-color: #1d1d20;
+  border: none;
+}
+
+.social__i {
+  background-color: #1d1d20;
+  border: none;
+}
+
+.social__l {
+
+  background-color: #1d1d20;
+  border: none;
 }

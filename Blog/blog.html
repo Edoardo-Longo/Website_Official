@@ -8,38 +8,60 @@
     <meta name="author" content="Edoardo Longo">
     <meta name="author" content="Vito Penna">
     <link rel="stylesheet" href="index.css">
+    <section>
+
+        <!-- Inter sans serif (Link e paragrafi)-->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+        <!-- Red hat display (Titoli) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+    </section>
     <title>Blog - Appy Demo</title>
 </head>
 
 <body>
 
     <!-- Topbar -->
-    <header class="header">
-        <nav class="topbar">
-            <div class="topbar__leftcontainer">
-                <picture>
-                    <div class="logo">
-                        <img src="" alt="">
-                    </div>
-                </picture>
-                <a href="../About/about.html">About</a>
-                <a href="../Blog/blog.html">Blog</a>
-                <a href="">Testimonials</a>
-                <a href="">Resources</a>
-            </div>
-            <div class="topbar__rightcontainer">
-                <div class="switchbtn">
-                    <div>
-                    </div>
-                    <div>
-                        <div id="switchitem">
-                        </div>
-                    </div>
+    <header class="padding topbar flex-row-nowrap justify-between">
+        <div class="topbar__leftcontainer flex-row-nowrap">
+            <!--Logo-->
+            <svg class="logo align-self-center ap uj" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
+                        <stop stop-color="#3ABAB4" offset="0%"></stop>
+                        <stop stop-color="#7F9CF5" offset="100%"></stop>
+                    </linearGradient>
+                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">
+                        <stop stop-color="#3ABAB4" offset="0%"></stop>
+                        <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#flogo_a)"></path>
+                <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#flogo_b)"></path>
+            </svg>
+            <!--Logo-->
+            <a href="../Homepage/homepage.html">Home</a>
+            <a href="../About/about.html">About</a>
+            <a href="../Blog/blog.html">Blog</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Resources</a>
+        </div>
+        <div class="topbar__rightcontainer w-max-content flex-row-nowrap justify-around">
+            <div class="rightcontainer__switchbtn justify-between ">
+                <div></div>
+                <div>
+                    <div class="rightcontainer__switchitem topbar__switch"></div>
                 </div>
-                <button class="request_btn">Request code</button>
             </div>
-        </nav>
-        <!-- end of topbar -->
+            <a href="#" target="_blank">
+                <button class="topbar__button">Request code</button>
+            </a>
+        </div> <!-- end of topbar -->
     </header>
 
     <!-- end of topbar -->
@@ -280,7 +302,8 @@
                     </div>
                     <div>
                         <button class="button__article">See previous articles
-                            <svg class="button__arrow af ub fr sx" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="button__arrow af ub fr sx" viewBox="0 0 16 16"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path class="cx de" d="M14.7 9.3l-1.4-1.4L9 12.2V0H7v12.2L2.7 7.9 1.3 9.3 8 16z"></path>
                             </svg>
                         </button>
@@ -392,94 +415,116 @@
 
     <!-------footer--------------------------------------------------------->
 
-    <div class="footer">
-        <div class="logo__footer">
-            <img src="#" alt="logo">
+    <footer>
+        <div class="s7list flex-row justify-evenly ">
+            <!--Logo-->
+            <svg class="logo align-end ap uj" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
+                        <stop stop-color="#3ABAB4" offset="0%"></stop>
+                        <stop stop-color="#7F9CF5" offset="100%"></stop>
+                    </linearGradient>
+                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">
+                        <stop stop-color="#3ABAB4" offset="0%"></stop>
+                        <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#flogo_a)"></path>
+                <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#flogo_b)"></path>
+            </svg>
+            <!--Logo-->
+            <div class="s7list__block">
+                <p> PRODUCTS</p>
+                <ul>
+                    <li>
+                        <a href=""> drag </a>
+                    </li>
+                    <li>
+                        <a href=""> visual </a>
+                    </li>
+                    <li>
+                        <a href=""> easy </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="s7list__block">
+                <p> <a href=""> RESOURCES </a></p>
+                <ul>
+                    <li>
+                        <a href=""> industries </a>
+                    </li>
+                    <li>
+                        <a href=""> use cases</a>
+                    </li>
+                    <li>
+                        <a href=""> blog </a>
+                    </li>
+                    <li>
+                        <a href=""> online </a>
+                    </li>
+                    <li>
+                        <a href=""> nostrud </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="s7list__block">
+                <p> <a href=""> COMPANY </a></p>
+                <ul>
+                    <li>
+                        <a href=""> diversity </a>
+                    </li>
+                    <li>
+                        <a href=""> about us </a>
+                    </li>
+                    <li>
+                        <a href=""> press </a>
+                    </li>
+                    <li>
+                        <a href=""> customer </a>
+                    </li>
+                    <li>
+                        <a href=""> online </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="s7list__block">
+                <p> <a href=""> SUPPORT</a></p>
+                <ul>
+                    <li>
+                        <a href=""> documentation </a>
+                    </li>
+                    <li>
+                        <a href=""> tutorial </a>
+                    </li>
+                    <li>
+                        <a href=""> webinairs </a>
+                    </li>
+                    <li>
+                        <a href=""> open </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="products">
-            <h3>Products</h3>
-            <ul>
-                <li>
-                    <a href="#">Drag and Drop</a>
-                </li>
-                <li>
-                    <a href="#">Visual Studio X</a>
-                </li>
-                <li>
-                    <a href="#">Easy Content</a>
-                </li>
-            </ul>
+        <div class="policy flex-row justify-between">
+            <p> 2020 appy. all rights reserved</p>
+            <p> terms privacy policy </p>
+            <!-- social button-->
+            <div>
+                <a class="social__f" href="https://www.facebook.com" target="_blank">
+                    <button class="social__f"> <img src="images/facebook.png" width="40rem" height="40rem" /></button>
+                </a>
+                <a class="social__t" href="https://www.twitter.com" target="_blank">
+                    <button class="social__t"> <img src="images/Twitter-PNG-Photos.png" width="40rem" height="40rem" /> </button>
+                </a>
+                <a class="social__i" href="https://www.instagram.com" target="_blank">
+                    <button class="social__i"> <img src="images/instagram.png" width="40rem" height="40rem" /></button>
+                </a>
+                <a class="social__l" href="https://www.linkedin.com" target="_blank">
+                    <button class="social__l"> <img src="images/linkedin.png" width="40rem" height="40rem" /> </button>
+                </a>
+            </div>
         </div>
-
-
-            <div class="resources">
-                <h3>Resources</h3>
-                <ul>
-                    <li>
-                        <a href="#">Industries and tools</a>
-                    </li>
-                    <li>
-                        <a href="#">Use cases</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Online events</a>
-                    </li>
-                    <li>
-                        <a href="#">Nostrud exercitation</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="company">
-                <h3>Company</h3>
-                <ul>
-                    <li>
-                        <a href="#">Diversity & inclusion</a>
-                    </li>
-                    <li>
-                        <a href="#">About us</a>
-                    </li>
-                    <li>
-                        <a href="#">Press</a>
-                    </li>
-                    <li>
-                        <a href="#">Customer stories</a>
-                    </li>
-                    <li>
-                        <a href="#">Online communities</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="support">
-                <h3>Support</h3>
-                <ul>
-                    <li>
-                        <a href="#">Documentation</a>
-                    </li>
-                    <li>
-                        <a href="#">Tutorials & guides</a>
-                    </li>
-                    <li>
-                        <a href="#">Webinars</a>
-                    </li>
-                    <li>
-                        <a href="#">Open-source</a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="copyrights">© 2020 Appy. All rights reserved.</div>
-
-            <div><a href="#">Terms</a><a href="#"> Privacy Policy</a></div>
-
-            <div class="social"></div>
-
-    </div>
+    </footer>
 </body>
 
 </html>

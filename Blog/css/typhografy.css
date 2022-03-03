@@ -1,9 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&display=swap');
+/*-------------- TOPBAR -------------- */
+
+
+.topbar__leftcontainer>a {
+  text-decoration: none;
+  color: rgb(212 212 216);
+  font-weight: bold;
+  align-self: center;
+
+}
+
+.topbar__button {
+  color: white;
+  font-weight: 800;
+
+}
+
+/*-------------- END OF TOPBAR -------------- */
 
 /*inizio-section1-------------*/
-* {
-  font-family: 'Red Hat Display', sans-serif;
-}
 
 .s1card__title--link>h1 {
   font-size: 6.4rem;
@@ -96,4 +110,10 @@ li>div>span>a:visited {
   font-size: 2.608rem;
   font-weight: 700;
   color: #52525a;
+}
+
+.s7list__block>ul {
+  color: #A2A2A8;
+  font-size: 1.4rem;
+  line-height: 1.4;
 }
