@@ -36,6 +36,8 @@
     color: gray;   
 }
 
+
+
 /*Sixth section*/
 
 .s6title>h2{
@@ -52,4 +54,13 @@
     color: #D4D4D8;
     font-size: 1.8rem;
     font-weight: 300;
+}
+
+/*footer*/
+
+.s6list {
+
+    font-size: 14px;
+    color: grey;
+
 }

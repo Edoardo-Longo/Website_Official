@@ -176,6 +176,13 @@
     align-items: center;
 }
 
+.s3centralPart {
+    display: flex;
+    align-items: unset;
+    gap: 10rem; 
+    
+}
+
 .s3leftBar {
     height: max-content;
     width: max-content;
@@ -186,51 +193,146 @@
 
 .s3bottomBox {
     height: max-content;
-    width:max-content; 
+    width:100%;
     border: 1px solid aqua;
-    display: flex;
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-flow: row;
+    gap: 20px; 
+    
+   
 }
 
-.s3bottomBox>a {
+
+
+.link {
+    font-size: 16px;
     color: #3abab4;
-    border: 1px solid green;
+
 }
+
+.text-7 {
+
+    font-size: 20px;
+    color: white;
+    ;
+
+}
+
+.s3bottomBox__firstBox {
+
+background-color: rgba(82, 80, 80, 0.39);
+}
+.s3bottomBox__secondBox {
+
+    background-color: rgba(82, 80, 80, 0.39);
+}
+    
+
+.s3bottomBox__thirdBox {
+
+    background-color: rgba(82, 80, 80, 0.39);
+    }
+    
+
+.s3bottomBox__fourthBox {
+
+    background-color: rgba(82, 80, 80, 0.39);
+    }
+    
+
+
 /*end third section*/
 
 /*fourth section*/
-.s4topCard{
+
+
+
+.s4topCard {
+    height: max-content;
+    width: 100%;
+    margin-left: 35%;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+   
+    
+}
+
+.s4topCard__heading {
+    font-size: 5rem;
+    align-self: center;
+}
+
+.s4topCard__parph {
+
+    color: grey;
+    align-self: center;
+}
+
+.s4cent {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+   flex-direction: row;
+    gap: 40 rem;
+}
+
+.s4leftNav {
     height: max-content;
     width: max-content;
     border: 1px solid green;
+    color: grey;
+
 }
 
-.s4leftNav{
-    height: max-content;
-    width: max-content;
-    border: 1px solid green;
+.s4leftNav>h3 {
+
+    color: white;
+    font-size: 25px;
 }
 
-.s4leftNav>a {
-    color:#3abab4;
-}
 
-.s4careersBox{
-    height: max-content;
-    width: max-content;
+.s4careersBox {
+    height:max-content;
+    width: fit max-content;
     border: 1px solid violet;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: whitesmoke;
+    font-size: 80%;
 }
+
+.s4careersBox>p {
+
+color: grey;
+}
+
 /*end fourth section*/
 
 /*fifth section*/
 
-.s5upperCard
-
-{
+.s5upperCard {
     height: max-content;
-    width: max-content;
+    width: 100%;
     border: 1px solid violet;
     display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
     justify-content: center;
+    
+}
+
+.s5upperCard>h2 {
+
+color: white;
+}
+
+.s5text {
+
+    color: grey;
 }
 
 .s5Graphic {
@@ -239,7 +341,7 @@
     width: 100%;
     border: 1px solid violet;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
 
 /*end of fifth section*/
@@ -295,17 +397,33 @@
 /*footer*/
 
 .fmain {
-    width: 2rem;
-    height: 2rem;
+    width: max-content;
+    height: max-content;
     border: 1px solid salmon;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    
 }
 
-.fmain_prod {}
 
-.fmain_res {}
 
-.fmain_comp {}
+.fmain_prod {
 
-.fmain_supp {}
+
+
+}
+
+.fmain_res {
+
+
+}
+
+.fmain_comp {
+
+
+}
+
+.fmain_supp {
+
+
+}
