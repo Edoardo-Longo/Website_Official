@@ -16,7 +16,7 @@
     <!-- Topbar -->
     <header class="header">
         <nav class="topbar">
-            <div class="topbar_leftcontainer">
+            <div class="topbar__leftcontainer">
                 <picture>
                     <div class="logo">
                         <img src="" alt="">
@@ -27,7 +27,7 @@
                 <a href="">Testimonials</a>
                 <a href="">Resources</a>
             </div>
-            <div class="topbar_rightcontainer">
+            <div class="topbar__rightcontainer">
                 <div class="switchbtn">
                     <div>
                     </div>
@@ -52,17 +52,16 @@
                     <a href="#" class="s1card__title--link">
                         <h1>Appy launches new </h1>
                         <h1>thematic solutions</h1>
-                    </a><br>
+                    </a>
                 </div>
                 <div>
                     <p class="s1card__subtitle">Curious about how your favorite product was created? Hear from the
                         team
                         about
-                        <p class="s1card__subtitle">
-                            how it
-                            was
-                            built, and how continued improvements are made.
-                        </p>
+                        <br>
+                        how it
+                        was
+                        built, and how continued improvements are made.
                     </p>
                 </div>
 
@@ -71,10 +70,6 @@
                     </div>
                     <span class="s1card__description">By <a href="#">Michael Osman</a> - Nov 2, 2020</span>
                 </div>
-
-                <!--End First section-->
-
-                <!-- Second section-->
 
                 <div class="block__container">
                     <article class="block green">
@@ -107,173 +102,192 @@
                 </div>
         </section>
 
-        <!--End Second section-->
+        <!--End First section-->
 
-        <!-- Third section-->
+        <!-- Second section-->
 
         <section>
             <div class="s2Card">
-
-                <div class="s2leftContainer">
-                    <div class="latest__title">
-                        <h4>Latest</h4>
+                <div class="container">
+                    <div class="s2leftContainer">
+                        <div class="latest__title">
+                            <h4>Latest</h4>
+                        </div>
+                        <div class="latest__images">
+                            <div class="latest__images--leftColumn">
+                                <div class="article">
+                                    <picture>
+                                        <img src="images/news-01.jpg" alt="News01">
+                                    </picture>
+                                    <article>
+                                        <a href="#">
+                                            <h4>How to create a profile page using Appy</h4>
+                                        </a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            <br>
+                                            elit, sed do eiusmod
+                                            tempor incididunt
+                                            ut
+                                            labore
+                                            et
+                                            <br>
+                                            dolore magna aliqua.
+                                        </p>
+                                    </article>
+                                    <div>
+                                        <picture class="profile__picture">
+                                            <img src="images/news-author-03.jpg" width="32" height="32" alt="">
+                                        </picture>
+                                        <span>By <a href="#">Lisa Allison</a> · Oct 22, 2020</span>
+                                    </div>
+                                </div>
+                                <div class="article">
+                                    <picture>
+                                        <img src="images/news-02.jpg" alt="News02">
+                                    </picture>
+                                    <article>
+                                        <a href="#">
+                                            <h4>20+ elements of a modern website design</h4>
+                                        </a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            <br>
+                                            elit, sed do eiusmod
+                                            tempor incididunt
+                                            ut
+                                            labore
+                                            et
+                                            <br>
+                                            dolore magna aliqua.
+                                        </p>
+                                    </article>
+                                    <div>
+                                        <picture class="profile__picture">
+                                            <img src="images/news-author-06.jpg" width="32" height="32" alt="News06">
+                                        </picture>
+                                        <span>By <a href="#">Greg Gilev</a> · Oct 22, 2020</span>
+                                    </div>
+                                </div>
+                                <div class="article">
+                                    <picture>
+                                        <img src="images/news-03.jpg" alt="News03">
+                                    </picture>
+                                    <article>
+                                        <a href="#">
+                                            <h4>How to create a profile page using Appy</h4>
+                                        </a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            <br>
+                                            elit, sed do eiusmod
+                                            tempor incididunt
+                                            ut
+                                            labore
+                                            et
+                                            <br>
+                                            dolore magna aliqua.
+                                        </p>
+                                    </article>
+                                    <div>
+                                        <picture class="profile__picture">
+                                            <img src="images/news-author-01.jpg" width="32" height="32" alt="News01">
+                                        </picture>
+                                        <span>By <a href="#">Mark Varsano</a> · Oct 22, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest__images--rightColumn">
+                                <div class="article">
+                                    <picture>
+                                        <img src="images/news-04.jpg" alt="News04">
+                                    </picture>
+                                    <article>
+                                        <a href="#">
+                                            <h4>What to look for in a digital portfolio</h4>
+                                        </a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            <br>
+                                            elit, sed do eiusmod
+                                            tempor incididunt
+                                            ut
+                                            labore
+                                            et
+                                            <br>
+                                            dolore magna aliqua.
+                                        </p>
+                                    </article>
+                                    <div>
+                                        <picture class="profile__picture">
+                                            <img src="images/news-author-03.jpg" width="32" height="32" alt="News03">
+                                        </picture>
+                                        <span>By <a href="#">Lisa Allison</a> · Oct 22, 2020</span>
+                                    </div>
+                                </div>
+                                <div class="article">
+                                    <picture>
+                                        <img src="images/news-05.jpg" alt="News05">
+                                    </picture>
+                                    <article>
+                                        <a href="#">
+                                            <h4>Why your customers needs a responsive website</h4>
+                                        </a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            <br>
+                                            elit, sed do eiusmod
+                                            tempor incididunt
+                                            ut
+                                            labore
+                                            et
+                                            <br>
+                                            dolore magna aliqua.
+                                        </p>
+                                    </article>
+                                    <div>
+                                        <picture class="profile__picture">
+                                            <img src="images/news-author-04.jpg" width="32" height="32" alt="News04">
+                                        </picture>
+                                        <span>By <a href="#">Mary Champ</a> · Oct 22, 2020</span>
+                                    </div>
+                                </div>
+                                <div class="article">
+                                    <picture>
+                                        <img src="images/news-06.jpg" alt="News06">
+                                    </picture>
+                                    <article>
+                                        <a href="#">
+                                            <h4>Launch lessons: the creators of Intrusive Inc.</h4>
+                                        </a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            <br>
+                                            elit, sed do eiusmod
+                                            tempor incididunt
+                                            ut
+                                            labore
+                                            et
+                                            <br>
+                                            dolore magna aliqua.
+                                        </p>
+                                    </article>
+                                    <div>
+                                        <picture class="profile__picture">
+                                            <img src="images/news-author-05.jpg" width="32" height="32" alt="News05">
+                                        </picture>
+                                        <span>By <a href="#">Yuri Lapko</a> · Oct 22, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="latest__images">
-                        <div class="latest__images--leftColumn">
-                            <div class="article">
-                                <picture>
-                                    <img src="images/news-01.jpg" alt="News01">
-                                </picture>
-                                <article>
-                                    <a href="#">
-                                        <h4>How to create a profile page using Appy</h4>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt
-                                        ut
-                                        labore
-                                        et dolore magna aliqua.
-                                    </p>
-                                </article>
-                                <div>
-                                    <picture class="profile__picture">
-                                        <img src="images/news-author-03.jpg" width="32" height="32" alt="">
-                                    </picture>
-                                    <span>By <a href="#">Lisa Allison</a> · Oct 22, 2020</span>
-                                </div>
-                            </div>
-
-
-
-                            <div class="article">
-                                <picture>
-                                    <img src="images/news-02.jpg" alt="News02">
-                                </picture>
-                                <article>
-                                    <a href="#">
-                                        <h4>20+ elements of a modern website design</h4>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt
-                                        ut
-                                        labore
-                                        et dolore magna aliqua.
-                                    </p>
-                                </article>
-                                <div>
-                                    <picture class="profile__picture">
-                                        <img src="images/news-author-06.jpg" width="32" height="32" alt="News06">
-                                    </picture>
-                                    <span>By <a href="#">Greg Gilev</a> · Oct 22, 2020</span>
-                                </div>
-                            </div>
-
-
-
-                            <div class="article">
-                                <picture>
-                                    <img src="images/news-03.jpg" alt="News03">
-                                </picture>
-                                <article>
-                                    <a href="#">
-                                        <h4>How to create a profile page using Appy</h4>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt
-                                        ut
-                                        labore
-                                        et dolore magna aliqua.
-                                    </p>
-                                </article>
-                                <div>
-                                    <picture class="profile__picture">
-                                        <img src="images/news-author-01.jpg" width="32" height="32" alt="News01">
-                                    </picture>
-                                    <span>By <a href="#">Mark Varsano</a> · Oct 22, 2020</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="latest__images--rightColumn">
-                            <div class="article">
-                                <picture>
-                                    <img src="images/news-04.jpg" alt="News04">
-                                </picture>
-                                <article>
-                                    <a href="#">
-                                        <h4>What to look for in a digital portfolio</h4>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt
-                                        ut
-                                        labore
-                                        et dolore magna aliqua.
-                                    </p>
-                                </article>
-                                <div>
-                                    <picture class="profile__picture">
-                                        <img src="images/news-author-03.jpg" width="32" height="32" alt="News03">
-                                    </picture>
-                                    <span>By <a href="#">Lisa Allison</a> · Oct 22, 2020</span>
-                                </div>
-                            </div>
-
-
-                            <div class="article">
-                                <picture>
-                                    <img src="images/news-05.jpg" alt="News05">
-                                </picture>
-                                <article>
-                                    <a href="#">
-                                        <h4>Why your customers needs a responsive website</h4>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt
-                                        ut
-                                        labore
-                                        et dolore magna aliqua.
-                                    </p>
-                                </article>
-                                <div>
-                                    <picture class="profile__picture">
-                                        <img src="images/news-author-04.jpg" width="32" height="32" alt="News04">
-                                    </picture>
-                                    <span>By <a href="#">Mary Champ</a> · Oct 22, 2020</span>
-                                </div>
-                            </div>
-
-
-                            <div class="article">
-                                <picture>
-                                    <img src="images/news-06.jpg" alt="News06">
-                                </picture>
-                                <article>
-                                    <a href="#">
-                                        <h4>Launch lessons: the creators of Intrusive Inc.</h4>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt
-                                        ut
-                                        labore
-                                        et dolore magna aliqua.
-                                    </p>
-                                </article>
-                                <div>
-                                    <picture class="profile__picture">
-                                        <img src="images/news-author-05.jpg" width="32" height="32" alt="News05">
-                                    </picture>
-                                    <span>By <a href="#">Yuri Lapko</a> · Oct 22, 2020</span>
-                                </div>
-                            </div>
-                        </div>
+                    <div>
+                        <button class="button__article">See previous articles
+                            <svg class="button__arrow af ub fr sx" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <path class="cx de" d="M14.7 9.3l-1.4-1.4L9 12.2V0H7v12.2L2.7 7.9 1.3 9.3 8 16z"></path>
+                            </svg>
+                        </button>
                     </div>
                 </div>
 
                 <aside class="s2rightContainer">
                     <div class="popular">
                         <h4>Popular on Simple</h4>
-
                         <ul>
                             <li>
                                 <div>
@@ -365,7 +379,6 @@
                     </div>
                 </aside>
             </div>
-            <button>See Previous articles</button>
         </section>
     </main>
 

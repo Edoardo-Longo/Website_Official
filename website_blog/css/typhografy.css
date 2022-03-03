@@ -23,14 +23,7 @@
   font-size: 1.6rem;
 }
 
-/*inizio-section2----------*/
-
-article>p {
-  color: white;
-}
-
 .block__title>span {
-  box-sizing: border-box;
   font-size: 1.8rem;
   color: white;
   font-weight: 700;
@@ -41,7 +34,11 @@ article>p {
   color: white;
 }
 
-/*inizio-section3*/
+/*inizio-section2----------*/
+
+article>p {
+  color: white;
+}
 
 .latest__title>h4 {
   font-size: 4.208rem;

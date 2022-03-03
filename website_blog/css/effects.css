@@ -25,3 +25,8 @@ ul {
 .title>a:hover {
   text-decoration: underline white;
 }
+
+.button__article:hover {
+  color: white;
+  cursor: pointer;
+}
