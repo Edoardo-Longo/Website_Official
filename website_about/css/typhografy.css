@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
 /*first section*/
 
 .text1 {
-
     font-size: 60px;
     color: white;
     position: absolute;
@@ -26,19 +30,17 @@
 .s2topCard>p {
     align-self: center;
     color: grey;
-    
+}
+
+.s3topCard>p {
+    color: gray;   
 }
 
 /*Sixth section*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-*{
-    font-family: 'Inter', sans-serif;
-}
 
 .s6title>h2{
     align-self: center;
     color: white;
-
 }
 
 .s6title>p{
@@ -50,5 +52,4 @@
     color: #D4D4D8;
     font-size: 1.8rem;
     font-weight: 300;
-
 }
