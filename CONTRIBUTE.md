@@ -11,9 +11,9 @@
 - Pianificazione, organizzazione e documentazione
 - Sviluppo struttura HTML
 - Revisione
-- Pianificazione, organizzazione e struttura CSS <-- Siamo qui
+- Pianificazione, organizzazione e struttura CSS
 - Sviluppo struttura CSS
-- Revisione
+- Revisione <-- Siamo qui
 - Release
 
 ## ORGANIZZAZIONE:
@@ -63,8 +63,6 @@ Refactor: commit -m "ref: refactoring"
 # CSS
 
 Il primo obiettivo è la struttura CSS, ordinare i blocchi nello spazio, niente focus sui dettagli e niente overworking.
-
-# CSS
 
 # Organizzazione
 
