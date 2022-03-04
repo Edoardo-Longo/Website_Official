@@ -79,3 +79,33 @@ img[src="./images/logo.svg"] {
     background-color: #3abab4;
     margin-top: 1rem;
 }
+
+/*fine-first-container------*/
+
+/*inizio-griglia----*/
+.grid {
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 2;
+    grid-template-areas: 
+    "logo logo logo logo"
+    "logo logo logo logo";
+    justify-content: center;
+    gap: 1rem;
+}
+
+.grid>div {
+    width: 22rem;
+    height: 9.6rem;
+    border: 1px solid #6e6e76;
+    display: grid;
+    justify-items:center;
+    align-items: center;
+
+}
+
+.grid>div>img {
+    fill: #6e6e76;
+}
+
+/*fine griglia-----*/
