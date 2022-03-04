@@ -1,0 +1,82 @@
+body {
+    background-color: #1d1d20;
+}
+
+
+.padding {
+    height: max-content;
+    width: 100%;
+    /*  border: 1px solid #2e2e33; */
+    padding: 0% 6%;
+    /* border-top:none;
+    border-right:none;
+    border-left:none; */
+}
+
+header {
+    height: min-content;
+}
+
+footer {
+
+    color: white;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+section {
+    border-left: none;
+    border-right: none;
+    background-color: #1d1d20;
+    max-height: max-content;
+    min-height: min-content;
+
+}
+
+
+
+h1 {
+    font-size: 6rem;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+li {
+    list-style: none;
+    font-size: 1.6rem;
+    line-height: 2;
+}
