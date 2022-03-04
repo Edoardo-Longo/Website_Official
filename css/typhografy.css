@@ -5,3 +5,16 @@
 .topbar__rightSide>button {
     color: white;
 }
+/*fine-topbar-------------*/
+.title__container>h1{
+    color: white;
+    line-height: 1.2;
+}
+.title__container>h5{
+    color: #a2a2a8;
+    line-height: 1.2;
+    font-weight: lighter;
+}
+.title__container--button{
+    color:white;
+}
