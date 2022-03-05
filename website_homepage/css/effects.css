@@ -88,6 +88,7 @@
 /*-----------END OF SECOND SECTION ----------*/
 /*----------------THIRD SECTION -------------*/
 
+
 .button__form>button:hover {
   background-color: #e2ebeb3b;
 }
@@ -98,8 +99,6 @@
 
 
 /* -----------FOOTER ----------*/
-footer>button {
+.buttons__logo:hover{
   cursor: pointer;
-
-
 }
