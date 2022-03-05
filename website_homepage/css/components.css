@@ -30,6 +30,7 @@
 
 
 .logo {
+    align-self: center;
     width: 3.6rem;
     height: 3.6rem;
 
@@ -346,12 +347,6 @@ transform: translate(-50%, -50%);
     border-radius: 5px;
 }
 
-.button__icon {
-    height: 1.6rem;
-    width: 1.6rem;
-    fill: #f4f4f583;
-    align-self: center;
-}
 
 .videoDescription {
     height: 23rem;
@@ -617,25 +612,19 @@ label>button {
 
 /* --- footer --- */
 
-.social_f {
+.buttons__logo {
 
-    background-color: #1d1d20;
+    background-color: #2f3237;
     border: none;
+    height: 3.6rem;
+    width: 3.6rem;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
 }
 
-.social_t {
-
-    background-color: #1d1d20;
-    border: none;
-}
-
-.social_i {
-    background-color: #1d1d20;
-    border: none;
-}
-
-.social_l {
-
-    background-color: #1d1d20;
-    border: none;
+.buttons__container{
+    display: flex;
+    gap:5px;
+    margin-bottom: 5px;
 }

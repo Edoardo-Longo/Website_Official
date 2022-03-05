@@ -84,10 +84,11 @@
   fill: #3abab4;
 
 }
+
 /*-----------END OF SECOND SECTION ----------*/
 /*----------------THIRD SECTION -------------*/
 
-.button_form>button:hover{
+.button_form>button:hover {
   background-color: #e2ebeb3b;
 }
 
@@ -97,10 +98,8 @@
 
 
 /* -----------FOOTER ----------*/
-footer>button { 
+.buttons__logo:hover{
   cursor: pointer;
- 
-  
-  }
 
- 
+
+}
