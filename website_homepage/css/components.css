@@ -239,23 +239,41 @@ transform: translate(-50%, -50%);
     margin-top: 8rem;
     height: max-content;
     text-align: center;
+    overflow: hidden;
+}
+
+.s2picture-trail{
+    width: 200vw;
+    height: 47rem;
+    margin: 7rem 0px;
+    gap: 3rem;
+    border: 1px solid green;
+    position: relative;
 }
 
 .s2picture {
-
+    display: flex;
+    width: 200vw;
     height: max-content;
-    gap: 2rem;
-    margin: 7rem 0px;
+    gap: 3rem;
+    position: absolute;
+    top:50%;
+    left:25%;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+  
+
+    
 }
 
 
 .s2picture>picture:nth-child(2) {
+border: 1px solid red;
 
-    background-image: url("../img/carousel-item-02.jpg");
-    height: 406px;
-    width: 472px;
-    background-position: center;
-    background-size: cover;
+    height: max-content;
+    width: max-content;
+    aspect-ratio: 540/460 ;
+ 
     position: relative;
 }
 
@@ -584,6 +602,11 @@ transform: translate(-50%, -50%);
 /*--------------- SEVENTH SECTION --------------- */
 .infobox {
     margin: 3rem 0rem;
+    gap:1rem;
+}
+
+.medias7{
+    gap:1rem;
 }
 
 .infobox__square {

@@ -4,7 +4,7 @@
     /*---------------TOPBAR-------------*/
 
     .topbar__leftcontainer {
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .topbar__leftcontainer>a {
@@ -48,11 +48,18 @@
         gap: 0.8rem;
         justify-content: center;
         border: 1px solid red;
-        padding: 7rem;
+        padding: 3rem;
         margin: 3.25rem;
 
     }
 
+    .block__info{
+
+        height: 14.4rem;
+        width: 22.1rem;
+
+    }
+    
     /*--------------- END OF FIRST SECTION-------------*/
     /*--------------- SECOND SECTION-------------*/
 
@@ -65,7 +72,9 @@
     }
 
     .s2picture {
-        border: 1px solid rgb(0, 4, 255); /*Da rivedere*/
+        border: 1px solid rgb(0, 4, 255);
+        height: max-content; /*Da rivedere*/
+        width: 200vw;
   
     }
     /*--------------- END OF SECOND SECTION-------------*/
@@ -76,6 +85,24 @@
         flex-wrap: wrap;
     }
 
+    .videoDescription{
+        height: 150px;
+        width: max-content;
+
+    }
+
+    
+  .videoDescription>img{
+        height: 150px;
+        width: auto;
+
+    }
+
+    .videoDescription>div>a{
+        font-size:1.3rem ;
+
+    }
+    
     .button_form{
         display: flex;
         flex-direction: row;
@@ -118,9 +145,10 @@
     /*------------------ FOURTH SECTION-------------*/
     .s4card{
         border:1px solid violet;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        gap:2.5rem;
     }
     .s4title{
         font-size: 4.5rem;
@@ -129,7 +157,40 @@
     .s4subtitle{
         font-size: 2rem;
     }
+    .iphoneContainer-media {
+        height: 441px;
+        width: 225px;
+        position: relative;
+        border: 1px solid red;
+    }
 
+    .iphoneScreen-media {
+        height:  421px;
+        width: 225px;
+        position: absolute;
+        z-index: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-position: center;
+        background-size: contain;
+        border-radius: 50px;
+    }
+
+    .iphoneMockup-media {
+  
+        height:  441px;
+        width: 225px;
+        background-image: url("../img/iphone-mockup.png");
+        background-size: contain;
+        background-position: center;
+        position:relative;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: trasparent;
+    }
     
     /*--------------- END OF FOURTH SECTION-------------*/
     /*------------------ FIFTH SECTION-------------*/
@@ -145,7 +206,7 @@
         display: flex;
         flex-direction: column;
     
-        width: 28rem;
+        width: 25rem;
         height: 29.5rem;
         
         border: 1px solid white;
@@ -163,7 +224,7 @@
         gap:1rem;
     }
     .box {
-        width: 28rem;
+        width: 25rem;
         height: 29.5rem;
         background-color: #2e2e33;
         padding: 2.5rem;
@@ -278,7 +339,7 @@
         display: flex;
         width: 100%;
         height: 15rem;
-        padding: 3.5rem 5rem;
+        padding: 3.5rem 1rem;
         background-color: #2e2e33;
         justify-content: space-between;
     }
@@ -287,10 +348,13 @@
         gap: 2rem;
         justify-content: space-between;
     }
+    .s7card__endbar>h4{
+        font-size: 1.5rem;
+    }
     
     label>input {
         
-        padding: 0.6rem 1.5rem;
+        padding: 0.3rem 0.1rem;
         border: none;
         background-color: #2e2e33;
         border-radius: 4px;
