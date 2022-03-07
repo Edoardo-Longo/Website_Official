@@ -27,8 +27,7 @@
         margin-top: 5vh;
     }
 
-    .card_container--left {
-
+    .card__container--left{
         display: flex;
         flex-direction: column;
         justify-content: center;

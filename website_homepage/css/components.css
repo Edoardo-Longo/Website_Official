@@ -9,7 +9,7 @@
     gap: 4rem;
 }
 
-.topbar_button {
+.topbar__button {
     height: 4rem;
     width: 13.7rem;
     padding: 0.8rem 1.6rem;
@@ -151,13 +151,13 @@
 }
 
 .iphoneMockup {
-  
+
     height: 654px;
     width: 340px;
     background-image: url("../img/iphone-mockup.png");
     background-size: contain;
     background-position: center;
-    position:relative;
+    position: relative;
     z-index: 1;
     top: 50%;
     left: 50%;
@@ -178,18 +178,19 @@
     border-radius: 50px;
 }
 
-.one{
+.one {
     background-image: url("../img/mockup-image-01.jpg");
 }
 
-.iphoneScreen>img{
-position:absolute;
-z-index: 2;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+.iphoneScreen>img {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
+
 .cardNumber {
     gap: 1rem;
 }
@@ -377,11 +378,11 @@ border: 1px solid red;
 
 }
 
-.button_form {
+.button__form {
     gap: 5px;
 }
 
-.button_form>button {
+.button__form>button {
     display: flex;
     padding: 1.2rem 0.5rem;
     text-align: left;
@@ -426,12 +427,12 @@ border: 1px solid red;
 .three-media{
    
     background-image: url("../img/mockup-image-03.jpg");
-    
+
 }
 .four-media{
    
     background-image: url("../img/mockup-image-04.jpg");
-    
+
 }
 
 .s4card {
@@ -699,8 +700,8 @@ label>button {
 
 /* --- footer --- */
 
-.buttons__logo {
 
+.buttons__logo {
     background-color: #2f3237;
     border: none;
     height: 3.6rem;
