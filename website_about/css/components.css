@@ -83,6 +83,9 @@
     font-weight: bold;
     align-self: center;
 }
+/*----------------- END OF TOP BAR-----------------*/
+/*----------------- FIRST SECTION -----------------*/
+
 
 /*-------------- END OF TOPBAR -------------- */
 /*----------------- FIRST SECTION -----------------*/
@@ -155,7 +158,6 @@
     justify-content: center;
     gap: 1rem;
 }
-
 /*----------------- END OF SECOND SECTION-----------------*/
 /*----------------- START THIRD SECTION -----------------*/
 .s3section {
