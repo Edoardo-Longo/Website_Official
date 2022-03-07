@@ -14,31 +14,34 @@
 <body>
     <img src="./images/hero-bg.jpg" alt="bg" class="bg">
     <!-- Topbar -->
-    <header class="header">
-        <nav class="topbar">
-            <div class="topbar__leftcontainer">
-                <picture>
-                    <div class="logo">
-                        <img src="" alt="">
-                    </div>
-                </picture>
-                <a href="">About</a>
-                <a href="">Blog</a>
-                <a href="">Testimonials</a>
-                <a href="">Resources</a>
-            </div>
-            <div class="topbar__rightcontainer">
-                <div class="switchbtn">
-                    <div>
-                    </div>
-                    <div>
-                        <div id="switchitem">
-                        </div>
-                    </div>
+    <header class="padding topbar flex-row-nowrap justify-between">
+        <div class="topbar__leftcontainer flex-row-nowrap">
+            <!--Logo-->
+            <img class="logo" src="svg/logo.svg" alt="">
+            <!--Logo-->
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Resources</a>
+        </div>
+        <div class="topbar__rightcontainer w-max-content flex-row-nowrap justify-around">
+            <div class="circlebg"></div>
+
+            <div class="
+            rightcontainer__switchbtn justify-between ">
+                <div></div>
+                <div>
+                    <div class="rightcontainer__switchitem topbar_switch"></div>
+
                 </div>
-                <button class="request_btn">Request code</button>
             </div>
-        </nav>
+            <a href="https://www.google.it" target="_blank">
+                <button class="topbar__button">Request code</button>
+            </a>
+
+        </div> <!-- end of topbar -->
+
+
     </header>
 
     <!-- end of topbar -->
@@ -392,94 +395,116 @@
 
     <!-------footer--------------------------------------------------------->
 
-    <div class="footer">
-        <div class="logo__footer">
-            <img src="#" alt="logo">
+    <footer>
+        <div class="s7list flex-row-nowrap justify-evenly ">
+
+            <!--Logo-->
+            <img class="logo" src="svg/logo.svg" alt="">
+            <!--Logo-->
+
+            <div class="s7list__block">
+                <p> PRODUCTS</p>
+                <ul>
+                    <li>
+                        <a href=""> drag </a>
+                    </li>
+                    <li>
+                        <a href=""> visual </a>
+                    </li>
+                    <li>
+                        <a href=""> easy </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="s7list__block">
+                <p> <a href=""> RESOURCES </a></p>
+                <ul>
+                    <li>
+                        <a href=""> industries </a>
+                    </li>
+                    <li>
+                        <a href=""> use cases</a>
+                    </li>
+                    <li>
+                        <a href=""> blog </a>
+                    </li>
+                    <li>
+                        <a href=""> online </a>
+                    </li>
+                    <li>
+                        <a href=""> nostrud </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="s7list__block">
+                <p> <a href=""> COMPANY </a></p>
+                <ul>
+                    <li>
+                        <a href=""> diversity </a>
+                    </li>
+                    <li>
+                        <a href=""> about us </a>
+                    </li>
+                    <li>
+                        <a href=""> press </a>
+                    </li>
+                    <li>
+                        <a href=""> customer </a>
+                    </li>
+                    <li>
+                        <a href=""> online </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="s7list__block">
+                <p> <a href=""> SUPPORT</a></p>
+                <ul>
+                    <li>
+                        <a href=""> documentation </a>
+                    </li>
+                    <li>
+                        <a href=""> tutorial </a>
+                    </li>
+                    <li>
+                        <a href=""> webinairs </a>
+                    </li>
+                    <li>
+                        <a href=""> open </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="products">
-            <h3>Products</h3>
-            <ul>
-                <li>
-                    <a href="#">Drag and Drop</a>
-                </li>
-                <li>
-                    <a href="#">Visual Studio X</a>
-                </li>
-                <li>
-                    <a href="#">Easy Content</a>
-                </li>
-            </ul>
+
+        <div class="policy flex-row-nowrap justify-between align-center">
+
+            <p> 2020 appy. all rights reserved</p>
+            <p> terms privacy policy </p>
+            <!-- social button-->
+            <div class="buttons__container">
+
+                <a class="buttons__logo" href="" target="">
+                    <embed src="svg/twitter.svg" type="image/svg+xml" />
+                </a>
+
+                <a class="buttons__logo" href="" target="">
+                    <embed src="svg/github.svg" type="image/svg+xml">
+                </a>
+
+                <a class="buttons__logo" href="" target="">
+                    <embed src="svg/facebook.svg" type="image/svg+xml">
+                </a>
+
+                <a class="buttons__logo" href="" target="">
+                    <embed src="svg/instagram.svg" type="image/svg+xml">
+                </a>
+
+                <a class="buttons__logo" href="" target="">
+                    <embed src="svg/linkedin.svg" type="image/svg+xml">
+
+                </a>
+            </div>
         </div>
-
-
-        <div class="resources">
-            <h3>Resources</h3>
-            <ul>
-                <li>
-                    <a href="#">Industries and tools</a>
-                </li>
-                <li>
-                    <a href="#">Use cases</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Online events</a>
-                </li>
-                <li>
-                    <a href="#">Nostrud exercitation</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="company">
-            <h3>Company</h3>
-            <ul>
-                <li>
-                    <a href="#">Diversity & inclusion</a>
-                </li>
-                <li>
-                    <a href="#">About us</a>
-                </li>
-                <li>
-                    <a href="#">Press</a>
-                </li>
-                <li>
-                    <a href="#">Customer stories</a>
-                </li>
-                <li>
-                    <a href="#">Online communities</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="support">
-            <h3>Support</h3>
-            <ul>
-                <li>
-                    <a href="#">Documentation</a>
-                </li>
-                <li>
-                    <a href="#">Tutorials & guides</a>
-                </li>
-                <li>
-                    <a href="#">Webinars</a>
-                </li>
-                <li>
-                    <a href="#">Open-source</a>
-                </li>
-
-            </ul>
-        </div>
-
-        <div class="copyrights">© 2020 Appy. All rights reserved.</div>
-
-        <div><a href="#">Terms</a><a href="#"> Privacy Policy</a></div>
-
-        <div class="social"></div>
-
-    </div>
+    </footer>
 </body>
 
 </html>
