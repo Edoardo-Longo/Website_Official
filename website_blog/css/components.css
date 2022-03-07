@@ -295,3 +295,17 @@ li>div {
   height: 1.6rem;
   fill: #d4d4d8;
 }
+
+.profile__picture--container {
+  height: max-content;
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.profile__picture--container>span {
+  align-self: center;
+}
