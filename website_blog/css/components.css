@@ -1,5 +1,5 @@
 body {
-  padding: 0 10%;
+  padding: 0 20%;
   background-color: rgb(29, 29, 32);
   position: relative;
   z-index: 0;
@@ -153,33 +153,52 @@ body {
   margin-bottom: 1rem;
 }
 
+.block__bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 0.2;
+}
+
+.block__bg:hover {
+  transition: 0.7s;
+  opacity: 0.6;
+}
+
 .green {
-  background-color: #3ABAB4;
-  background-image: url("./images/related-post-03.jpg");
+  background-color: #3abab4;
   background-position: center;
   background-size: contain;
+  position: relative;
+  z-index: 0;
 }
 
 .purple {
-  background-color: #9F7AEA;
-  background-image: url("./images/related-post-04.jpg");
+  background-color: #9f7aea;
   background-position: center;
   background-size: contain;
+  position: relative;
+  z-index: 0;
 }
 
 .blu {
   background-color: #667EEA;
-  background-image: url("./images/related-post-05.jpg");
   background-position: center;
   background-size: contain;
+  position: relative;
+  z-index: 0;
 }
 
 .red {
 
   background-color: #ED64A6;
-  background-image: url("./images/related-post-06.jpg");
   background-position: center;
   background-size: contain;
+  position: relative;
+  z-index: 0;
 }
 
 /*----------fine section 1------------*/
