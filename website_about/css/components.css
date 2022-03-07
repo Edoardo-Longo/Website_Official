@@ -1,79 +1,81 @@
-/*----------------- TOP BAR-----------------*/
-
+/*-------------- TOPBAR -------------- */
 .topbar {
-    background-color: rgba(0, 0, 0, 0.637);
-    border: 1px solid rgb(9, 99, 110);
+    align-items: center;
     height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .topbar__leftcontainer {
     height: 100%;
-    border: 1px solid blue;
-    margin-left: 5vw;
-    display: flex;
-    gap: 40px;
+    gap: 4rem;
 }
+
+.topbar__button {
+    height: 4rem;
+    width: 13.7rem;
+    padding: 0.8rem 1.6rem;
+    outline: none;
+    background-color: #3abab4;
+    border: 1px;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    margin-top: 2rem;
+
+}
+
 
 .topbar__rightcontainer {
     height: 100%;
-    border: 1px solid rgb(255, 8, 0);
-    width: max-content;
-    display: flex;
-    gap: 15px;
-    justify-content: space-around;
-    margin-right: 5vw;
+    gap: 1.5rem;
 }
 
 
+.logo {
+    width: 3.6rem;
+    height: 3.6rem;
 
+}
 
-
-.switchbtn {
-    height: 25px;
-    width: 45px;
-    border-radius: 20px;
+.rightcontainer__switchbtn {
+    height: 2.5rem;
+    width: 4.5rem;
+    border-radius: 2rem;
     background-color: #3abab4;
     display: flex;
     flex-direction: row-reverse;
     padding: 3px;
-    justify-content: space-between;
     align-self: center;
 }
 
-.switchbtn>div:first-child {
+.rightcontainer__switchbtn>div:first-child {
     background-color: #39393f;
-    height: 20px;
-    width: 20px;
+    height: 2rem;
+    width: 2rem;
     align-self: center;
     border-radius: 50%;
 }
 
-.switchbtn>div:last-child {
+.rightcontainer__switchbtn>div:last-child {
     background-color: #80d2ce;
-    height: 15px;
-    width: 15px;
+    height: 1.5rem;
+    width: 1.5rem;
     align-self: center;
     border-radius: 50%;
     display: flex;
     justify-content: space-around;
 }
 
-#switchitem {
-    height: 7px;
-    width: 7px;
+.rightcontainer__switchitem {
+    height: 0.7rem;
+    width: 0.7rem;
     background-color: aliceblue;
     align-self: center;
     border-radius: 50%;
 
 }
 
-.request__btn {
+.rightcontainer__requestBtn {
     height: max-content;
-    padding: 12px 16px;
-    font-size: 1rem;
+    padding: 1.2rem 1.6rem;
     color: #fffffd;
     background-color: #3abab4;
     border: none;
@@ -82,6 +84,10 @@
     align-self: center;
 }
 /*----------------- END OF TOP BAR-----------------*/
+/*----------------- FIRST SECTION -----------------*/
+
+
+/*-------------- END OF TOPBAR -------------- */
 /*----------------- FIRST SECTION -----------------*/
 
 
@@ -159,7 +165,7 @@
     flex-wrap: wrap;
 }
 
-.s3card__top{
+.s3card__top {
     height: max-content;
     width: 100%;
     border: 1px solid aqua;
@@ -169,14 +175,14 @@
     align-items: center;
 }
 
-.s3card__central{
+.s3card__central {
     display: flex;
     align-items: unset;
-    gap: 10rem; 
-    
+    gap: 10rem;
+
 }
 
-.s3card__central--list{
+.s3card__central--list {
     height: max-content;
     width: max-content;
     border: 1px solid aqua;
@@ -186,14 +192,14 @@
 
 .s3card__bottom--container {
     height: max-content;
-    width:100%;
+    width: 100%;
     border: 1px solid aqua;
     display: flexbox;
     flex-wrap: wrap;
     flex-flow: row;
-    gap: 20px; 
-    
-   
+    gap: 20px;
+
+
 }
 
 
@@ -212,9 +218,9 @@
 
 }
 
-.container__box{
+.container__box {
 
-background-color: rgba(82, 80, 80, 0.39);
+    background-color: rgba(82, 80, 80, 0.39);
 }
 
 
@@ -222,56 +228,107 @@ background-color: rgba(82, 80, 80, 0.39);
 /*----------------- START FOURTH SECTION -----------------*/
 
 
+.s4 {
 
+    display: flex;
+    gap: 5rem;
+    flex-flow: column;
+}
 
 .s4topCard {
     height: max-content;
-    width: 100%;
-    margin-left: 35%;
+    width: 100vw;
     border: 1px solid green;
     display: flex;
     flex-direction: column;
     justify-items: center;
-   
     
+
+
 }
 
 
 
 
-.s4cent {
-
+.s4bottomCard {
+  width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
-   flex-direction: row;
-    gap: 40 rem;
+    flex-direction: row;
+    border: 1px solid yellow;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .s4list {
-    height: max-content;
-    width: max-content;
-    border: 1px solid green;
+    height: 20rem;
+    width: 18rem;
+    border: 1px solid red;
     color: grey;
+    display: flex;
+    align-self: flex-start; 
+    margin-bottom: 20rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 
 .s4careersBox {
-    height:max-content;
-    width: fit max-content;
+    height: max-content;
+    width:fit-content;
     border: 1px solid violet;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     color: whitesmoke;
     font-size: 80%;
+    justify-content: space-around;
+    gap: 2rem;
+    
+
 }
 
 .s4careersBox>p {
 
-color: grey;
+    color: grey;
 }
 
+.s4careersBox__container--img1 {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+
+}
+
+.s4careersBox__container--img2 {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    
+}
+
+.container--img {
+
+    height: 240px;
+    width: 240px;
+    position: relative;
+    z-index: 1;
+}
+
+.container--img>img {
+
+    position: relative;
+    z-index: 0;
+    mask-image: linear-gradient(to top, transparent 5%, black 95%);
+
+    
+
+}
 /*----------------- END OF FOURTH SECTION-----------------*/
 /*----------------- START FIFTH SECTION -----------------*/
 
@@ -283,12 +340,13 @@ color: grey;
     flex-wrap: wrap;
     flex-flow: column;
     justify-content: center;
-    
+    align-items: center;
+
 }
 
 .s5upperCard>h2 {
 
-color: white;
+    color: white;
 }
 
 .s5description {
@@ -355,11 +413,25 @@ color: white;
 /*----------------- END OF SIXTH SECTION-----------------*/
 /*----------------- START ENDING SECTION -----------------*/
 
-.fmain {
-    width: max-content;
-    height: max-content;
-    border: 1px solid salmon;
-    display: flex;
-    flex-direction: row-reverse;
-    
+.social__f {
+
+    background-color: #1d1d20;
+    border: none;
+}
+
+.social__t {
+
+    background-color: #1d1d20;
+    border: none;
+}
+
+.social__i {
+    background-color: #1d1d20;
+    border: none;
+}
+
+.social__l {
+
+    background-color: #1d1d20;
+    border: none;
 }
