@@ -27,7 +27,7 @@ body {
 /* Allows percentage-based heights */
 html,
 body {
-    height: 100%;
+    height: max-content;
 }
 
 /* Removes the unwanted ability to overflow content */
