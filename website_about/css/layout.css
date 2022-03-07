@@ -18,42 +18,56 @@ section {
     min-height: min-content;
 }
 
-h1{
+h1 {
     font-size: 6rem;
+    font-family: 'Red Hat Display', sans-serif;
+    ;
     color: white;
 }
-h2{
+
+h2 {
     font-size: 5rem;
 }
-h3{
+
+h3 {
     font-size: 4rem;
 }
-h4{
+
+h4 {
     font-size: 3rem;
 }
 
-h5{
+h5 {
     font-size: 2rem;
 }
 
 h6 {
     font-size: 1rem;
-    color: white;
 }
 
-p{
-    font-size: 2rem;
+p {
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
 }
 
-a{
-    font-size: 2rem; 
+a {
+    font-size: 1.6rem;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
 }
 
-button{
+button {
     font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
 
     background-color: rgb(92, 92, 92);
+}
+
+
+li {
+    list-style: none;
 }

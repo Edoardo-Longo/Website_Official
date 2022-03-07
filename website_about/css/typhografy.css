@@ -1,11 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/*-------------- TOPBAR -------------- */
 
-*{
-    font-family: 'Inter', sans-serif;
+
+.topbar__leftcontainer>a {
+    text-decoration: none;
+    color: rgb(212 212 216);
+    font-weight: bold;
+    align-self: center;
+
 }
-/*first section*/
 
-.text1 {
+.topbar__button {
+    color: white;
+    font-weight: 800;
+
+}
+
+/*-------------- END OF TOPBAR -------------- */
+
+
+/*------------ TOP BAR --------------*/
+/*------------ END OF TOP BAR --------------*/
+
+
+/*----------------- FIRST SECTION -----------------*/
+.s1title {
     font-size: 60px;
     color: white;
     position: absolute;
@@ -15,12 +33,12 @@
     z-index: 2;
 }
 
-.text-2 {
+.s1title>span {
     color: #3abab4;
 }
 
-/*end first section*/
-/*second section*/
+/*----------------- END OF FIRST SECTION -----------------*/
+/*----------------- SECOND SECTION -----------------*/
 
 .s2topCard>h1 {
     align-self: center;
@@ -33,24 +51,77 @@
 }
 
 .s3topCard>p {
-    color: gray;   
+    color: gray;
 }
+
+/*-----------END OF SECOND SECTION-----------------*/
+/*----------------- FOURTH SECTION -----------------*/
+.s4topCard__title {
+    font-size: 5rem;
+    align-self: center;
+}
+
+.s4topCard__description {
+
+    color: grey;
+    align-self: center;
+}
+
+
+.s4list>h3 {
+
+    color: white;
+    font-size: 1.8rem;
+    align-self: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.container--img>p {
+
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+transform: translate(-50%, -50%);
+    z-index: 2;
+    font-family: 'Red Hat Display', sans-serif ;
+    font-weight: bold;
+}
+
+.container--img>em {
+
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+transform: translate(-50%, -50%);
+    z-index: 2;
+    font-family: 'Red Hat Display', sans-serif ;
+    font-size: 1.5rem;
+}
+
+li>a {
+
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+
+/*------END OF FORUTH SECTION------*/
 
 
 
 /*Sixth section*/
 
-.s6title>h2{
+.s6title>h2 {
     align-self: center;
     color: white;
 }
 
-.s6title>p{
+.s6title>p {
     align-self: center;
     color: #A2A2A8;
 }
 
-.s6img>.profile__container>.name>h4{
+.s6img>.profile__container>.name>h4 {
     color: #D4D4D8;
     font-size: 1.8rem;
     font-weight: 300;
@@ -63,4 +134,13 @@
     font-size: 14px;
     color: grey;
 
+}
+
+
+
+
+.s7list__block>ul {
+    color: #A2A2A8;
+    font-size: 1.4rem;
+    line-height: 1.4;
 }
