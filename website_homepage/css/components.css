@@ -19,6 +19,8 @@
     border-radius: 0.25rem;
     border-width: 1px;
     margin-top: 2rem;
+    position: relative;
+    z-index: 1;
 
 }
 
@@ -26,6 +28,8 @@
 .topbar__rightcontainer {
     height: 100%;
     gap: 1.5rem;
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -45,6 +49,8 @@
     flex-direction: row-reverse;
     padding: 3px;
     align-self: center;
+    position: relative;
+    z-index: 1;
 }
 
 .rightcontainer__switchbtn>div:first-child {
@@ -88,26 +94,34 @@
 /*-------------- END OF TOPBAR -------------- */
 /*-------------- FIRST SECTION -------------- */
 
-
+.card{
+    border: 1px solid blue;
+}
 .card__container {
     height: max-content;
     gap: 2rem;
     margin-top: 10vh;
-
+    border: 1px solid violet;
+  
 
 }
 
-.card__container--left {
+.card_container--left {
+    border: 1px solid orange;
     gap: 20px;
-
+    flex-basis: content;
+        flex-grow: 1;
+   
 }
 
 .container__left--title {
-    width: fit-content;
     display: flex;
     flex-direction: column;
     margin-top: 120px;
-
+    border: 1px solid green;
+    flex-basis: content;
+        flex-grow: 2;
+  
 }
 
 .container__left--description {
@@ -115,13 +129,25 @@
     width: max-content;
     display: flex;
     flex-direction: column;
+    border: 1px solid tomato;
+}
+.circlebg{
+   
+    border-radius: 50%;
+    box-shadow:20rem 20rem 20rem 20rem  #223c3d;
+    position: absolute;
+    top:0%;
+    right: 30%;
+    transform: translate(-80%, -80%);
+    z-index: 0;
+    
 }
 
 .iphoneContainer {
     height: 654px;
     width: 340px;
-
     position: relative;
+    z-index: 1;
 }
 
 .iphoneMockup {
@@ -186,8 +212,8 @@
     cursor: pointer;
 }
 
-.list {
-    width: 22%;
+.lists1 {
+    width: max-content;
     font-size: 2rem;
     color: #9a9a9b;
     position: relative;
@@ -208,6 +234,7 @@
 
     gap: 1.9rem;
     margin: 7.5rem 0rem;
+    
 }
 
 
@@ -217,9 +244,11 @@
     width: 25.1rem;
     display: inline-block;
     text-align: center;
-    padding: 3.2rem 5.5rem;
-    background-color: #2e2e33;
 
+    background-color: #2e2e33;
+    display: flex;
+    flex-direction: column;
+    justify-content:center
 }
 
 /*----------- END OF FIRST SECTION ---------- */
@@ -229,23 +258,41 @@
     margin-top: 8rem;
     height: max-content;
     text-align: center;
+    overflow: hidden;
+}
+
+.s2picture-trail{
+    width: 200vw;
+    height: 47rem;
+    margin: 7rem 0px;
+    gap: 3rem;
+    border: 1px solid green;
+    position: relative;
 }
 
 .s2picture {
-
+    display: flex;
+    width: 200vw;
     height: max-content;
-    gap: 2rem;
-    margin: 7rem 0px;
+    gap: 3rem;
+    position: absolute;
+    top:50%;
+    left:25%;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+  
+
+    
 }
 
 
 .s2picture>picture:nth-child(2) {
+border: 1px solid red;
 
-    background-image: url("../img/carousel-item-02.jpg");
-    height: 40.6rem;
-    width: 47.2rem;
-    background-position: center;
-    background-size: contain;
+    height: max-content;
+    width: max-content;
+    aspect-ratio: 540/460 ;
+ 
     position: relative;
 }
 
@@ -319,7 +366,7 @@
 }
 
 .s3middle {
-
+    border: 1px solid green;
     height: max-content;
     margin-top: 3rem;
 }
@@ -371,20 +418,19 @@
 /*-------------- END THIRD SECTION -------------- */
 /*---------------FOURTH SECTION ----------------- */
 
-.two {
-
+.two-media{
+   
     background-image: url("../img/mockup-image-02.jpg");
 
 }
 
-.three {
-
+.three-media{
+   
     background-image: url("../img/mockup-image-03.jpg");
 
 }
-
-.four {
-
+.four-media{
+   
     background-image: url("../img/mockup-image-04.jpg");
 
 }
@@ -409,16 +455,56 @@
     font-weight: bold;
 }
 
+.iphoneContainer-media {
+    height: 654px;
+    width: 340px;
+    position: relative;
+}
+
+.iphoneMockup-media {
+  
+    height: 654px;
+    width: 340px;
+    background-image: url("../img/iphone-mockup.png");
+    background-size: contain;
+    background-position: center;
+    position:relative;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: trasparent;
+}
+
+.iphoneScreen-media {
+    height: 628px;
+    width: 329px;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px;
+}
 
 /*-------------- END FOURTH SECTION -------------- */
 /*------------------FIFTH SECTION --------------- */
 .s5top {
     margin-top: 8rem;
 }
+.lists5 {
+    width: max-content;
+    font-size: 2rem;
+    color: #9a9a9b;
+    position: relative;
+}
 
 .s5bottom {
     margin-top: 3rem;
     margin-top: 5rem;
+    border: 1px solid yellow;
 }
 
 .box {
@@ -535,6 +621,11 @@
 /*--------------- SEVENTH SECTION --------------- */
 .infobox {
     margin: 3rem 0rem;
+    gap:1rem;
+}
+
+.medias7{
+    gap:1rem;
 }
 
 .infobox__square {
@@ -561,8 +652,8 @@
 }
 
 .s7card {
-    height: 10rem;
-    margin: 10rem 0rem;
+    height: max-content;
+    margin: 5rem 0rem;
 }
 
 .s7card__endbar {

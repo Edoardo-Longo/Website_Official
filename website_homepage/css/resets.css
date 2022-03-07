@@ -26,7 +26,7 @@ html, body {height: 100%;}
 /* Removes the unwanted ability to overflow content */
 img, picture, video, canvas, svg, iframe, object {
     display: block;
-    max-width: 100%;
+   /*  max-width: 100%; */
 }
 
 /*  Removes the standard purple text on visited links and forces the underline to be

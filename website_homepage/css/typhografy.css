@@ -78,6 +78,10 @@ li>span {
     color: #f4f4f5;
 }
 
+.s2title>p {
+    font-size: 2rem;
+    color: #9a9a9b;
+}
 .s2picture__btnLearn {
     color: white;
 }
@@ -94,10 +98,6 @@ li>span {
 /*-------------- END SECOND SECTION -------------- */
 /*----------------- THIRD SECTION --------------- */
 
-.s2title>p {
-    font-size: 2rem;
-    color: #9a9a9b;
-}
 
 .s3top>h1 {
     align-self: center;
