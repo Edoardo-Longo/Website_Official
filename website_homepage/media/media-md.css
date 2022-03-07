@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) and (min-width:576px) {
+@media screen and (max-width:992px) and (min-width:768px) {
     /****************TABLET*****************/
 
     /*---------------TOPBAR-------------*/
@@ -102,11 +102,10 @@
 
     }
     
-    .button_form{
+    .button__form{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        overflow:hidden;
         width: 100%;
         justify-content: center;
         margin-bottom: 2rem;

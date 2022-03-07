@@ -380,6 +380,7 @@ border: 1px solid red;
 
 .button__form {
     gap: 5px;
+    flex-wrap: wrap;
 }
 
 .button__form>button {
