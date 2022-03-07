@@ -39,7 +39,6 @@ svg,
 iframe,
 object {
     display: block;
-    max-width: 100%;
 }
 
 /*  Removes the standard purple text on visited links and forces the underline to be
