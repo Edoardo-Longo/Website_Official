@@ -30,6 +30,7 @@
 
 .s1card__description>a {
   color: white;
+  font-size: 1.6rem;
 }
 
 .s1card__description {
@@ -115,4 +116,9 @@ li>div>span>a:visited {
   color: #A2A2A8;
   font-size: 1.4rem;
   line-height: 1.4;
+}
+
+.policy>p{
+  font-size: 1.4rem;
+  color: #a2a2a8;
 }

@@ -51,10 +51,8 @@ body {
 }
 
 
-.logo {
+.logo--topbar {
   align-self: center;
-  width: 3.6rem;
-  height: 3.6rem;
 
 }
 
@@ -121,6 +119,10 @@ body {
   align-content: space-around;
 }
 
+.s1card__title {
+
+  width: max-content;
+}
 
 .s1card__testimonial {
   height: max-content;
@@ -361,17 +363,16 @@ li>div {
 }
 
 .policy {
-  padding: 0rem 3rem;
-
+  justify-content: space-between;
   height: max-content;
-
+margin-top: 3rem;
 }
 
 .buttons__logo {
   background-color: #2f3237;
   border: none;
-  height: 3.6rem;
-  width: 3.6rem;
+  height: 3.2rem;
+  width: 3.2rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -379,6 +380,10 @@ li>div {
 
 .buttons__container {
   display: flex;
-  gap: 5px;
+  gap: 1rem;
   margin-bottom: 5px;
+}
+
+.logo--footer {
+  align-self: flex-start;
 }
