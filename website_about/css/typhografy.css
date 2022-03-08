@@ -76,6 +76,11 @@
     margin-bottom: 1.5rem;
 }
 
+.s4list>a {
+
+    font-size: medium;
+}
+
 .container--img>p {
 
     position: absolute;
