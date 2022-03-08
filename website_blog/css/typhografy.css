@@ -5,7 +5,7 @@
   color: rgb(212 212 216);
   font-weight: bold;
   align-self: center;
-
+  font-size: 1.6rem;
 }
 
 .topbar__button {
@@ -118,7 +118,15 @@ li>div>span>a:visited {
   line-height: 1.4;
 }
 
-.policy>p{
+.s7list__block>ul>li>a {
+  font-size: 1.4rem;
+}
+
+.s7list__block>p a {
+  font-size: 1.4rem;
+}
+
+.policy>p {
   font-size: 1.4rem;
   color: #a2a2a8;
 }
