@@ -1,17 +1,7 @@
 body {
     background-color: #1d1d20;
     overflow-x: hidden;
-}
-
-
-.padding {
-    height: max-content;
-    width: 100vw;
-      border: 1px solid #ff0000; 
     padding: 0% 6%;
-    /* border-top:none;
-    border-right:none;
-    border-left:none; */
 }
 
 header {
@@ -28,12 +18,12 @@ footer {
 }
 
 section {
+    border-top: none;
     border-left: none;
     border-right: none;
     background-color: #1d1d20;
     max-height: max-content;
     min-height: min-content;
-
 }
 
 
