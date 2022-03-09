@@ -18,16 +18,17 @@
     border: 1px;
     border-radius: 0.25rem;
     border-width: 1px;
-    margin-top: 2rem;
+
     position: relative;
     z-index: 1;
 }
 
 .topbar__rightcontainer {
-    height: 100%;
-    gap: 1.5rem;
+    height: max-content;
     position: relative;
     z-index: 1;
+    gap: 1rem;
+
 }
 
 
@@ -95,18 +96,21 @@
     height: max-content;
     gap: 2rem;
     margin-top: 10vh;
+    border: 1px solid red;
+    width: max-content;
 }
 
-.card_container--left {
+.card__container--left {
     gap: 20px;
     flex-basis: content;
     flex-grow: 1;
+    border: 1px solid blue;
 }
 
 .container__left--title {
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
+    margin-top: 12rem;
     flex-basis: content;
     flex-grow: 2;
 }
@@ -236,6 +240,7 @@
 }
 
 .s2picture-trail {
+    border: 1px solid red;
     width: 200vw;
     height: 47rem;
     margin: 7rem 0px;
@@ -244,13 +249,15 @@
 }
 
 .s2picture {
+    border: 1px solid rgb(60, 255, 0);
+
     display: flex;
     width: 200vw;
     height: max-content;
     gap: 3rem;
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 21.5%;
     justify-content: center;
     transform: translate(-50%, -50%);
 }
@@ -340,6 +347,8 @@
 .button__form {
     gap: 5px;
     flex-wrap: wrap;
+    border: 1px solid yellow;
+    height: 100%;
 }
 
 .button__form>button {
@@ -457,6 +466,9 @@
     margin-top: 5rem;
 }
 
+.s5media{
+    gap:3rem;
+}
 .box {
     width: 25rem;
     height: 32.5rem;
@@ -605,7 +617,7 @@ label[for="#"] {
 
 label>input {
     padding: 0.6rem 2.5rem;
-    border: none;
+    border: 1px solid #6e6e76;
     background-color: #2e2e33;
     border-radius: 4px;
 }

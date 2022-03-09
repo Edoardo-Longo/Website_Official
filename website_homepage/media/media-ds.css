@@ -1,108 +1,180 @@
-@media screen and (max-width:992px) and (min-width:768px) {
-    /****************TABLET*****************/
+@media screen and (max-width:767px) and (min-width:576px) {
 
-    /*---------------TOPBAR-------------*/
 
-    .topbar__leftcontainer {
-        gap: 3rem;
+
+
+    body {
+        background-color: hsl(240, 5%, 12%);
+        overflow-x: hidden;
+        padding: 0% 5%;
+
     }
+
+    /*--------TOPBAR---------*/
 
     .topbar__leftcontainer>a {
-        font-size: 1.5rem;
+        visibility: hidden;
     }
 
-    /*---------------END OF TOPBAR-------------*/
-    /*---------------FIRST SECTION-------------*/
-
-    html {
-        font-size: 10px;
+    .topbar__rightcontainer>a {
+        display: none;
     }
+
+    .topbar__rightcontainer {
+        align-items: center;
+    }
+
+
+    .topbar__mediamenu {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: space-between;
+        height: max-content;
+    }
+
+    .topbar__mediamenu>div {
+        height: 0.3rem;
+        width: 2.5rem;
+        background-color: #a2a2a8;
+    }
+
+    /*--------FINE TOPBAR---------*/
+    /*-----------SECTION ONE------------*/
+
 
     .card__container {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-top: 5vh;
+        flex-direction: column;
+        margin-top: 2vh;
     }
 
-    .card__container--left{
+    .card__container__left {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        flex-basis: content;
-        flex-grow: 1;
-        text-align: center;
+
     }
 
     .container__left--title {
-        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid blue;
+        margin-top: 4rem;
+
+    }
+
+    .container__left--title>h1 {
+        font-size: 5.3rem;
+
+    }
+
+
+    .container__left--description>p {
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+
+    .cardNumber {
+        border: 1px solid red;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .lists1 {
+        align-self: center;
+    }
+
+    .iphoneContainer {
+
+        align-self: center;
+
     }
 
 
     .block {
+        display: flex;
         flex-wrap: wrap;
         gap: 0.8rem;
-        justify-content: center;
         border: 1px solid red;
-        padding: 3rem;
-        margin: 3.25rem;
-
+        width: 100%;
+        flex-grow: 1;
+        padding: 0rem 3rem;
+        /*--------FINE SECTION ONE---------*/
+        /*----------- SECTION TWO ------------*/
     }
-
-    .block__info{
-
-        height: 14.4rem;
-        width: 22.1rem;
-
-    }
-    
-    /*--------------- END OF FIRST SECTION-------------*/
-    /*--------------- SECOND SECTION-------------*/
 
     .s2title {
-        padding: 0rem 8rem;
+        border: 1px solid yellow;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .s2title>h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
-    .s2picture {
-        border: 1px solid rgb(0, 4, 255);
-        height: max-content; /*Da rivedere*/
-        width: 200vw;
-  
+    .s2title>p {
+        font-size: 1.8rem;
+        font-weight: bold;
     }
-    /*--------------- END OF SECOND SECTION-------------*/
-    /*------------------ THIRD SECTION-------------*/
-    .s3middle{
+
+    /*--------END SECTION TWO---------*/
+    /*--------START SECTION THREE ------------*/
+
+
+    .s3top {
+        border: 1px solid yellow;
+
+    }
+
+    .s3top>h1 {
+        font-size: 4rem;
+    }
+
+    .s3top>p {
+        display: block;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+
+
+    .s3middle {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .videoDescription{
+    .s3bottom {
+        margin-top: 4rem;
+    }
+
+    .videoDescription {
         height: 150px;
         width: max-content;
 
     }
 
-    
-  .videoDescription>img{
+
+    .videoDescription>img {
         height: 150px;
         width: auto;
 
     }
 
-    .videoDescription>div>a{
-        font-size:1.3rem ;
+    .videoDescription>div>a {
+        font-size: 1.3rem;
 
     }
-    
-    .button__form{
+
+    .button__form {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -123,43 +195,25 @@
         border-radius: 5px;
     }
 
-    
-    .s3bottom {
-        margin-top: 4rem;
-    }
-    
-    .s3top>h1 {
-        align-self: center;
-        color: #f4f4f5;
-        font-size: 4.5rem;
-        line-height: 0.9;
-        text-align: center;
-        margin-bottom:2rem;
-    }
-    
-    .s3top>p {
-        align-self: center;
-        color: #9a9a9b;
-        font-size: 2rem;
-        line-height: 1.1;
-        text-align: center;
-    }
-    /*--------------- END OF THIRD SECTION-------------*/
+    /*--------------------END THIRD SECTION----------*/
     /*------------------ FOURTH SECTION-------------*/
-    .s4card{
-        border:1px solid violet;
+    .s4card {
+        border: 1px solid violet;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap:2.5rem;
+        gap: 2.5rem;
     }
-    .s4title{
-        font-size: 4.5rem;
+
+    .s4title {
+        font-size: 4rem;
+        margin-top: 2rem;
     }
-    
-    .s4subtitle{
-        font-size: 2rem;
+
+    .s4subtitle {
+        font-size: 1.8rem;
     }
+
     .iphoneContainer-media {
         height: 441px;
         width: 225px;
@@ -168,7 +222,7 @@
     }
 
     .iphoneScreen-media {
-        height:  421px;
+        height: 421px;
         width: 225px;
         position: absolute;
         z-index: 0;
@@ -181,77 +235,79 @@
     }
 
     .iphoneMockup-media {
-  
-        height:  441px;
+
+        height: 441px;
         width: 225px;
         background-image: url("../img/iphone-mockup.png");
         background-size: contain;
         background-position: center;
-        position:relative;
+        position: relative;
         z-index: 1;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: trasparent;
     }
-    
+
     /*--------------- END OF FOURTH SECTION-------------*/
     /*------------------ FIFTH SECTION-------------*/
 
-    .s5bottom{
+    .s5bottom {
         border: 1px solid green;
         width: 100%;
         justify-content: center;
-        gap:1rem;
-        
+        gap: 1rem;
+
     }
-    .lists5{
+
+    .lists5 {
         display: flex;
         flex-direction: column;
-    
+
         width: 25rem;
         height: 29.5rem;
-        
+
         border: 1px solid white;
         justify-content: center;
         align-items: center;
         text-align: left;
     }
-    
-    .s5media{
+
+    .s5media {
         border: 1px solid green;
         width: 100%;
         justify-content: center;
         align-items: center;
-        padding:0rem 2rem;
-        gap:1rem;
+        padding: 0rem 2rem;
+        gap: 1rem;
     }
+
     .box {
         width: 25rem;
         height: 29.5rem;
         background-color: #2e2e33;
         padding: 2.5rem;
-    
-    
+
+
     }
 
 
     .s5top>h1 {
-        font-size: 4.5rem;
+        font-size: 4rem;
         color: white;
         align-self: center;
         line-height: 1.3;
     }
-    
+
     .s5top>p {
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #a2a29b;
         align-self: center;
         line-height: 1.2;
         text-align: center;
     }
 
-/*--------------- END OF FIFTH SECTION-------------*/
+    /*--------------- END OF FIFTH SECTION-------------*/
     /*------------------ SIXTH SECTION-------------*/
 
     .s6card__testimonial {
@@ -261,8 +317,8 @@
         justify-content: center;
         gap: 2rem;
         margin-top: 0.5rem;
-    
-    
+
+
     }
 
     .s6card {
@@ -273,8 +329,8 @@
         gap: 6rem;
         display: flex;
         justify-content: center;
-    
-    
+
+
     }
 
     .s6card__testimonial--box {
@@ -284,60 +340,61 @@
         color: gray;
         border: 1px solid orange;
         text-align: center;
-    
+
     }
 
     .s6card__testimonial--box>p {
         font-size: 1.5rem;
         font-weight: bold;
-    
+
     }
+
     .name {
 
         color: rgb(255, 255, 255);
         font-weight: bold;
         font-size: 1.5rem;
-    
+
     }
-    
+
     .site {
-    
+
         color: #3abab4;
         font-weight: bold;
         font-size: 1.5rem;
     }
 
-/*--------------- END OF SIXTH SECTION-------------*/
+    /*--------------- END OF SIXTH SECTION-------------*/
     /*------------------ SEVENTH SECTION-------------*/
-    .s7title{
+    .s7title {
         line-height: 1.1;
-        font-size: 4.5rem;
+        font-size: 4rem;
         margin-bottom: 6rem;
 
     }
-    
-    
-    
-    .infobox{
+
+
+
+    .infobox {
         justify-content: center;
         align-items: center;
         display: flex;
         border: 1px solid blue;
         flex-direction: column;
-        gap:1rem;
+        gap: 1rem;
     }
-    
-    .medias7{
+
+    .medias7 {
         display: flex;
-        gap:1rem;
-        
+        gap: 1rem;
+
     }
 
 
-    .s7card{
-        border:1px solid blue;
+    .s7card {
+        border: 1px solid blue;
     }
- 
+
     .s7card__endbar {
         display: flex;
         width: 100%;
@@ -346,24 +403,26 @@
         background-color: #2e2e33;
         justify-content: space-between;
     }
+
     label[for="#"] {
         display: flex;
         gap: 2rem;
         justify-content: space-between;
     }
-    .s7card__endbar>h4{
+
+    .s7card__endbar>h4 {
         font-size: 1.5rem;
     }
-    
+
     label>input {
-        
+
         padding: 0.3rem 0.1rem;
         border: none;
         background-color: #2e2e33;
         border-radius: 4px;
         border: 1px solid #52525a;
     }
-    
+
     label>button {
         padding: 1.5rem 2rem;
         border: none;
@@ -371,7 +430,7 @@
         border-radius: 4px;
         color: white;
     }
-    
+
 
 
 }
