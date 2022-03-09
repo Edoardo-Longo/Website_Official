@@ -18,26 +18,24 @@
     border: 1px;
     border-radius: 0.25rem;
     border-width: 1px;
-    margin-top: 2rem;
+
     position: relative;
     z-index: 1;
-
 }
-
 
 .topbar__rightcontainer {
-    height: 100%;
-    gap: 1.5rem;
+    height: max-content;
     position: relative;
     z-index: 1;
+    gap: 1rem;
+
 }
 
 
-.logo {
+.logo--topbar {
     align-self: center;
-    width: 3.6rem;
-    height: 3.6rem;
-
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 .rightcontainer__switchbtn {
@@ -94,53 +92,43 @@
 /*-------------- END OF TOPBAR -------------- */
 /*-------------- FIRST SECTION -------------- */
 
-.card{
-    border: 1px solid blue;
-}
 .card__container {
     height: max-content;
     gap: 2rem;
     margin-top: 10vh;
-    border: 1px solid violet;
-  
-
+    border: 1px solid red;
+    width: max-content;
 }
 
-.card_container--left {
-    border: 1px solid orange;
+.card__container--left {
     gap: 20px;
     flex-basis: content;
-        flex-grow: 1;
-   
+    flex-grow: 1;
+    border: 1px solid blue;
 }
 
 .container__left--title {
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
-    border: 1px solid green;
+    margin-top: 12rem;
     flex-basis: content;
-        flex-grow: 2;
-  
+    flex-grow: 2;
 }
 
 .container__left--description {
-
     width: max-content;
     display: flex;
     flex-direction: column;
-    border: 1px solid tomato;
 }
-.circlebg{
-   
+
+.circlebg {
     border-radius: 50%;
-    box-shadow:20rem 20rem 20rem 20rem  #223c3d;
+    box-shadow: 20rem 20rem 20rem 20rem #223c3d;
     position: absolute;
-    top:0%;
+    top: 0%;
     right: 30%;
     transform: translate(-80%, -80%);
     z-index: 0;
-    
 }
 
 .iphoneContainer {
@@ -151,7 +139,6 @@
 }
 
 .iphoneMockup {
-
     height: 654px;
     width: 340px;
     background-image: url("../img/iphone-mockup.png");
@@ -188,7 +175,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .cardNumber {
@@ -200,7 +186,6 @@
     width: 25rem;
     background-color: #2e2e33;
     border-radius: 4px;
-    border: 1px solid #52525a;
 }
 
 .cardNumber__request {
@@ -219,7 +204,6 @@
     position: relative;
 }
 
-
 .list__arrow {
     width: 8.6rem;
     height: 2.5rem;
@@ -227,28 +211,22 @@
     position: absolute;
     top: -10%;
     right: -10%;
-
 }
 
 .block {
-
     gap: 1.9rem;
     margin: 7.5rem 0rem;
-    
 }
 
-
 .block__info {
-
     height: 14.4rem;
     width: 25.1rem;
     display: inline-block;
     text-align: center;
-
     background-color: #2e2e33;
     display: flex;
     flex-direction: column;
-    justify-content:center
+    justify-content: center
 }
 
 /*----------- END OF FIRST SECTION ---------- */
@@ -261,38 +239,34 @@
     overflow: hidden;
 }
 
-.s2picture-trail{
+.s2picture-trail {
+    border: 1px solid red;
     width: 200vw;
     height: 47rem;
     margin: 7rem 0px;
     gap: 3rem;
-    border: 1px solid green;
     position: relative;
 }
 
 .s2picture {
+    border: 1px solid rgb(60, 255, 0);
+
     display: flex;
     width: 200vw;
     height: max-content;
     gap: 3rem;
     position: absolute;
-    top:50%;
-    left:25%;
+    top: 50%;
+    left: 21.5%;
     justify-content: center;
-    transform: translate(-50%,-50%);
-  
-
-    
+    transform: translate(-50%, -50%);
 }
 
 
 .s2picture>picture:nth-child(2) {
-border: 1px solid red;
-
     height: max-content;
     width: max-content;
-    aspect-ratio: 540/460 ;
- 
+    aspect-ratio: 540/460;
     position: relative;
 }
 
@@ -305,8 +279,6 @@ border: 1px solid red;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
 }
 
 .s2picture__btnService {
@@ -317,7 +289,6 @@ border: 1px solid red;
     border: none;
     padding: 0.8rem 1.2rem;
     background-color: #1d1d2080;
-
 }
 
 .s2bottom {
@@ -336,7 +307,6 @@ border: 1px solid red;
     margin: 0rem 10rem;
     border: none;
     padding: 2rem;
-
 }
 
 .s2bottom__arrow--R {
@@ -347,13 +317,10 @@ border: 1px solid red;
     background-color: #2e2e33;
     border: none;
     padding: 2rem;
-
-
 }
 
 .arrowcolor {
     fill: #A2A2A8;
-
 }
 
 
@@ -366,7 +333,6 @@ border: 1px solid red;
 }
 
 .s3middle {
-    border: 1px solid green;
     height: max-content;
     margin-top: 3rem;
 }
@@ -381,6 +347,8 @@ border: 1px solid red;
 .button__form {
     gap: 5px;
     flex-wrap: wrap;
+    border: 1px solid yellow;
+    height: 100%;
 }
 
 .button__form>button {
@@ -419,32 +387,23 @@ border: 1px solid red;
 /*-------------- END THIRD SECTION -------------- */
 /*---------------FOURTH SECTION ----------------- */
 
-.two-media{
-   
+.two-media {
     background-image: url("../img/mockup-image-02.jpg");
-
 }
 
-.three-media{
-   
+.three-media {
     background-image: url("../img/mockup-image-03.jpg");
-
 }
-.four-media{
-   
-    background-image: url("../img/mockup-image-04.jpg");
 
+.four-media {
+    background-image: url("../img/mockup-image-04.jpg");
 }
 
 .s4card {
-
     margin: 5rem 0rem;
-
 }
 
-
 .s4card__button {
-
     margin-bottom: 3rem;
     align-self: center;
     width: 5.6rem;
@@ -463,13 +422,12 @@ border: 1px solid red;
 }
 
 .iphoneMockup-media {
-  
     height: 654px;
     width: 340px;
     background-image: url("../img/iphone-mockup.png");
     background-size: contain;
     background-position: center;
-    position:relative;
+    position: relative;
     z-index: 1;
     top: 50%;
     left: 50%;
@@ -495,6 +453,7 @@ border: 1px solid red;
 .s5top {
     margin-top: 8rem;
 }
+
 .lists5 {
     width: max-content;
     font-size: 2rem;
@@ -505,16 +464,16 @@ border: 1px solid red;
 .s5bottom {
     margin-top: 3rem;
     margin-top: 5rem;
-    border: 1px solid yellow;
 }
 
+.s5media{
+    gap:3rem;
+}
 .box {
     width: 25rem;
     height: 32.5rem;
     background-color: #2e2e33;
     padding: 2.5rem;
-
-
 }
 
 .box__pricetag {
@@ -523,11 +482,9 @@ border: 1px solid red;
     background-color: #2e484b;
     padding: 2px 1.5rem;
     border-radius: 30px;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .box__premium {
@@ -541,10 +498,8 @@ border: 1px solid red;
 }
 
 .button__style--2 {
-
     background-color: #3f3f45;
     color: #4fd1c5;
-
 }
 
 /*-------------- END FIFTH SECTION -------------- */
@@ -552,7 +507,6 @@ border: 1px solid red;
 
 .row {
     margin: 5rem 0rem;
-    border: 1px solid gray;
     width: 100%;
 }
 
@@ -561,18 +515,13 @@ border: 1px solid red;
     width: 100%;
     height: max-content;
     gap: 15rem;
-
-
 }
 
 .s6card__testimonial {
-
     width: max-content;
     align-self: center;
     gap: 15rem;
     margin-top: 2rem;
-
-
 }
 
 .testimonial1 {
@@ -613,20 +562,18 @@ border: 1px solid red;
     width: max-content;
     height: 20rem;
     color: gray;
-
     text-align: center;
-
 }
 
 /*-------------- END SIXTH SECTION -------------- */
 /*--------------- SEVENTH SECTION --------------- */
 .infobox {
     margin: 3rem 0rem;
-    gap:1rem;
+    gap: 1rem;
 }
 
-.medias7{
-    gap:1rem;
+.medias7 {
+    gap: 1rem;
 }
 
 .infobox__square {
@@ -634,7 +581,6 @@ border: 1px solid red;
     width: 25rem;
     padding: 2rem;
 }
-
 
 .blue {
     background-color: #3abab4;
@@ -658,7 +604,6 @@ border: 1px solid red;
 }
 
 .s7card__endbar {
-
     width: 95%;
     height: 18rem;
     padding: 3.5rem 10rem;
@@ -672,10 +617,9 @@ label[for="#"] {
 
 label>input {
     padding: 0.6rem 2.5rem;
-    border: none;
+    border: 1px solid #6e6e76;
     background-color: #2e2e33;
     border-radius: 4px;
-    border: 1px solid #52525a;
 }
 
 label>button {
@@ -693,27 +637,29 @@ label>button {
 }
 
 .policy {
-    padding: 0rem 3rem;
-
+    justify-content: space-between;
     height: max-content;
-
+    margin-top: 3rem;
 }
 
 /* --- footer --- */
 
-
 .buttons__logo {
     background-color: #2f3237;
     border: none;
-    height: 3.6rem;
-    width: 3.6rem;
-    border-radius:50%;
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
 }
 
-.buttons__container{
+.buttons__container {
     display: flex;
-    gap:5px;
+    gap: 1rem;
     margin-bottom: 5px;
+}
+
+.logo--footer {
+    align-self: flex-start;
 }
