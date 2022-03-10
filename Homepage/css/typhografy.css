@@ -78,6 +78,11 @@ li>span {
     color: #f4f4f5;
 }
 
+.s2title>p {
+    font-size: 2rem;
+    color: #9a9a9b;
+}
+
 .s2picture__btnLearn {
     color: white;
 }
@@ -94,10 +99,6 @@ li>span {
 /*-------------- END SECOND SECTION -------------- */
 /*----------------- THIRD SECTION --------------- */
 
-.s2title>p {
-    font-size: 2rem;
-    color: #9a9a9b;
-}
 
 .s3top>h1 {
     align-self: center;
@@ -247,4 +248,9 @@ li>span {
     color: #A2A2A8;
     font-size: 1.4rem;
     line-height: 1.4;
+}
+
+.policy>p {
+    font-size: 1.4rem;
+    color: #a2a2a8;
 }

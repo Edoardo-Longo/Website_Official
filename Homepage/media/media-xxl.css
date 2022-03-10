@@ -1,0 +1,27 @@
+@media screen and (min-width:1400px) {
+    body {
+        padding: 0 21%;
+    }
+
+    .card__container--left {
+        gap: 2rem;
+    }
+
+    .s7list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .s7list__block>ul>li>a {
+        font-size: 1.4rem;
+    }
+
+    .s7list__block>p a {
+        font-size: 1.4rem;
+    }
+
+    .logo--footer {
+        align-self: flex-start;
+    }
+}
