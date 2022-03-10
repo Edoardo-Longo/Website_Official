@@ -8,81 +8,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Andrea Trentadue">
     <meta name="author" content="Sebastian Gutierrez">
-    <section>
 
-        <!-- Inter sans serif (Link e paragrafi)-->
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- Inter sans serif (Link e paragrafi)-->
 
-        <!-- Red hat display (Titoli) -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap"
-            rel="stylesheet">
-    </section>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <!-- Red hat display (Titoli) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap" rel="stylesheet">
     <title>About - Appy Demo</title>
     <link rel="stylesheet" href="./index.css">
+
 </head>
 
 <body>
-    <img src="/website_about/asset/hero-bg-03.jpg" alt="backgroung-img" class="background-img">
+
+    <!-- Topbar -->
+    <header class="topbar flex-row-nowrap justify-between">
+        <div class="topbar__leftcontainer flex-row-nowrap">
+            <!--Logo-->
+            <a href="./homepage.html"><img class="logo--topbar" src="svg/logo.svg" alt=""></a>
+            <!--Logo-->
+            <a href="../About/about.html">About</a>
+            <a href="../Blog/blog.html">Blog</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Resources</a>
+        </div>
+        <div class="topbar__rightcontainer w-max-content flex-row-nowrap ">
+            <div class="circlebg"></div>
+
+
+            <div class="rightcontainer__switchbtn justify-between ">
+                <div></div>
+                <div>
+                    <div class="rightcontainer__switchitem topbar_switch"></div>
+
+                </div>
+            </div>
+            <a href="https://www.google.it" target="_blank">
+                <button class="topbar__button">Request code</button>
+            </a>
+            <div class="topbar__mediamenu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+    </header><!-- end of topbar -->
+    <img src="./asset/hero-bg-03.jpg" alt="backgroung-img" class="background-img">
     <!-- First section -->
     <section>
-        <!-- Topbar -->
-        <header class="padding topbar flex-row-nowrap justify-between">
-            <div class="topbar__leftcontainer flex-row-nowrap">
-                <!--Logo-->
-                <a href="../Homepage/homepage.html">
-                    <svg class="logo align-self-center ap uj" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                            <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
-                                <stop stop-color="#3ABAB4" offset="0%"></stop>
-                                <stop stop-color="#7F9CF5" offset="100%"></stop>
-                            </linearGradient>
-                            <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">
-                                <stop stop-color="#3ABAB4" offset="0%"></stop>
-                                <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
-                            </linearGradient>
-                        </defs>
-                        <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#flogo_a)">
-                        </path>
-                        <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#flogo_b)">
-                        </path>
-                    </svg></a>
-                <!--Logo-->
-
-                <a href="../About/about.html">About</a>
-                <a href="../Blog/blog.html">Blog</a>
-                <a href="#">Testimonials</a>
-                <a href="#">Resources</a>
-            </div>
-            <div class="topbar__rightcontainer w-max-content flex-row-nowrap justify-around">
-                <div class="rightcontainer__switchbtn justify-between ">
-                    <div></div>
-                    <div>
-                        <div class="rightcontainer__switchitem topbar__switch"></div>
-                    </div>
-                </div>
-                <a href="#" target="_blank">
-                    <button class="topbar__button">Request code</button>
-                </a>
-            </div> <!-- end of topbar -->
-        </header>
-        <!-- end of topbar -->
 
 
 
-
-
-        <div class="s1container">
-            <div class="imgSquare"></div>
-
-        </div>
         <h1 class="s1title">Make Your Own
             <span>Way</span>
         </h1>
+
+        <div class="s1container">
+            <div class="imgSquare">
+            </div>
+
+
+        </div>
     </section>
     <!-- End first section -->
 
@@ -98,11 +91,12 @@
 
 
             <div class="s2iconBar">
-                <div class="s2iconBar__img"><embed src="svg/img1.svg" type="image/svg+xml"></div>
-                <div class="s2iconBar__img"><embed src="svg/img2.svg" type="image/svg+xml"></div>         
-                <div class="s2iconBar__img"><embed src="svg/img3.svg" type="image/svg+xml"></div>
-                <div class="s2iconBar__img"><embed src="svg/img4.svg" type="image/svg+xml"></div>
-                 
+                <div class="icon aereo"><embed class="svg__position" src="svg/aereoplano.svg" type="image/svg+xml">
+                </div>
+                <div class="icon handsheart"><embed src="svg/handsheart.svg" type="image/svg+xml"></div>
+                <div class="icon stars"><embed src="svg/stars.svg" type="image/svg+xml"></div>
+                <div class="icon hands"><embed src="svg/hands.svg" type="image/svg+xml"></div>
+
             </div>
 
         </article>
@@ -195,67 +189,72 @@
                     <ul>
 
                         <li>
-                            <div class="s4list__option"><a href=""> <embed src="svg/list.svg" type="image/svg+xml">
-                                    <span>All Locations</span></a></div>
+                            <div class="s4list__option"> <embed src="svg/list.svg" type="image/svg+xml">
+                                    <span class="list__locations">All Locations</span></div>
                         </li>
-                        <li><a href="">
-                                <div class="s4list__option"><embed src="svg/list.svg" type="image/svg+xml"><span>London,
-                                        UK</span> </div>
-                            </a></li>
-                        <li><a href="">
-                                <div class="s4list__option"> <embed src="svg/list.svg" type="image/svg+xml"><span>Milan,
-                                        Italy</span>
-                            </a>
-            </div>
-            </li>
-            <li>
-                <div class="s4list__option"><a href=""><embed src="svg/list.svg" type="image/svg+xml"><span>New York,
-                            NYC</span> </a></div>
-            </li>
-            <li>
-                <div class="s4list__option"><a href=""><embed src="svg/list.svg" type="image/svg+xml"><span>Berlin, DE
-                        </span></a></div>
-            </li>
-            </ul>
+                        <li>
 
-            </aside>
-            <picture class="s4careersBox">
+                            <div class="s4list__option"><embed src="svg/list.svg" type="image/svg+xml">
+                                <span>London,UK</span> </div>
+                        </li>
+                        <li>
 
-                <div class="s4careersBox__container--img1">
-                    <picture class="container--img"><img src="asset\career-01.jpg" alt="career-01" width="240px"
-                            height="240px">
-                        <h4>Development</h4><em>4 Positions</em>
-                    </picture>
+                            <div class="s4list__option">
+                                <embed src="svg/list.svg" type="image/svg+xml">
+                                <span>Milan,Italy</span>
 
-                    <picture class="container--img"><img src="asset\career-02.jpg" alt="career-02" width="240px"
-                            height="240px">
-                        <h4>Product&Design</h4><em>56 Positions</em>
-                    </picture>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="s4list__option"><embed src="svg/list.svg"
+                                        type="image/svg+xml"><span>New York,
+                                        NYC</span> </a></div>
+                        </li>
+                        <li>
+                            <div class="s4list__option"><embed src="svg/list.svg"
+                                        type="image/svg+xml"><span>Berlin, DE
+                                    </span></a></div>
+                        </li>
+                    </ul>
 
-                    <picture class="container--img"><img src="asset/career-03.jpg" alt="career-03" width="240px"
-                            height="240px">
-                        <h4>Marketing</h4><em>3 Positions</em>
-                    </picture>
-                </div>
-                <div class="s4careersBox__container--img2">
-                    <picture class="container--img"><img src="asset/career-04.jpg" alt="career-04" width="240px"
-                            height="240px">
-                        <h4>Data Science</h4><em>12 Positions</em>
-                    </picture>
+                </aside>
+                <picture class="s4careersBox">
 
-                    <picture class="container--img"><img src="asset/career-05.jpg" alt="career-05" width="240px"
-                            height="240px">
-                        <h4>Internal System</h4><em>23 Positions</em>
-                    </picture>
+                    <div class="s4careersBox__container--img1">
+                        <picture class="container--img"><img src="asset\career-01.jpg" alt="career-01" width="240px"
+                                height="240px">
+                            <h4>Development</h4><em>4 Positions</em>
+                        </picture>
 
-                    <picture class="container--img"><img src="asset/career-06.jpg" alt="career-06" width="240px"
-                            height="240px">
-                        <h4>Administrative</h4><em>7 Positions</em>
-                    </picture>
+                        <picture class="container--img"><img src="asset\career-02.jpg" alt="career-02" width="240px"
+                                height="240px">
+                            <h4>Product&Design</h4><em>56 Positions</em>
+                        </picture>
 
-                </div>
+                        <picture class="container--img"><img src="asset/career-03.jpg" alt="career-03" width="240px"
+                                height="240px">
+                            <h4>Marketing</h4><em>3 Positions</em>
+                        </picture>
+                    </div>
+                    <div class="s4careersBox__container--img2">
+                        <picture class="container--img"><img src="asset/career-04.jpg" alt="career-04" width="240px"
+                                height="240px">
+                            <h4>Data Science</h4><em>12 Positions</em>
+                        </picture>
 
-            </picture>
+                        <picture class="container--img"><img src="asset/career-05.jpg" alt="career-05" width="240px"
+                                height="240px">
+                            <h4>Internal System</h4><em>23 Positions</em>
+                        </picture>
+
+                        <picture class="container--img"><img src="asset/career-06.jpg" alt="career-06" width="240px"
+                                height="240px">
+                            <h4>Administrative</h4><em>7 Positions</em>
+                        </picture>
+
+                    </div>
+
+                </picture>
             </div>
         </section>
 
@@ -398,26 +397,14 @@
         </section>
         <!--End sixth section-->
         <footer>
-            <div class="s7list flex-row justify-between ">
+            <div class="s7list flex-row-nowrap justify-between ">
+
                 <!--Logo-->
-                <svg class="logo align-end ap uj" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
-                            <stop stop-color="#3ABAB4" offset="0%"></stop>
-                            <stop stop-color="#7F9CF5" offset="100%"></stop>
-                        </linearGradient>
-                        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">
-                            <stop stop-color="#3ABAB4" offset="0%"></stop>
-                            <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
-                        </linearGradient>
-                    </defs>
-                    <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#flogo_a)">
-                    </path>
-                    <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#flogo_b)"></path>
-                </svg>
+                <img class="logo--footer" src="svg/logo.svg" alt="">
                 <!--Logo-->
+
                 <div class="s7list__block">
-                    <h6><a href="">PRODUCTS</a> </h6>
+                    <p><a href=""> PRODUCTS </a></p>
                     <ul>
                         <li>
                             <a href=""> drag </a>
@@ -431,7 +418,7 @@
                     </ul>
                 </div>
                 <div class="s7list__block">
-                    <h6> <a href=""> RESOURCES </a></h6>
+                    <p> <a href=""> RESOURCES </a></p>
                     <ul>
                         <li>
                             <a href=""> industries </a>
@@ -451,7 +438,7 @@
                     </ul>
                 </div>
                 <div class="s7list__block">
-                    <h6> <a href=""> COMPANY </a></h6>
+                    <p> <a href=""> COMPANY </a></p>
                     <ul>
                         <li>
                             <a href=""> diversity </a>
@@ -471,7 +458,7 @@
                     </ul>
                 </div>
                 <div class="s7list__block">
-                    <h6> <a href=""> SUPPORT</a></h6>
+                    <p> <a href=""> SUPPORT</a></p>
                     <ul>
                         <li>
                             <a href=""> documentation </a>
@@ -488,26 +475,33 @@
                     </ul>
                 </div>
             </div>
-            <div class="policy flex-row justify-between">
+
+            <div class="policy flex-row-nowrap justify-between ">
+
                 <p> 2020 appy. all rights reserved</p>
                 <p> terms privacy policy </p>
                 <!-- social button-->
-                <div>
-                    <a class="social__f" href="https://www.facebook.com" target="_blank">
-                        <button class="social__f"> <img src="asset/facebook.png" width="40rem"
-                                height="40rem" /></button>
+                <div class="buttons__container">
+
+                    <a class="buttons__logo" href="" target="">
+                        <embed src="svg/twitter.svg" type="image/svg+xml" />
                     </a>
-                    <a class="social__t" href="https://www.twitter.com" target="_blank">
-                        <button class="social__t"> <img src="asset/Twitter-PNG-Photos.png" width="40rem"
-                                height="40rem" /> </button>
+
+                    <a class="buttons__logo" href="" target="">
+                        <embed src="svg/github.svg" type="image/svg+xml">
                     </a>
-                    <a class="social__i" href="https://www.instagram.com" target="_blank">
-                        <button class="social__i"> <img src="asset/instagram.png" width="40rem"
-                                height="40rem" /></button>
+
+                    <a class="buttons__logo" href="" target="">
+                        <embed src="svg/facebook.svg" type="image/svg+xml">
                     </a>
-                    <a class="social__l" href="https://www.linkedin.com" target="_blank">
-                        <button class="social__l"> <img src="asset/linkedin.png" width="40rem" height="40rem" />
-                        </button>
+
+                    <a class="buttons__logo" href="" target="">
+                        <embed src="svg/instagram.svg" type="image/svg+xml">
+                    </a>
+
+                    <a class="buttons__logo" href="" target="">
+                        <embed src="svg/linkedin.svg" type="image/svg+xml">
+
                     </a>
                 </div>
             </div>

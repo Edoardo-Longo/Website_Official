@@ -1,0 +1,86 @@
+header {
+    height: min-content;
+}
+
+footer {
+    color: white;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    height: max-content;
+    position: relative;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: 'Red Hat Display', sans-serif;
+    ;
+    color: white;
+    font-weight: 900;
+    font-style: black;
+
+}
+
+h2 {
+    font-size: 5rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h3 {
+    font-size: 4rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: black;
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 3rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 1rem;
+    font-family: inter;
+    font-style: medium;
+}
+
+p {
+
+    font-family: inter;
+    font-weight: regular;
+    line-height: 1.4;
+    font-size: 2rem;
+}
+
+a {
+    font-size: 1.6rem;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+
+    background-color: #1d1d20;
+    padding: 0% 10%;
+
+}
+
+
+li {
+    list-style: none;
+}

@@ -7,7 +7,6 @@ body {
 .background-img {
     height: auto;
     width: 100%;
-    border: 1px solid rgb(64, 187, 228);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
@@ -26,13 +25,11 @@ body {
 .topbar {
     align-items: center;
     height: 10vh;
-    background-color: rgba(0, 0, 0, 0.637);
 }
 
 .topbar__leftcontainer {
     height: 100%;
     gap: 4rem;
-
 }
 
 .topbar__button {
@@ -44,21 +41,24 @@ body {
     border: 1px;
     border-radius: 0.25rem;
     border-width: 1px;
-    margin-top: 2rem;
 
+    position: relative;
+    z-index: 1;
 }
-
 
 .topbar__rightcontainer {
-    height: 100%;
-    gap: 1.5rem;
+    height: max-content;
+    position: relative;
+    z-index: 1;
+    gap: 1rem;
+
 }
 
 
-.logo {
-    width: 3.6rem;
-    height: 3.6rem;
-
+.logo--topbar {
+    align-self: center;
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 .rightcontainer__switchbtn {
@@ -70,6 +70,8 @@ body {
     flex-direction: row-reverse;
     padding: 3px;
     align-self: center;
+    position: relative;
+    z-index: 1;
 }
 
 .rightcontainer__switchbtn>div:first-child {
@@ -110,7 +112,7 @@ body {
     align-self: center;
 }
 
-/*----------------- END OF TOP BAR-----------------*/
+/*-------------- END OF TOPBAR -------------- */
 /*----------------- FIRST SECTION -----------------*/
 
 
@@ -122,37 +124,32 @@ body {
     margin-top: 5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 
 .imgSquare {
-    height: 400px;
-    width: 700px;
-
+    height: 40rem;
+    width: 70rem;
+    
     background-image: url("../asset/about-hero.jpg");
     background-size: contain;
-    -webkit-mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
-    mask-image: linear-gradient(to top, transparent 12.5%, black 200%);
+    -webkit-mask-image: linear-gradient(to top, transparent -20%, black 300%);
+    mask-image: linear-gradient(to top, transparent -20%, black 200%);
+    display: flex;
+    justify-content: center;
 
 }
 
 .logo {
-    width: 50px;
+    width: 5rem;
     height: 50%;
-    border: 1px solid black;
     align-self: center;
 }
 
-.backgroundBlack {
-    background-color: rgba(0, 0, 0, 0.637);
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    z-index: 1;
 
-}
 
 /*----------------- END OF FIRST SECTION-----------------*/
 /*--------------------- SECOND SECTION -----------------*/
@@ -163,7 +160,6 @@ body {
     height: max-content;
     margin-top: 5rem;
     width: 100%;
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,25 +171,47 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 4rem;
     
 }
 
-.s2iconBar__img {
 
-    width: 15rem;
-    height: 15rem;
-    border: 1px solid rgb(226, 27, 176);
-    border-radius: 3px;
-    display: flex;
+.icon{
+
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    position: relative;
+   
+    
+}
+.aereo{
+    background-color: #223c3e;
+    background: linear-gradient(-150deg,#223c3e7c 30%,#223c3e 50%);
+}
+
+.handsheart{
+    background-color: #9f7aea;
+    background: linear-gradient(-150deg,#3a324c6e 30%, #3a324c  50%);
+}
+.stars{
+    background-color: #2b2f48;
+    background: linear-gradient(-150deg,#2b2f4888 30%, #2b2f48  50%);
+
 }
 
 
+.hands{
+    background-color: #492c3c;
+    background: linear-gradient(-150deg,#492c3c7a 30%, #492c3c 50%);
+}
 
 .s2bottomCard {
 
     height: max-content;
     width: 100%;
-    border: 1px solid aqua;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,7 +220,6 @@ body {
 }
 
 .s2container__img {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -220,11 +237,9 @@ body {
 .s3card__top {
     height: max-content;
     width: 100%;
-    border: 1px solid aqua;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
     margin-bottom: 5rem;
 }
 
@@ -238,7 +253,6 @@ body {
 .s3card__central--list {
     height: max-content;
     width: max-content;
-    border: 1px solid aqua;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -247,7 +261,6 @@ body {
 .s3card__bottom--container {
     height: 35rem;
     width: 89rem;
-    border: 1px solid aqua;
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
@@ -303,7 +316,6 @@ body {
 .s4topCard {
     height: 21rem;
     width: 100%;
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -313,9 +325,18 @@ body {
 
 
 }
+.s4list__option>span{
+    margin-left:0.3rem;
+}
 
+.list__locations{
+    color:#3abab4;
+}
 
-
+.s4list__option{
+    display: flex;
+    gap:1rem;
+}
 
 .s4bottomCard {
     width: 100%;
@@ -323,7 +344,6 @@ body {
     flex-wrap: wrap;
     flex-flow: row;
     flex-direction: row;
-    border: 1px solid yellow;
     justify-content: space-evenly;
     align-items: center;
 
@@ -332,7 +352,6 @@ body {
 .s4list {
     height: 20rem;
     width: 18rem;
-    border: 1px solid red;
     color: grey;
     display: flex;
     align-self: flex-start;
@@ -349,7 +368,6 @@ body {
 .s4careersBox {
     height: max-content;
     width: fit-content;
-    border: 1px solid violet;
     display: flex;
     flex-direction: column;
     color: whitesmoke;
@@ -406,7 +424,6 @@ body {
 .s5upperCard {
     height: max-content;
     width: 100%;
-    border: 1px solid violet;
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
@@ -431,7 +448,6 @@ body {
 
     height: max-content;
     width: 100%;
-    border: 1px solid violet;
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
@@ -442,7 +458,6 @@ body {
 .s6title_1 {
     width: 100%;
     height: 20rem;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -451,7 +466,6 @@ body {
 
 .s6title_2 {
 
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -462,7 +476,6 @@ body {
 .s6img_container_1 {
     width: 100%;
     height: 17rem;
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -472,7 +485,6 @@ body {
 }
 
 .s6img>.s6img_container_1>.profile__container {
-    border: 1px solid green;
     height: max-content;
     width: 127px;
     display: flex;
@@ -505,7 +517,6 @@ body {
 .s6img>.s6img_container_2 {
     width: 100;
     height: 17rem;
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -515,7 +526,6 @@ body {
 }
 
 .s6img>.s6img_container_2>.profile__container {
-    border: 1px solid green;
     height: max-content;
     width: 127px;
     display: flex;
@@ -553,7 +563,6 @@ body {
 }
 
 .s6_end {
-    border: 1px solid green;
     width: 100%;
     height: 280px;
     display: flex;
@@ -567,25 +576,27 @@ body {
 /*----------------- END OF SIXTH SECTION-----------------*/
 /*----------------- START ENDING SECTION -----------------*/
 
-.social__f {
-
-    background-color: #1d1d20;
+.buttons__logo {
+    background-color: #2f3237;
     border: none;
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
 
-.social__t {
+.buttons__container {
+    display: flex;
+    gap: 1rem;
+    height: max-content;
 
-    background-color: #1d1d20;
-    border: none;
 }
 
-.social__i {
-    background-color: #1d1d20;
-    border: none;
+.logo--footer {
+    align-self: flex-start;
 }
 
-.social__l {
-
-    background-color: #1d1d20;
-    border: none;
+.policy{
+    height: max-content;
 }
