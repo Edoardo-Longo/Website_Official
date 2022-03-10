@@ -24,6 +24,8 @@
 
 /*----------------- FIRST SECTION -----------------*/
 .s1title {
+    width: 100%;
+    font-size: 7.7rem;
     font-style: black;
     font-weight: 900;
     color: white;
@@ -31,7 +33,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .s1title>span {
@@ -67,13 +72,37 @@
 /*---------END OF THIRD SECTION----------*/
 
 .s3card__top>p {
-   
+
     font-family: inter;
     font-weight: regular;
     line-height: 1.4;
     font-size: 2rem;
     color: grey;
 }
+
+.container__box {
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.s3card__central--list>ul>li>a {
+
+    color: #A2A2A8;
+}
+
+.s3card__bottom--box>p {
+
+    color: #A2A2A8;
+}
+
+.s3card__bottom--box>a>span {
+
+    color: #3abab4;
+}
+
 
 /*----------------- FOURTH SECTION -----------------*/
 .s4topCard__title {
@@ -99,6 +128,7 @@
 .s4list>a {
 
     font-size: medium;
+
 }
 
 .container--img>h4 {
@@ -106,9 +136,9 @@
     position: absolute;
     bottom: 10%;
     left: 50%;
-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     z-index: 2;
-    font-family: 'Red Hat Display', sans-serif ;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
     line-height: 1.5;
@@ -119,9 +149,9 @@ transform: translate(-50%, -50%);
     position: absolute;
     bottom: 1%;
     left: 50%;
-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     z-index: 2;
-    font-family: 'Red Hat Display', sans-serif ;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 1.5rem;
 }
 
@@ -158,22 +188,22 @@ li>a {
     color: #A2A2A8;
 }
 
-.s6img>.s6img_container_1>.profilecontainer>.name>h4 {
+.s6img>.s6img_container_1>.profile__container>.name>h4 {
     color: #D4D4D8;
     font-size: 1.8rem;
     font-weight: 300;
 }
 
-.s6img>.s6img_container_2>.profilecontainer>.name>h4 {
+.s6img>.s6img_container_2>.profile__container>.name>h4 {
     color: #D4D4D8;
     font-size: 1.8rem;
     font-weight: 300;
 }
 
-.s6_button{
+.s6_button {
     color: white
-
 }
+
 /*footer*/
 
 
