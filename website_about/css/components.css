@@ -15,7 +15,7 @@ body {
     left: 0%;
     position: absolute;
     -webkit-mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
-  mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
+    mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
 }
 
 
@@ -128,12 +128,12 @@ body {
 .imgSquare {
     height: 400px;
     width: 700px;
-    
+
     background-image: url("../asset/about-hero.jpg");
     background-size: contain;
     -webkit-mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
     mask-image: linear-gradient(to top, transparent 12.5%, black 200%);
-    
+
 }
 
 .logo {
@@ -170,6 +170,23 @@ body {
     justify-content: center;
 }
 
+.s2iconBar {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.s2iconBar__img {
+
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid rgb(226, 27, 176);
+    border-radius: 3px;
+    display: flex;
+}
+
 
 
 .s2bottomCard {
@@ -181,6 +198,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
+    margin-top: 8rem;
 }
 
 .s2container__img {
