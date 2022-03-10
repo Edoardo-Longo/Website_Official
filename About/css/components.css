@@ -13,8 +13,8 @@ body {
     top: 0%;
     left: 0%;
     position: absolute;
-    -webkit-mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
-    mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
+    -webkit-mask-image: linear-gradient(to top, transparent -12.5%, black 300%);
+    mask-image: linear-gradient(to top, transparent -12.5%, black 300%);
 }
 
 
@@ -135,9 +135,9 @@ body {
     width: 70rem;
     
     background-image: url("../asset/about-hero.jpg");
-    background-size: contain;
-    -webkit-mask-image: linear-gradient(to top, transparent -20%, black 300%);
-    mask-image: linear-gradient(to top, transparent -20%, black 200%);
+    background-size: cover;
+    -webkit-mask-image: linear-gradient(to top, transparent -120%, black 400%);
+    mask-image: linear-gradient(to top, transparent -120%, black 300%);
     display: flex;
     justify-content: center;
 
@@ -229,10 +229,6 @@ body {
 
 /*----------------- END OF SECOND SECTION-----------------*/
 /*----------------- START THIRD SECTION -----------------*/
-.s3section {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .s3card__top {
     height: max-content;
@@ -241,6 +237,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 5rem;
+    text-align: center;
 }
 
 .s3card__central {
@@ -288,13 +285,7 @@ body {
 
 }
 
-.text-7 {
 
-    font-size: 20px;
-    color: white;
-    ;
-
-}
 
 .container__box {
 
@@ -388,7 +379,7 @@ body {
 
     display: flex;
     justify-content: space-around;
-    gap: 25px;
+    gap: 2.5rem;
 
 }
 
@@ -396,14 +387,14 @@ body {
 
     display: flex;
     justify-content: space-around;
-    gap: 25px;
+    gap: 2.5rem;
 
 }
 
 .container--img {
 
-    height: 240px;
-    width: 240px;
+    height: 24rem;
+    width: 24rem;
     position: relative;
     z-index: 1;
 }
@@ -455,7 +446,7 @@ body {
 
 /*----------------- END OF FIFTH SECTION-----------------*/
 /*----------------- START SIXTH SECTION -----------------*/
-.s6title_1 {
+.s6title {
     width: 100%;
     height: 20rem;
     display: flex;
@@ -473,7 +464,7 @@ body {
 }
 
 
-.s6img_container_1 {
+.profile__container{
     width: 100%;
     height: 17rem;
     display: flex;
@@ -483,69 +474,33 @@ body {
     align-content: space-around;
     gap: 1.9rem;
 }
-
-.s6img>.s6img_container_1>.profile__container {
+.profile{
     height: max-content;
-    width: 127px;
+    width: 12.7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.s6img>.s6img_container_1>.profile__container>picture {
+.profile>picture {
     width: 8rem;
     height: 8rem;
     align-self: center;
 }
 
-.s6img>.s6img_container_1>.profile__container>picture>img {
+.profile>picture>img {
     border-radius: 50%;
 }
 
-.name {
+.profile__name {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.s6img>.s6img_container_1>.profile__container>.icon {
+.profile__icon {
     width: 2.5rem;
     height: 2.5rem;
-    align-self: center;
-}
-
-.s6img>.s6img_container_2 {
-    width: 100;
-    height: 17rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    gap: 1.9rem;
-}
-
-.s6img>.s6img_container_2>.profile__container {
-    height: max-content;
-    width: 127px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.s6img>.s6img_container_2>.profile__container>picture {
-    width: 8rem;
-    height: 8rem;
-    align-self: center;
-}
-
-.s6img>.s6img_container_2>.profile__container>picture>img {
-    border-radius: 50%;
-}
-
-.s6img>.s6img_container_2>.profile__container>.icon {
-    width: 2rem;
-    height: 2rem;
     align-self: center;
 }
 
@@ -562,14 +517,16 @@ body {
     align-self: center;
 }
 
-.s6_end {
+.s6__footer {
     width: 100%;
     height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     background: rgb(25, 25, 25);
-    background: linear-gradient(90deg, rgb(36, 36, 36) 0%, rgb(58, 58, 59) 74%, rgb(82, 120, 151) 100%);
+    background: linear-gradient(90deg, rgb(36, 36, 36) 0%, rgb(58, 58, 59) 74%, #3abab4 100%);
 
 }
 

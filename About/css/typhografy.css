@@ -4,7 +4,6 @@
 .topbar__leftcontainer>a {
     text-decoration: none;
     color: rgb(212 212 216);
-    font-weight: bold;
     align-self: center;
 
 }
@@ -78,7 +77,12 @@
     font-size: 2rem;
     color: grey;
 }
+.s3card__title{
 
+    font-size: 20px;
+    color: white;
+
+}
 .container__box {
 
     display: flex;
@@ -163,33 +167,27 @@
 
 /*Sixth section*/
 
-.s6title_1>h2 {
+.s6title>h2 {
     align-self: center;
     color: white;
 }
 
-.s6title_1>p {
+.s6title>p {
     align-self: center;
     color: #A2A2A8;
 }
 
-.s6title_2>h2 {
+.s6__footer>h2 {
     align-self: center;
     color: white;
 }
 
-.s6title_2>p {
+.s6__footer>p {
     align-self: center;
     color: #A2A2A8;
 }
 
-.s6img>.s6img_container_1>.profile__container>.name>h4 {
-    color: #D4D4D8;
-    font-size: 1.8rem;
-    font-weight: 300;
-}
-
-.s6img>.s6img_container_2>.profile__container>.name>h4 {
+.profile__name>h4 {
     color: #D4D4D8;
     font-size: 1.8rem;
     font-weight: 300;
