@@ -10,7 +10,9 @@
 .block-center {
     margin: 0 auto;
 }
-
+.border{
+    border:1px solid red;
+}
 /* HELPER CLASSES - FLEX */
 /* FLEX - LAYOUT */
 .flex-row {
