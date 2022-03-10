@@ -1,12 +1,38 @@
+body {
+
+    position: relative;
+    z-index: 0;
+}
+
+.background-img {
+    height: auto;
+    width: 100%;
+    border: 1px solid rgb(64, 187, 228);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    -webkit-mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
+    mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
+}
+
+
+
+
+
 /*-------------- TOPBAR -------------- */
 .topbar {
     align-items: center;
     height: 10vh;
+    background-color: rgba(0, 0, 0, 0.637);
 }
 
 .topbar__leftcontainer {
     height: 100%;
     gap: 4rem;
+
 }
 
 .topbar__button {
@@ -84,34 +110,30 @@
     align-self: center;
 }
 
-/*-------------- END OF TOPBAR -------------- */
+/*----------------- END OF TOP BAR-----------------*/
 /*----------------- FIRST SECTION -----------------*/
 
 
-.background-img {
-    height: 100vh;
-    width: 100vw;
-    border: 1px solid rgb(64, 187, 228);
+/*-------------- END OF TOPBAR -------------- */
+/*----------------- FIRST SECTION -----------------*/
 
-    background-image: url("../asset/hero-bg-03.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+.s1container {
 
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
 }
+
 
 .imgSquare {
     height: 400px;
     width: 700px;
-    border: 1px solid rgb(255, 0, 128);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: space-evenly;
+
     background-image: url("../asset/about-hero.jpg");
     background-size: contain;
-    position: absolute;
-    z-index: 0;
+    -webkit-mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
+    mask-image: linear-gradient(to top, transparent 12.5%, black 200%);
+
 }
 
 .logo {
@@ -139,11 +161,33 @@
 .s2topCard {
 
     height: max-content;
+    margin-top: 5rem;
     width: 100%;
     border: 1px solid green;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.s2iconBar {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.s2iconBar__img {
+
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid rgb(226, 27, 176);
+    border-radius: 3px;
+    display: flex;
+}
+
+
 
 .s2bottomCard {
 
@@ -151,9 +195,19 @@
     width: 100%;
     border: 1px solid aqua;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
+    margin-top: 8rem;
+}
+
+.s2container__img {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
 }
 
 /*----------------- END OF SECOND SECTION-----------------*/
@@ -171,6 +225,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 5rem;
 }
 
 .s3card__central {
@@ -186,21 +241,33 @@
     border: 1px solid aqua;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .s3card__bottom--container {
-    height: max-content;
-    width: 100%;
+    height: 35rem;
+    width: 89rem;
     border: 1px solid aqua;
-    display: flexbox;
-    flex-wrap: wrap;
-    flex-flow: row;
-    gap: 20px;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+    border: 0 solid;
+
+
+
+
 
 
 }
 
+.s3card__bottom--box {
 
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(82, 80, 80, 0.39);
+
+}
 
 .link {
     font-size: 16px;
@@ -226,16 +293,23 @@
 /*----------------- START FOURTH SECTION -----------------*/
 
 
+.s4 {
 
+    display: flex;
+    gap: 5rem;
+    flex-flow: column;
+}
 
 .s4topCard {
-    height: max-content;
+    height: 21rem;
     width: 100%;
-    margin-left: 35%;
     border: 1px solid green;
     display: flex;
     flex-direction: column;
     justify-items: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
 
 
 }
@@ -243,37 +317,87 @@
 
 
 
-.s4cent {
-
+.s4bottomCard {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
     flex-direction: row;
-    gap: 40 rem;
+    border: 1px solid yellow;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .s4list {
-    height: max-content;
-    width: max-content;
-    border: 1px solid green;
+    height: 20rem;
+    width: 18rem;
+    border: 1px solid red;
     color: grey;
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 20rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
+
 
 
 .s4careersBox {
     height: max-content;
-    width: fit max-content;
+    width: fit-content;
     border: 1px solid violet;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     color: whitesmoke;
     font-size: 80%;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 5rem;
+
+
 }
 
 .s4careersBox>p {
 
     color: grey;
+}
+
+.s4careersBox__container--img1 {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+
+}
+
+.s4careersBox__container--img2 {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+
+}
+
+.container--img {
+
+    height: 240px;
+    width: 240px;
+    position: relative;
+    z-index: 1;
+}
+
+.container--img>img {
+
+    position: relative;
+    z-index: 0;
+    mask-image: linear-gradient(to top, transparent 5%, black 95%);
+
+
+
 }
 
 /*----------------- END OF FOURTH SECTION-----------------*/
@@ -287,6 +411,9 @@
     flex-wrap: wrap;
     flex-flow: column;
     justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 
 }
 
@@ -307,53 +434,134 @@
     border: 1px solid violet;
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 
 /*----------------- END OF FIFTH SECTION-----------------*/
 /*----------------- START SIXTH SECTION -----------------*/
-.s6title {
+.s6title_1 {
     width: 100%;
     height: 20rem;
     border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 
-.s6img {
+.s6title_2 {
+
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.s6img_container_1 {
     width: 100%;
-    height: 50rem;
+    height: 17rem;
     border: 1px solid blue;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
+    gap: 1.9rem;
 }
 
-.s6img>.profile__container {
+.s6img>.s6img_container_1>.profile__container {
     border: 1px solid green;
     height: max-content;
-    width: max-content;
+    width: 127px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.s6img>.profile__container>picture {
+.s6img>.s6img_container_1>.profile__container>picture {
     width: 8rem;
     height: 8rem;
     align-self: center;
 }
 
-.s6img>.profile__container>picture>img {
+.s6img>.s6img_container_1>.profile__container>picture>img {
     border-radius: 50%;
 }
 
-.s6img>.profile__container>.icon {
+.name {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.s6img>.s6img_container_1>.profile__container>.icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    align-self: center;
+}
+
+.s6img>.s6img_container_2 {
+    width: 100;
+    height: 17rem;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 1.9rem;
+}
+
+.s6img>.s6img_container_2>.profile__container {
+    border: 1px solid green;
+    height: max-content;
+    width: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s6img>.s6img_container_2>.profile__container>picture {
+    width: 8rem;
+    height: 8rem;
+    align-self: center;
+}
+
+.s6img>.s6img_container_2>.profile__container>picture>img {
+    border-radius: 50%;
+}
+
+.s6img>.s6img_container_2>.profile__container>.icon {
     width: 2rem;
     height: 2rem;
     align-self: center;
+}
+
+.s6_button {
+    height: 5rem;
+    width: 20rem;
+    padding: 0.8rem 1.6rem;
+    outline: none;
+    background-color: #3abab4;
+    border: 1px;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    margin-top: 2rem;
+    align-self: center;
+}
+
+.s6_end {
+    border: 1px solid green;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(25, 25, 25);
+    background: linear-gradient(90deg, rgb(36, 36, 36) 0%, rgb(58, 58, 59) 74%, rgb(82, 120, 151) 100%);
+
 }
 
 /*----------------- END OF SIXTH SECTION-----------------*/

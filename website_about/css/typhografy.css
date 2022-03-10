@@ -1,0 +1,218 @@
+/*-------------- TOPBAR -------------- */
+
+
+.topbar__leftcontainer>a {
+    text-decoration: none;
+    color: rgb(212 212 216);
+    font-weight: bold;
+    align-self: center;
+
+}
+
+.topbar__button {
+    color: white;
+    font-weight: 800;
+
+}
+
+/*-------------- END OF TOPBAR -------------- */
+
+
+/*------------ TOP BAR --------------*/
+/*------------ END OF TOP BAR --------------*/
+
+
+/*----------------- FIRST SECTION -----------------*/
+.s1title {
+    width: 100%;
+    font-size: 7.7rem;
+    font-style: black;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+
+}
+
+.s1title>span {
+    color: #3abab4;
+}
+
+/*----------------- END OF FIRST SECTION -----------------*/
+/*----------------- SECOND SECTION -----------------*/
+
+.s2topCard>h1 {
+    align-self: center;
+    color: white;
+}
+
+.s2topCard>p {
+    align-self: center;
+    color: grey;
+}
+
+.s2topCard__title {
+
+    font-style: black;
+    font-weight: 900;
+}
+
+.s2topCard__line {
+
+    font-weight: medium;
+    color: grey;
+}
+
+/*-----------END OF SECOND SECTION-----------------*/
+/*---------END OF THIRD SECTION----------*/
+
+.s3card__top>p {
+
+    font-family: inter;
+    font-weight: regular;
+    line-height: 1.4;
+    font-size: 2rem;
+    color: grey;
+}
+
+.container__box {
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.s3card__central--list>ul>li>a {
+
+    color: #A2A2A8;
+}
+
+.s3card__bottom--box>p {
+
+    color: #A2A2A8;
+}
+
+.s3card__bottom--box>a>span {
+
+    color: #3abab4;
+}
+
+
+/*----------------- FOURTH SECTION -----------------*/
+.s4topCard__title {
+    font-size: 5rem;
+    align-self: center;
+}
+
+.s4topCard__description {
+
+    color: grey;
+    align-self: center;
+}
+
+
+.s4list>h3 {
+
+    color: white;
+    font-size: 1.8rem;
+    align-self: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.s4list>a {
+
+    font-size: medium;
+
+}
+
+.container--img>h4 {
+
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.container--img>em {
+
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5rem;
+}
+
+li>a {
+
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+
+/*------END OF FOURTH SECTION------*/
+
+
+
+/*Sixth section*/
+
+.s6title_1>h2 {
+    align-self: center;
+    color: white;
+}
+
+.s6title_1>p {
+    align-self: center;
+    color: #A2A2A8;
+}
+
+.s6title_2>h2 {
+    align-self: center;
+    color: white;
+}
+
+.s6title_2>p {
+    align-self: center;
+    color: #A2A2A8;
+}
+
+.s6img>.s6img_container_1>.profile__container>.name>h4 {
+    color: #D4D4D8;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.s6img>.s6img_container_2>.profile__container>.name>h4 {
+    color: #D4D4D8;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.s6_button {
+    color: white
+}
+
+/*footer*/
+
+
+
+
+
+
+.s7list__block>ul {
+    color: #A2A2A8;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
