@@ -24,7 +24,8 @@
 
 /*----------------- FIRST SECTION -----------------*/
 .s1title {
-    font-size: 60px;
+    font-style: black;
+    font-weight: 900;
     color: white;
     position: absolute;
     top: 50%;
@@ -50,11 +51,30 @@
     color: grey;
 }
 
-.s3topCard>p {
-    color: gray;
+.s2topCard__title {
+
+    font-style: black;
+    font-weight: 900;
+}
+
+.s2topCard__line {
+
+    font-weight: medium;
+    color: grey;
 }
 
 /*-----------END OF SECOND SECTION-----------------*/
+/*---------END OF THIRD SECTION----------*/
+
+.s3card__top>p {
+   
+    font-family: inter;
+    font-weight: regular;
+    line-height: 1.4;
+    font-size: 2rem;
+    color: grey;
+}
+
 /*----------------- FOURTH SECTION -----------------*/
 .s4topCard__title {
     font-size: 5rem;
@@ -81,7 +101,7 @@
     font-size: medium;
 }
 
-.container--img>p {
+.container--img>h4 {
 
     position: absolute;
     bottom: 10%;
@@ -89,7 +109,9 @@
 transform: translate(-50%, -50%);
     z-index: 2;
     font-family: 'Red Hat Display', sans-serif ;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 .container--img>em {
@@ -110,36 +132,51 @@ li>a {
 }
 
 
-/*------END OF FORUTH SECTION------*/
+/*------END OF FOURTH SECTION------*/
 
 
 
 /*Sixth section*/
 
-.s6title>h2 {
+.s6title_1>h2 {
     align-self: center;
     color: white;
 }
 
-.s6title>p {
+.s6title_1>p {
     align-self: center;
     color: #A2A2A8;
 }
 
-.s6img>.profile__container>.name>h4 {
+.s6title_2>h2 {
+    align-self: center;
+    color: white;
+}
+
+.s6title_2>p {
+    align-self: center;
+    color: #A2A2A8;
+}
+
+.s6img>.s6img_container_1>.profilecontainer>.name>h4 {
     color: #D4D4D8;
     font-size: 1.8rem;
     font-weight: 300;
 }
 
-/*footer*/
+.s6img>.s6img_container_2>.profilecontainer>.name>h4 {
+    color: #D4D4D8;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
 
-.s6list {
-
-    font-size: 14px;
-    color: grey;
+.s6_button{
+    color: white
 
 }
+/*footer*/
+
+
 
 
 
