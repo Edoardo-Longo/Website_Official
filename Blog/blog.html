@@ -25,42 +25,37 @@
 </head>
 
 <body>
-
+    <img src="./images/hero-bg.jpg" alt="bg" class="bg">
     <!-- Topbar -->
-    <header class="padding topbar flex-row-nowrap justify-between">
+    <header class="topbar flex-row-nowrap justify-between">
         <div class="topbar__leftcontainer flex-row-nowrap">
             <!--Logo-->
-            <svg class="logo align-self-center ap uj" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
-                        <stop stop-color="#3ABAB4" offset="0%"></stop>
-                        <stop stop-color="#7F9CF5" offset="100%"></stop>
-                    </linearGradient>
-                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">
-                        <stop stop-color="#3ABAB4" offset="0%"></stop>
-                        <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
-                    </linearGradient>
-                </defs>
-                <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#flogo_a)"></path>
-                <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#flogo_b)"></path>
-            </svg>
+            <a href="../Homepage/homepage.html"><img class="logo--topbar" src="svg/logo.svg" alt=""></a>
             <!--Logo-->
-            <a href="../Homepage/homepage.html">Home</a>
             <a href="../About/about.html">About</a>
-            <a href="../Blog/blog.html">Blog</a>
+            <a href="./blog.html">Blog</a>
             <a href="#">Testimonials</a>
             <a href="#">Resources</a>
         </div>
-        <div class="topbar__rightcontainer w-max-content flex-row-nowrap justify-around">
+        <div class="topbar__rightcontainer w-max-content flex-row-nowrap ">
+            <div class="circlebg"></div>
+
+
             <div class="rightcontainer__switchbtn justify-between ">
                 <div></div>
                 <div>
-                    <div class="rightcontainer__switchitem topbar__switch"></div>
+                    <div class="rightcontainer__switchitem topbar_switch"></div>
+
                 </div>
             </div>
-            <a href="#" target="_blank">
+            <a href="https://www.google.it" target="_blank">
                 <button class="topbar__button">Request code</button>
             </a>
+            <div class="topbar__mediamenu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div> <!-- end of topbar -->
     </header>
 
@@ -97,6 +92,7 @@
 
                 <div class="block__container">
                     <article class="block green">
+                        <img src="./images/related-post-03.jpg" alt="" class="block__bg">
                         <a href="#" class="block__title">
                             <span>Creating events in the pandemic</span>
                         </a>
@@ -104,6 +100,7 @@
                     </article>
 
                     <article class="block purple">
+                        <img src="./images/related-post-04.jpg" alt="" class="block__bg">
                         <a href="#" class="block__title">
                             <span>5 Ways to grow your personal network</span>
                         </a>
@@ -111,6 +108,7 @@
                     </article>
 
                     <article class="block blu">
+                        <img src="./images/related-post-05.jpg" alt="" class="block__bg">
                         <a href="#" class="block__title">
                             <span>How to fix my website myself</span>
                         </a>
@@ -118,6 +116,7 @@
                     </article>
 
                     <article class="block red">
+                        <img src="./images/related-post-06.jpg" alt="" class="block__bg">
                         <a href="#" class="block__title">
                             <span>How COVID-19 redefined the entrepreneur</span>
                         </a>
@@ -145,7 +144,7 @@
                                     </picture>
                                     <article>
                                         <a href="#">
-                                            <h4>How to create a profile page using Appy</h4>
+                                            <h4>How to create a profile page <br> using Appy</h4>
                                         </a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                                             <br>
@@ -158,7 +157,7 @@
                                             dolore magna aliqua.
                                         </p>
                                     </article>
-                                    <div>
+                                    <div class="profile__picture--container">
                                         <picture class="profile__picture">
                                             <img src="images/news-author-03.jpg" width="32" height="32" alt="">
                                         </picture>
@@ -171,7 +170,7 @@
                                     </picture>
                                     <article>
                                         <a href="#">
-                                            <h4>20+ elements of a modern website design</h4>
+                                            <h4>20+ elements of a modern <br> website design</h4>
                                         </a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                                             <br>
@@ -184,7 +183,7 @@
                                             dolore magna aliqua.
                                         </p>
                                     </article>
-                                    <div>
+                                    <div class="profile__picture--container">
                                         <picture class="profile__picture">
                                             <img src="images/news-author-06.jpg" width="32" height="32" alt="News06">
                                         </picture>
@@ -197,7 +196,7 @@
                                     </picture>
                                     <article>
                                         <a href="#">
-                                            <h4>How to create a profile page using Appy</h4>
+                                            <h4>20 unique places to find web <br> design inspiration</h4>
                                         </a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                                             <br>
@@ -210,7 +209,7 @@
                                             dolore magna aliqua.
                                         </p>
                                     </article>
-                                    <div>
+                                    <div class="profile__picture--container">
                                         <picture class="profile__picture">
                                             <img src="images/news-author-01.jpg" width="32" height="32" alt="News01">
                                         </picture>
@@ -225,7 +224,7 @@
                                     </picture>
                                     <article>
                                         <a href="#">
-                                            <h4>What to look for in a digital portfolio</h4>
+                                            <h4>What to look for in a digital <br> portfolio</h4>
                                         </a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                                             <br>
@@ -238,7 +237,7 @@
                                             dolore magna aliqua.
                                         </p>
                                     </article>
-                                    <div>
+                                    <div class="profile__picture--container">
                                         <picture class="profile__picture">
                                             <img src="images/news-author-03.jpg" width="32" height="32" alt="News03">
                                         </picture>
@@ -251,7 +250,7 @@
                                     </picture>
                                     <article>
                                         <a href="#">
-                                            <h4>Why your customers needs a responsive website</h4>
+                                            <h4>Why your customers needs a <br> responsive website</h4>
                                         </a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                                             <br>
@@ -264,7 +263,7 @@
                                             dolore magna aliqua.
                                         </p>
                                     </article>
-                                    <div>
+                                    <div class="profile__picture--container">
                                         <picture class="profile__picture">
                                             <img src="images/news-author-04.jpg" width="32" height="32" alt="News04">
                                         </picture>
@@ -277,7 +276,7 @@
                                     </picture>
                                     <article>
                                         <a href="#">
-                                            <h4>Launch lessons: the creators of Intrusive Inc.</h4>
+                                            <h4>Launch lessons: the creators<br> of  Intrusive Inc.</h4>
                                         </a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                                             <br>
@@ -290,7 +289,7 @@
                                             dolore magna aliqua.
                                         </p>
                                     </article>
-                                    <div>
+                                    <div class="profile__picture--container">
                                         <picture class="profile__picture">
                                             <img src="images/news-author-05.jpg" width="32" height="32" alt="News05">
                                         </picture>
@@ -315,7 +314,7 @@
                         <h4>Popular on Simple</h4>
                         <ul>
                             <li>
-                                <div>
+                                <div class="popular__article">
                                     <div class="num flex-row-nowrap">
                                         <div class="align-self-center">
                                             01
@@ -332,14 +331,14 @@
                                 </div>
                             </li>
                             <li>
-                                <div>
+                                <div div class="popular__article">
                                     <div class="num flex-row-nowrap">
                                         <div class="align-self-center">
                                             02
                                         </div>
                                         <div class="title">
                                             <a href="#">
-                                                <h4>Create your branding strategy in 4 simple steps</h4>
+                                                <h4>Create your branding  strategy in 4 simple steps</h4>
                                             </a>
                                         </div>
                                     </div>
@@ -349,14 +348,14 @@
                                 </div>
                             </li>
                             <li>
-                                <div>
+                                <div div class="popular__article">
                                     <div class="num flex-row-nowrap">
                                         <div class="align-self-center">
                                             03
                                         </div>
                                         <div class="title">
                                             <a href="#">
-                                                <h4>Don’t miss Appy’s exclusive workshop with our CEO</h4>
+                                                <h4>Don’t miss Appy’s exclusive  workshop with our CEO</h4>
                                             </a>
                                         </div>
                                     </div>
@@ -367,14 +366,14 @@
                                 </div>
                             </li>
                             <li>
-                                <div>
+                                <div div class="popular__article">
                                     <div class="num flex-row-nowrap">
                                         <div class="align-self-center">
                                             04
                                         </div>
                                         <div class="title">
                                             <a href="#">
-                                                <h4>How to optimize your website to convert more leads</h4>
+                                                <h4>How to optimize your  website to convert more  leads</h4>
                                             </a>
                                         </div>
                                     </div>
@@ -384,14 +383,14 @@
                                 </div>
                             </li>
                             <li>
-                                <div>
+                                <div div class="popular__article">
                                     <div class="num flex-row-nowrap">
                                         <div class="align-self-center">
                                             05
                                         </div>
                                         <div class="title">
                                             <a href="#">
-                                                <h4>What to do if your product idea is stolen</h4>
+                                                <h4>What to do if your product  idea is stolen</h4>
                                             </a>
                                         </div>
                                     </div>
@@ -416,25 +415,14 @@
     <!-------footer--------------------------------------------------------->
 
     <footer>
-        <div class="s7list flex-row justify-evenly ">
+        <div class="s7list flex-row-nowrap justify-between ">
+
             <!--Logo-->
-            <svg class="logo align-end ap uj" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
-                        <stop stop-color="#3ABAB4" offset="0%"></stop>
-                        <stop stop-color="#7F9CF5" offset="100%"></stop>
-                    </linearGradient>
-                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">
-                        <stop stop-color="#3ABAB4" offset="0%"></stop>
-                        <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
-                    </linearGradient>
-                </defs>
-                <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#flogo_a)"></path>
-                <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#flogo_b)"></path>
-            </svg>
+            <img class="logo--footer" src="svg/logo.svg" alt="">
             <!--Logo-->
+
             <div class="s7list__block">
-                <p> PRODUCTS</p>
+                <p><a href=""> PRODUCTS </a></p>
                 <ul>
                     <li>
                         <a href=""> drag </a>
@@ -505,22 +493,33 @@
                 </ul>
             </div>
         </div>
-        <div class="policy flex-row justify-between">
+
+        <div class="policy flex-row-nowrap justify-between ">
+
             <p> 2020 appy. all rights reserved</p>
             <p> terms privacy policy </p>
             <!-- social button-->
-            <div>
-                <a class="social__f" href="https://www.facebook.com" target="_blank">
-                    <button class="social__f"> <img src="images/facebook.png" width="40rem" height="40rem" /></button>
+            <div class="buttons__container">
+
+                <a class="buttons__logo" href="" target="">
+                    <embed src="svg/twitter.svg" type="image/svg+xml" />
                 </a>
-                <a class="social__t" href="https://www.twitter.com" target="_blank">
-                    <button class="social__t"> <img src="images/Twitter-PNG-Photos.png" width="40rem" height="40rem" /> </button>
+
+                <a class="buttons__logo" href="" target="">
+                    <embed src="svg/github.svg" type="image/svg+xml">
                 </a>
-                <a class="social__i" href="https://www.instagram.com" target="_blank">
-                    <button class="social__i"> <img src="images/instagram.png" width="40rem" height="40rem" /></button>
+
+                <a class="buttons__logo" href="" target="">
+                    <embed src="svg/facebook.svg" type="image/svg+xml">
                 </a>
-                <a class="social__l" href="https://www.linkedin.com" target="_blank">
-                    <button class="social__l"> <img src="images/linkedin.png" width="40rem" height="40rem" /> </button>
+
+                <a class="buttons__logo" href="" target="">
+                    <embed src="svg/instagram.svg" type="image/svg+xml">
+                </a>
+
+                <a class="buttons__logo" href="" target="">
+                    <embed src="svg/linkedin.svg" type="image/svg+xml">
+
                 </a>
             </div>
         </div>

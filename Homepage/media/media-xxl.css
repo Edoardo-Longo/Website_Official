@@ -24,4 +24,16 @@
     .logo--footer {
         align-self: flex-start;
     }
+
+    .s2picture {
+        display: flex;
+        width: 200vw;
+        height: max-content;
+        gap: 3rem;
+        position: absolute;
+        top: 50%;
+        left: 14.2%;
+        justify-content: center;
+        transform: translate(-50%, -50%);
+    }
 }
