@@ -96,7 +96,6 @@
     height: max-content;
     gap: 2rem;
     margin-top: 10vh;
-    border: 1px solid red;
     width: max-content;
 }
 
@@ -104,7 +103,6 @@
     gap: 20px;
     flex-basis: content;
     flex-grow: 1;
-    border: 1px solid blue;
 }
 
 .container__left--title {
@@ -240,7 +238,6 @@
 }
 
 .s2picture-trail {
-    border: 1px solid red;
     width: 200vw;
     height: 47rem;
     margin: 7rem 0px;
@@ -249,7 +246,6 @@
 }
 
 .s2picture {
-    border: 1px solid rgb(60, 255, 0);
 
     display: flex;
     width: 200vw;
@@ -346,9 +342,7 @@
 
 .button__form {
     gap: 5px;
-    flex-wrap: wrap;
-    border: 1px solid yellow;
-    height: 100%;
+    flex-wrap: wrap;    height: 100%;
 }
 
 .button__form>button {
