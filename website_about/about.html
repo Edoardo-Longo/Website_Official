@@ -13,29 +13,28 @@
         <!-- Inter sans serif (Link e paragrafi)-->
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
         <!-- Red hat display (Titoli) -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap"
+            rel="stylesheet">
     </section>
     <title>About - Appy Demo</title>
     <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-
+    <img src="/website_about/asset/hero-bg-03.jpg" alt="backgroung-img" class="background-img">
     <!-- First section -->
     <section>
-
-        <picture class="background-img">
-
-            <!-- Topbar -->
-            <header class="padding topbar flex-row-nowrap justify-between">
-                <div class="topbar__leftcontainer flex-row-nowrap">
-                    <!--Logo-->
+        <!-- Topbar -->
+        <header class="padding topbar flex-row-nowrap justify-between">
+            <div class="topbar__leftcontainer flex-row-nowrap">
+                <!--Logo-->
+                <a href="../Homepage/homepage.html">
                     <svg class="logo align-self-center ap uj" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                         <defs>
                             <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
@@ -51,36 +50,39 @@
                         </path>
                         <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#flogo_b)">
                         </path>
-                    </svg>
-                    <!--Logo-->
-                    <a href="../Homepage/homepage.html">Home</a>
-                    <a href="../About/about.html">About</a>
-                    <a href="../Blog/blog.html">Blog</a>
-                    <a href="#">Testimonials</a>
-                    <a href="#">Resources</a>
-                </div>
-                <div class="topbar__rightcontainer w-max-content flex-row-nowrap justify-around">
-                    <div class="rightcontainer__switchbtn justify-between ">
-                        <div></div>
-                        <div>
-                            <div class="rightcontainer__switchitem topbar__switch"></div>
-                        </div>
-                    </div>
-                    <a href="#" target="_blank">
-                        <button class="topbar__button">Request code</button>
-                    </a>
-                </div> <!-- end of topbar -->
-            </header>
-            <!-- end of topbar -->
+                    </svg></a>
+                <!--Logo-->
 
-            <div class="backgroundBlack"></div>
-            <div class="imgSquare">
-
+                <a href="../About/about.html">About</a>
+                <a href="../Blog/blog.html">Blog</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Resources</a>
             </div>
-            <h1 class="s1title">Make Your Own
+            <div class="topbar__rightcontainer w-max-content flex-row-nowrap justify-around">
+                <div class="rightcontainer__switchbtn justify-between ">
+                    <div></div>
+                    <div>
+                        <div class="rightcontainer__switchitem topbar__switch"></div>
+                    </div>
+                </div>
+                <a href="#" target="_blank">
+                    <button class="topbar__button">Request code</button>
+                </a>
+            </div> <!-- end of topbar -->
+        </header>
+        <!-- end of topbar -->
+
+
+
+
+
+        <div class="s1container">
+            <div class="imgSquare"></div>
+            
+        </div>
+<h1 class="s1title">Make Your Own
                 <span>Way</span>
             </h1>
-        </picture>
     </section>
     <!-- End first section -->
 
@@ -89,23 +91,28 @@
         <article class="s2topCard">
             <h1 class="s2topCard__title">We help teams by delivering</h1>
             <h1> the perfect tools</h1>
-            <p class="s2topCard__line">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            <p class="s2topCard__line">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt</p>
             <p class="s2topCard__line"> mollit
                 anim id est.</p>
         </article>
         <div class="s2bottomCard">
-            <picture><img class="img-6" src="asset/about-grid-01.jpg" width="360" height="270" alt="About grid 01">
-            </picture>
-            <picture><img class="img-7" src="asset/about-grid-02.jpg" width="270" height="270" alt="About grid 02">
-            </picture>
-            <picture> <img class="img-8" src="asset/about-grid-03.jpg" width="450" height="270" alt="About grid 03">
-            </picture>
-            <picture><img class="img-9" src="asset/about-grid-04.jpg" width="270" height="270" alt="About grid 04">
-            </picture>
-            <picture><img class="img-10" src="asset/about-grid-05.jpg" width="450" height="270" alt="About grid 05">
-            </picture>
-            <picture><img class="img-11" src="asset/about-grid-06.jpg" width="360" height="270" alt="About grid 06">
-            </picture>
+            <div class="s2container__img">
+                <picture><img class="img-6" src="asset/about-grid-01.jpg" width="360" height="270" alt="About grid 01">
+                </picture>
+                <picture><img class="img-7" src="asset/about-grid-02.jpg" width="270" height="270" alt="About grid 02">
+                </picture>
+                <picture> <img class="img-8" src="asset/about-grid-03.jpg" width="450" height="270" alt="About grid 03">
+                </picture>
+            </div>
+            <div class="s2container__img">
+                <picture><img class="img-9" src="asset/about-grid-04.jpg" width="270" height="270" alt="About grid 04">
+                </picture>
+                <picture><img class="img-10" src="asset/about-grid-05.jpg" width="450" height="270" alt="About grid 05">
+                </picture>
+                <picture><img class="img-11" src="asset/about-grid-06.jpg" width="360" height="270" alt="About grid 06">
+                </picture>
+            </div>
         </div>
     </section>
     <!-- End second section -->
@@ -129,26 +136,34 @@
                 </ul>
             </aside>
             <div class="s3card__bottom--container">
-                <article class="container__box">
+
+                <article class="s3card__bottom--box">
                     <h3 class="text-7">Launched Appy Business</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <a class="link" href="#0">Learn more</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                    <a class="link" href="#0"><span>Learn more</span></a>
                 </article>
-                <article class="container__box">
+                <article class="s3card__bottom--box">
                     <h3 class="text-7">Series B fundraising</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <a class="link" href="#0">Learn more</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                    <a class="link" href="#0"><span>Learn more</span></a>
                 </article>
-                <article class="container__box">
+
+
+                <article class="s3card__bottom--box">
                     <h3 class="text-7">1M Customers</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <a class="link" href="#0">Learn more</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                    <a class="link" href="#0"><span>Learn more</span></a>
                 </article>
-                <article class="container__box">
+                <article class="s3card__bottom--box">
                     <h3 class="text-7">Mobile builder enabled</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <a class="link" href="#0">Learn more</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                    <a class="link" href="#0"><span>Learn more</span></a>
                 </article>
+
             </div>
         </div>
         </div>
@@ -166,54 +181,71 @@
             <div class="s4bottomCard">
                 <aside class="s4list">
                     <h3>Locations</h3>
-                    
-                        <ul>
 
-                            <li><div class="s4list__option"><a href=""> <embed src="svg/list.svg" type="image/svg+xml"> <span>All Locations</span></a></div></li>
-                            <li><a href=""><div class="s4list__option"><embed src="svg/list.svg" type="image/svg+xml"><span>London, UK</span> </div> </a></li>
-                            <li><a href=""><div class="s4list__option"> <embed src="svg/list.svg" type="image/svg+xml"><span>Milan, Italy</span></a></div></li>
-                            <li><div class="s4list__option"><a href=""><embed src="svg/list.svg" type="image/svg+xml"><span>New York, NYC</span> </a></div></li>
-                            <li><div class="s4list__option"><a href=""><embed src="svg/list.svg" type="image/svg+xml"><span>Berlin, DE </span></a></div></li>
-                        </ul>
-                  
-                </aside>
-                <picture class="s4careersBox">
+                    <ul>
 
-                    <div class="s4careersBox__container--img1">
-                        <picture class="container--img"><img src="asset\career-01.jpg" alt="career-01" width="240px"
-                                height="240px">
-                            <h4>Development</h4><em>4 Positions</em>
-                        </picture>
+                        <li>
+                            <div class="s4list__option"><a href=""> <embed src="svg/list.svg" type="image/svg+xml">
+                                    <span>All Locations</span></a></div>
+                        </li>
+                        <li><a href="">
+                                <div class="s4list__option"><embed src="svg/list.svg" type="image/svg+xml"><span>London,
+                                        UK</span> </div>
+                            </a></li>
+                        <li><a href="">
+                                <div class="s4list__option"> <embed src="svg/list.svg" type="image/svg+xml"><span>Milan,
+                                        Italy</span>
+                            </a>
+            </div>
+            </li>
+            <li>
+                <div class="s4list__option"><a href=""><embed src="svg/list.svg" type="image/svg+xml"><span>New York,
+                            NYC</span> </a></div>
+            </li>
+            <li>
+                <div class="s4list__option"><a href=""><embed src="svg/list.svg" type="image/svg+xml"><span>Berlin, DE
+                        </span></a></div>
+            </li>
+            </ul>
 
-                        <picture class="container--img"><img src="asset\career-02.jpg" alt="career-02" width="240px"
-                                height="240px">
-                            <h4>Product&Design</h4><em>56 Positions</em>
-                        </picture>
+            </aside>
+            <picture class="s4careersBox">
 
-                        <picture class="container--img"><img src="asset/career-03.jpg" alt="career-03" width="240px"
-                                height="240px">
-                            <h4>Marketing</h4><em>3 Positions</em>
-                        </picture>
-                    </div>
-                    <div class="s4careersBox__container--img2">
-                        <picture class="container--img"><img src="asset/career-04.jpg" alt="career-04" width="240px"
-                                height="240px">
-                            <h4>Data Science</h4><em>12 Positions</em>
-                        </picture>
+                <div class="s4careersBox__container--img1">
+                    <picture class="container--img"><img src="asset\career-01.jpg" alt="career-01" width="240px"
+                            height="240px">
+                        <h4>Development</h4><em>4 Positions</em>
+                    </picture>
 
-                        <picture class="container--img"><img src="asset/career-05.jpg" alt="career-05" width="240px"
-                                height="240px">
-                            <h4>Internal System</h4><em>23 Positions</em>
-                        </picture>
+                    <picture class="container--img"><img src="asset\career-02.jpg" alt="career-02" width="240px"
+                            height="240px">
+                        <h4>Product&Design</h4><em>56 Positions</em>
+                    </picture>
 
-                        <picture class="container--img"><img src="asset/career-06.jpg" alt="career-06" width="240px"
-                                height="240px">
-                            <h4>Administrative</h4><em>7 Positions</em>
-                        </picture>
+                    <picture class="container--img"><img src="asset/career-03.jpg" alt="career-03" width="240px"
+                            height="240px">
+                        <h4>Marketing</h4><em>3 Positions</em>
+                    </picture>
+                </div>
+                <div class="s4careersBox__container--img2">
+                    <picture class="container--img"><img src="asset/career-04.jpg" alt="career-04" width="240px"
+                            height="240px">
+                        <h4>Data Science</h4><em>12 Positions</em>
+                    </picture>
 
-                    </div>
+                    <picture class="container--img"><img src="asset/career-05.jpg" alt="career-05" width="240px"
+                            height="240px">
+                        <h4>Internal System</h4><em>23 Positions</em>
+                    </picture>
 
-                </picture>
+                    <picture class="container--img"><img src="asset/career-06.jpg" alt="career-06" width="240px"
+                            height="240px">
+                        <h4>Administrative</h4><em>7 Positions</em>
+                    </picture>
+
+                </div>
+
+            </picture>
             </div>
         </section>
 
@@ -355,9 +387,8 @@
             </div>
         </section>
         <!--End sixth section-->
-        
         <footer>
-            <div class="s7list flex-row justify-evenly ">
+            <div class="s7list flex-row justify-between ">
                 <!--Logo-->
                 <svg class="logo align-end ap uj" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <defs>

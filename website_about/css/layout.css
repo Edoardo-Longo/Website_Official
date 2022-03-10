@@ -5,17 +5,15 @@ header {
 footer {
     color: white;
     gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
     border: 1px solid blue;
     margin-top: 5rem;
+    width:100%;
 }
 
 section {
-    border-left: none;
-    border-right: none;
-    background-color: #1d1d20;
-    max-height: max-content;
-    min-height: min-content;
+   width: 100%;
+   height:max-content;
 }
 
 h1 {
@@ -77,8 +75,9 @@ button {
 
 body {
 
-    background-color: rgb(92, 92, 92);
-    overflow-x: hidden;
+    background-color: #1d1d20;
+    padding: 0% 10%;
+    
 }
 
 
