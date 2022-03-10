@@ -4,6 +4,18 @@ body{
     padding:0 1% ;      
 }
 
+    /*---------------TOPBAR-------------*/
+
+    .topbar__leftcontainer {
+        gap: 3rem;
+    }
+
+    .topbar__leftcontainer>a {
+        font-size: 1.5rem;
+    }
+
+    /*---------------END OF TOPBAR-------------*/
+
 .block__container{
     display: grid;
     grid-template-columns: 1fr 1fr;

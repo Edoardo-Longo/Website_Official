@@ -36,24 +36,24 @@ body {
   border: 1px;
   border-radius: 0.25rem;
   border-width: 1px;
-  margin-top: 2rem;
+
   position: relative;
   z-index: 1;
-
 }
 
-
 .topbar__rightcontainer {
-  height: 100%;
-  gap: 1.5rem;
+  height: max-content;
   position: relative;
   z-index: 1;
+  gap: 1rem;
+
 }
 
 
 .logo--topbar {
   align-self: center;
-
+  width: 3.2rem;
+  height: 3.2rem;
 }
 
 .rightcontainer__switchbtn {
@@ -106,7 +106,6 @@ body {
   font-weight: bold;
   align-self: center;
 }
-
 
 /*fine-topbar-----------*/
 

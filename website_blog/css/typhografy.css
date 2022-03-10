@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&display=swap');
 
+
 .topbar__leftcontainer>a {
   text-decoration: none;
   color: rgb(212 212 216);
   font-weight: bold;
   align-self: center;
-  font-size: 1.6rem;
 }
 
 .topbar__button {

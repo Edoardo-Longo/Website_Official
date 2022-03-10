@@ -3,6 +3,37 @@
     body{
         padding:0 1% ;      
     }
+
+     /*--------TOPBAR---------*/
+
+     .topbar__leftcontainer>a {
+        visibility: hidden;
+    }
+
+    .topbar__rightcontainer>a {
+        display: none;
+    }
+
+    .topbar__rightcontainer {
+        align-items: center;
+    }
+
+
+    .topbar__mediamenu {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: space-between;
+        height: max-content;
+    }
+
+    .topbar__mediamenu>div {
+        height: 0.3rem;
+        width: 2.5rem;
+        background-color: #a2a2a8;
+    }
+
+    /*--------FINE TOPBAR---------*/
     
     .block__container{
         flex-direction: column;
