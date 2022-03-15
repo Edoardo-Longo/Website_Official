@@ -139,7 +139,6 @@
             </div>
         </section>
 
-
         <!-- Second section -->
         <section>
             <article class="s2title">
@@ -147,7 +146,6 @@
                 <h1> powerful products</h1>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
                 <p>nulla pariatur excepteur sint occaecat cupidatat.</p>
-
             </article>
             <picture class="s2picture-trail">
                 <picture class="s2picture flex-row-nowrap ">
@@ -188,12 +186,8 @@
                     <picture>
                         <img src="img/carousel-item-04.jpg" alt="rock4" width="540" height="460">
                     </picture>
-
-
                 </picture>
             </picture>
-
-
             <picture class="s2bottom">
                 <button class="s2bottom__arrow--L">
                     <svg class=" arrowcolor af ub cx text-white dark--text-gray-400 vg gl d_ dz vr" viewBox="0 0 16 16"
@@ -221,20 +215,24 @@
             </article>
             <div class="s3middle flex-row-nowrap justify-between">
                 <!--Buttons-->
-                <div>
-                    <nav class="button__form  flex-column w-max-content " id="navbar">
-                        <button class="flex-row align-center"> <embed src="svg/satellite.svg" type="image/svg+xml">
-                            Getting started</button>
-                        <button class="flex-row align-center"> <embed src="svg/cursorList.svg" type="image/svg+xml">
-                            Collection List</button>
-                        <button class="flex-row align-center"> <embed src="svg/Hierarchy.svg"
-                                type="image/svg+xml">Element Hierarchy</button>
-                        <button class="flex-row align-center"> <embed src="svg/brush.svg" type="image/svg+xml"> Styling
-                            Basics</button>
-                        <button class="flex-row align-center"> <embed src="svg/field.svg" type="image/svg+xml"> Image
-                            Field</button>
-                    </nav>
-                </div>
+
+                <nav class="button__form  flex-column w-max-content ">
+                    <button class="flex-row align-center"> <embed class="button__form--logo" src="svg/satellite.svg"
+                            type="image/svg+xml">
+                        Getting started</button>
+                    <button class="flex-row align-center"> <embed class="button__form--logo" src="svg/cursorList.svg"
+                            type="image/svg+xml">
+                        Collection List</button>
+                    <button class="flex-row align-center"> <embed class="button__form--logo" src="svg/Hierarchy.svg"
+                            type="image/svg+xml">Element Hierarchy</button>
+                    <button class="flex-row align-center"> <embed class="button__form--logo" src="svg/brush.svg"
+                            type="image/svg+xml"> Styling
+                        Basics</button>
+                    <button class="flex-row align-center"> <embed class="button__form--logo" src="svg/field.svg"
+                            type="image/svg+xml"> Image
+                        Field</button>
+                </nav>
+
                 <div class="s3bottom flex-row justify-center">
                     <!-- video block-->
                     <div class="videoDescription"> <img src="img/video.PNG" alt="" height="200" width="350">
@@ -267,7 +265,7 @@
         </section>
 
         <!-- fourth section-->
-        <section>
+        <section class="section__four">
             <article>
                 <h1 class="s4title"> Build and style every <br>element to perfection</h1>
                 <p class="s4subtitle"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
@@ -316,36 +314,40 @@
         </section>
 
         <!-- Fifth section -->
-        <section>
+        <section class="sction__five">
             <article class="s5top flex-column justify-between">
                 <h1> Start building for free, then</h1>
                 <h1> add a plan to go live </h1>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt </p>
-                <p>mollit
-                    laborum —
-                    semper quis lectus nulla</p>
+                <div>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt </p>
+                    <p>mollit
+                        laborum —
+                        semper quis lectus nulla</p>
+                </div>
             </article>
             <div class="s5bottom flex-row justify-evenly">
                 <div class="s5media flex-row">
-                    <aside class="lists5">
-                        <div><svg class=" list__arrow up oi om sb" width="86" height="25"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path class="cx text-gray-600"
-                                    d="M80.959 10.448l-5.502-8.292 1.666-1.105 8.596 12.953-15.534.62-.08-1.999 9.944-.397-7.182-3.672C45.251-3.737 21.787 1.633 2.216 24.726L.69 23.435C20.836-.338 45.252-5.926 73.73 6.752l7.23 3.696z">
-                                </path>
-                            </svg>
+                    <aside>
+                        <div class="lists5">
+                            <div>
+                                <svg class=" list__arrow up oi om sb" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="cx text-gray-600"
+                                        d="M80.959 10.448l-5.502-8.292 1.666-1.105 8.596 12.953-15.534.62-.08-1.999 9.944-.397-7.182-3.672C45.251-3.737 21.787 1.633 2.216 24.726L.69 23.435C20.836-.338 45.252-5.926 73.73 6.752l7.23 3.696z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <ul class="lists5">
+                                <p> All plans include</p>
+                                <li> <span>✔ </span> unlimited domains </li>
+                                <li> <span>✔ </span> Unlimited web pages </li>
+                                <li> <span>✔ </span> Conversion analytics </li>
+                                <li> <span>✔ </span> A/B testing </li>
+                                <li> <span>✔ </span> Exclusive channels </li>
+                                <li> <span>✔ </span> Free resources </li>
+                                <li> <span>✔ </span> Landing page builder </li>
+                                <li> <span>✔ </span> Smart forms and reports </li>
+                            </ul>
                         </div>
-                        <p> All plans include</p>
-                        <ul>
-                            <li> <span>✔ </span> unlimited domains </li>
-                            <li> <span>✔ </span> Unlimited web pages </li>
-                            <li> <span>✔ </span> Conversion analytics </li>
-                            <li> <span>✔ </span> A/B testing </li>
-                            <li> <span>✔ </span> Exclusive channels </li>
-                            <li> <span>✔ </span> Free resources </li>
-                            <li> <span>✔ </span> Landing page builder </li>
-                            <li> <span>✔ </span> Smart forms and reports </li>
-                        </ul>
                     </aside>
                     <!-- Box Yearly-->
                     <div class="box flex-column justify-between ">

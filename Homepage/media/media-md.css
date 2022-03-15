@@ -27,7 +27,7 @@
         margin-top: 5vh;
     }
 
-    .card__container--left{
+    .card__container--left {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -51,13 +51,13 @@
 
     }
 
-    .block__info{
+    .block__info {
 
         height: 14.4rem;
         width: 22.1rem;
 
     }
-    
+
     /*--------------- END OF FIRST SECTION-------------*/
     /*--------------- SECOND SECTION-------------*/
 
@@ -70,37 +70,39 @@
     }
 
     .s2picture {
-        height: max-content; /*Da rivedere*/
+        height: max-content;
+        /*Da rivedere*/
         width: 200vw;
-  
+
     }
+
     /*--------------- END OF SECOND SECTION-------------*/
     /*------------------ THIRD SECTION-------------*/
-    .s3middle{
+    .s3middle {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .videoDescription{
+    .videoDescription {
         height: 150px;
         width: max-content;
 
     }
 
-    
-  .videoDescription>img{
+
+    .videoDescription>img {
         height: 150px;
         width: auto;
 
     }
 
-    .videoDescription>div>a{
-        font-size:1.3rem ;
+    .videoDescription>div>a {
+        font-size: 1.3rem;
 
     }
-    
-    .button__form{
+
+    .button__form {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -121,20 +123,20 @@
         border-radius: 5px;
     }
 
-    
+
     .s3bottom {
         margin-top: 4rem;
     }
-    
+
     .s3top>h1 {
         align-self: center;
         color: #f4f4f5;
         font-size: 4.5rem;
         line-height: 0.9;
         text-align: center;
-        margin-bottom:2rem;
+        margin-bottom: 2rem;
     }
-    
+
     .s3top>p {
         align-self: center;
         color: #9a9a9b;
@@ -142,21 +144,24 @@
         line-height: 1.1;
         text-align: center;
     }
+
     /*--------------- END OF THIRD SECTION-------------*/
     /*------------------ FOURTH SECTION-------------*/
-    .s4card{
+    .s4card {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap:2.5rem;
+        gap: 2.5rem;
     }
-    .s4title{
+
+    .s4title {
         font-size: 4.5rem;
     }
-    
-    .s4subtitle{
+
+    .s4subtitle {
         font-size: 2rem;
     }
+
     .iphoneContainer-media {
         height: 441px;
         width: 225px;
@@ -164,7 +169,7 @@
     }
 
     .iphoneScreen-media {
-        height:  421px;
+        height: 421px;
         width: 225px;
         position: absolute;
         z-index: 0;
@@ -177,55 +182,57 @@
     }
 
     .iphoneMockup-media {
-  
-        height:  441px;
+
+        height: 441px;
         width: 225px;
         background-image: url("../img/iphone-mockup.png");
         background-size: contain;
         background-position: center;
-        position:relative;
+        position: relative;
         z-index: 1;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: trasparent;
     }
-    
+
     /*--------------- END OF FOURTH SECTION-------------*/
     /*------------------ FIFTH SECTION-------------*/
 
-    .s5bottom{
+    .s5bottom {
         width: 100%;
         justify-content: center;
-        gap:1rem;
-        
+        gap: 1rem;
+
     }
-    .lists5{
+
+    .lists5 {
         display: flex;
         flex-direction: column;
-    
+
         width: 25rem;
         height: 29.5rem;
-        
+
         justify-content: center;
         align-items: center;
         text-align: left;
     }
-    
-    .s5media{
+
+    .s5media {
         width: 100%;
         justify-content: center;
         align-items: center;
-        padding:0rem 2rem;
-        gap:1rem;
+        padding: 0rem 2rem;
+        gap: 1rem;
     }
+
     .box {
         width: 25rem;
         height: 29.5rem;
         background-color: #2e2e33;
         padding: 2.5rem;
-    
-    
+
+
     }
 
 
@@ -235,7 +242,7 @@
         align-self: center;
         line-height: 1.3;
     }
-    
+
     .s5top>p {
         font-size: 2rem;
         color: #a2a29b;
@@ -244,7 +251,7 @@
         text-align: center;
     }
 
-/*--------------- END OF FIFTH SECTION-------------*/
+    /*--------------- END OF FIFTH SECTION-------------*/
     /*------------------ SIXTH SECTION-------------*/
 
     .s6card__testimonial {
@@ -253,8 +260,8 @@
         justify-content: center;
         gap: 2rem;
         margin-top: 0.5rem;
-    
-    
+
+
     }
 
     .s6card {
@@ -264,8 +271,8 @@
         gap: 6rem;
         display: flex;
         justify-content: center;
-    
-    
+
+
     }
 
     .s6card__testimonial--box {
@@ -274,57 +281,58 @@
         height: 20rem;
         color: gray;
         text-align: center;
-    
+
     }
 
     .s6card__testimonial--box>p {
         font-size: 1.5rem;
         font-weight: bold;
-    
+
     }
+
     .name {
 
         color: rgb(255, 255, 255);
         font-weight: bold;
         font-size: 1.5rem;
-    
+
     }
-    
+
     .site {
-    
+
         color: #3abab4;
         font-weight: bold;
         font-size: 1.5rem;
     }
 
-/*--------------- END OF SIXTH SECTION-------------*/
+    /*--------------- END OF SIXTH SECTION-------------*/
     /*------------------ SEVENTH SECTION-------------*/
-    .s7title{
+    .s7title {
         line-height: 1.1;
         font-size: 4.5rem;
         margin-bottom: 6rem;
 
     }
-    
-    
-    
-    .infobox{
+
+
+
+    .infobox {
         justify-content: center;
         align-items: center;
         display: flex;
         flex-direction: column;
-        gap:1rem;
+        gap: 1rem;
     }
-    
-    .medias7{
+
+    .medias7 {
         display: flex;
-        gap:1rem;
-        
+        gap: 1rem;
+
     }
 
 
-  
- 
+
+
     .s7card__endbar {
         display: flex;
         width: 100%;
@@ -333,24 +341,26 @@
         background-color: #2e2e33;
         justify-content: space-between;
     }
+
     label[for="#"] {
         display: flex;
         gap: 2rem;
         justify-content: space-between;
     }
-    .s7card__endbar>h4{
+
+    .s7card__endbar>h4 {
         font-size: 1.5rem;
     }
-    
+
     label>input {
-        
+
         padding: 0.3rem 0.1rem;
         border: none;
         background-color: #2e2e33;
         border-radius: 4px;
         border: 1px solid #52525a;
     }
-    
+
     label>button {
         padding: 1.5rem 2rem;
         border: none;
@@ -358,7 +368,7 @@
         border-radius: 4px;
         color: white;
     }
-    
+
 
 
 }

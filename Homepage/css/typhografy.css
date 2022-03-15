@@ -80,12 +80,12 @@ li>span {
     font-size: 1.2rem;
 }
 
-.videoDescription__visual {
-    font-size: 1.2rem;
-}
 
 /*-------------- END SECOND SECTION -------------- */
 /*----------------- THIRD SECTION --------------- */
+.videoDescription__visual {
+    font-size: 1.2rem;
+}
 
 
 .s3top>h1 {
@@ -98,6 +98,11 @@ li>span {
     align-self: center;
     color: #9a9a9b;
     font-size: 2rem;
+}
+
+.button__form>button {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
 }
 
 /*-------------- END THIRD SECTION -------------- */
@@ -115,13 +120,6 @@ li>span {
     color: #9a9a9b;
 }
 
-#navbar>button {
-
-    font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
-
-
-}
 
 /*-------------- END FOURTH SECTION -------------- */
 /*------------------FIFTH SECTION --------------- */
@@ -132,7 +130,7 @@ li>span {
     line-height: 1.3;
 }
 
-.s5top>p {
+.s5top>div>p {
     font-size: 2rem;
     color: #a2a29b;
     align-self: center;
