@@ -2,6 +2,7 @@
 .topbar {
     align-items: center;
     height: 10vh;
+    width: 100%;
 }
 
 .topbar__leftcontainer {
@@ -18,7 +19,6 @@
     border: 1px;
     border-radius: 0.25rem;
     border-width: 1px;
-
     position: relative;
     z-index: 1;
 }
@@ -30,7 +30,6 @@
     gap: 1rem;
 
 }
-
 
 .logo--topbar {
     align-self: center;
@@ -75,18 +74,6 @@
     background-color: aliceblue;
     align-self: center;
     border-radius: 50%;
-
-}
-
-.rightcontainer__requestBtn {
-    height: max-content;
-    padding: 1.2rem 1.6rem;
-    color: #fffffd;
-    background-color: #3abab4;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    align-self: center;
 }
 
 /*-------------- END OF TOPBAR -------------- */
@@ -94,15 +81,20 @@
 
 .card__container {
     height: max-content;
-    gap: 2rem;
+    gap: 15rem;
     margin-top: 10vh;
-    width: max-content;
+    width: 100%;
 }
 
 .card__container--left {
-    gap: 20px;
+    gap: 2rem;
     flex-basis: content;
     flex-grow: 1;
+    padding-left: 5%;
+}
+
+.card__container--right {
+    justify-content: center;
 }
 
 .container__left--title {
@@ -117,6 +109,8 @@
     width: max-content;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
 }
 
 .circlebg {
@@ -342,7 +336,8 @@
 
 .button__form {
     gap: 5px;
-    flex-wrap: wrap;    height: 100%;
+    flex-wrap: wrap;
+    height: 100%;
 }
 
 .button__form>button {
@@ -460,9 +455,10 @@
     margin-top: 5rem;
 }
 
-.s5media{
-    gap:3rem;
+.s5media {
+    gap: 3rem;
 }
+
 .box {
     width: 25rem;
     height: 32.5rem;
