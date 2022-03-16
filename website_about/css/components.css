@@ -4,10 +4,19 @@ body {
     z-index: 0;
 }
 
+@media screen and (max-width: 600px) {
+
+
+    
+}
+.s1 {
+    width: 100%;
+}
+
+
 .background-img {
     height: auto;
-    width: 100%;
-    border: 1px solid rgb(64, 187, 228);
+    width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
@@ -18,15 +27,63 @@ body {
     mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
 }
 
+@media screen and (max-width: 600px) {
+
+    .background-img {
+
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .background-img { 
+    
+      max-width: 100%;  
+      
+        
+    
+    }
+
+}
+
+
+    
+
 
 
 
 
 /*-------------- TOPBAR -------------- */
 .topbar {
+    max-width: 100%;
     align-items: center;
     height: 10vh;
-    background-color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+@media screen and (max-width: 600px) {
+
+    
+.topbar { 
+    
+    max-width: 20rem;
+    display: flex;
+    justify-content: center;
+    
+
+}
+}
+
+@media screen and (max-width: 900px) {
+
+    .topbar { 
+    
+        
+        
+    
+    }
+
 }
 
 .topbar__leftcontainer {
@@ -121,8 +178,10 @@ body {
 
     margin-top: 5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
+
+
 
 
 .imgSquare {
@@ -185,6 +244,7 @@ body {
     border: 1px solid rgb(226, 27, 176);
     border-radius: 3px;
     display: flex;
+    
 }
 
 
@@ -233,6 +293,15 @@ body {
     align-items: unset;
     gap: 10rem;
 
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s3card_central {
+
+        max-width: 100%;
+        gap: unset;
+    }
 }
 
 .s3card__central--list {
