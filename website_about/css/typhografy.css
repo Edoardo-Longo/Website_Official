@@ -39,6 +39,15 @@
 
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s1title {
+
+        justify-content: space-around;
+        
+    }
+}
+
 .s1title>span {
     color: #3abab4;
 }
