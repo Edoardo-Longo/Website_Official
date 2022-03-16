@@ -178,7 +178,9 @@ body {
 
     margin-top: 5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
 
@@ -229,6 +231,8 @@ body {
     justify-content: center;
 }
 
+
+
 .s2iconBar {
 
     display: flex;
@@ -237,16 +241,40 @@ body {
     
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s2iconBar {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+
 .s2iconBar__img {
 
     width: 15rem;
     height: 15rem;
     border: 1px solid rgb(226, 27, 176);
-    border-radius: 3px;
+    border-radius: 1rem;
     display: flex;
     
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s2iconBar__img {
+        display: flex;
+        justify-content: space-between;
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+.s2topCard {
+
+    display:flex;
+    
+}
 
 
 .s2bottomCard {
@@ -259,6 +287,16 @@ body {
     justify-content: center;
     gap: 0.5rem;
     margin-top: 8rem;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s2bottomCard {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .s2container__img {
@@ -288,10 +326,21 @@ body {
     margin-bottom: 5rem;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s3card__top>p {
+        
+        display: flex;
+        flex-flow: column;
+        font-size: 1.6rem; 
+    }
+}
+
 .s3card__central {
     display: flex;
     align-items: unset;
     gap: 10rem;
+    justify-content: space-between;
 
 }
 
@@ -381,6 +430,14 @@ body {
 
 
 
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4topCard {
+
+        
+    }
 }
 
 

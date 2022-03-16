@@ -36,6 +36,8 @@
     z-index: 4;
     display: flex;
     justify-content: center;
+    align-self: center;
+    gap: 2rem;
 
 }
 
@@ -60,10 +62,28 @@
     color: white;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s2topCard>h1 {
+        
+        font-size: 4.4rem;
+
+    
+    }
+}
+
 .s2topCard>p {
     align-self: center;
     color: grey;
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s2topCard>p {
+        font-size: 1.5rem;
+    }
+}
+
 
 .s2topCard__title {
 
@@ -71,10 +91,22 @@
     font-weight: 900;
 }
 
+
+
 .s2topCard__line {
 
     font-weight: medium;
     color: grey;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s2topCard__line {
+
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+    } 
 }
 
 /*-----------END OF SECOND SECTION-----------------*/
@@ -87,6 +119,13 @@
     line-height: 1.4;
     font-size: 2rem;
     color: grey;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s3card__top>p {
+        font-size: 1.5rem;
+    }
 }
 
 .container__box {
@@ -114,6 +153,15 @@
 
 
 /*----------------- FOURTH SECTION -----------------*/
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s4topCard>p {
+        font-size: 1.6rem;
+    }
+}
+
+
 .s4topCard__title {
     font-size: 5rem;
     align-self: center;
@@ -123,6 +171,13 @@
 
     color: grey;
     align-self: center;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s4topCard__description {
+        font-size: 1.6rem;
+    }
 }
 
 
@@ -173,7 +228,12 @@ li>a {
 
 /*------END OF FOURTH SECTION------*/
 
-
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s5description {
+        font-size: 1.5rem;
+    }
+}
 
 /*Sixth section*/
 
@@ -182,9 +242,23 @@ li>a {
     color: white;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s6title_1>h2 {
+        font-size: 4rem;
+    }
+}
+
 .s6title_1>p {
     align-self: center;
     color: #A2A2A8;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s6title_1>p {
+        font-size: 1.5rem;
+    }
 }
 
 .s6title_2>h2 {
@@ -192,9 +266,23 @@ li>a {
     color: white;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s6title_2>h2 {
+        font-size: 4rem;
+    }
+}
+
 .s6title_2>p {
     align-self: center;
     color: #A2A2A8;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s6title_2>p {
+        font-size: 1.5rem;
+    }
 }
 
 .s6img>.s6img_container_1>.profile__container>.name>h4 {
