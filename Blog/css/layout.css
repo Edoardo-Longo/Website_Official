@@ -1,5 +1,7 @@
 body {
     background-color: #39393f;
+    width: 100%;
+    height: max-content;
 }
 
 header {

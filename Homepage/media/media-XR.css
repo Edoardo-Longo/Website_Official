@@ -48,8 +48,6 @@
         align-items: center;
     }
 
-    /*------------------- FINE TOP BAR --------------------*/
-    /*------------------- FIRST SECTION ------------------------*/
     button {
         font-size: 0.75rem;
         cursor: pointer;
@@ -96,6 +94,8 @@
         z-index: 1;
         gap: 2px;
     }
+    /*------------------- FINE TOP BAR --------------------*/
+    /*------------------- FIRST SECTION ------------------------*/
 
     .container__left--title {
         display: flex;
