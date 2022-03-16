@@ -8,9 +8,12 @@
         width: 100%;
     }
 
+    html {
+        overflow-x: hidden;
+    }
 
     body {
-        padding: 1%;
+        padding: 0 1%;
     }
 
     .topbar__leftcontainer {
@@ -253,6 +256,101 @@
 
     .s2title>p {
         font-size: 1rem;
+    }
+
+    /*----------------------- CAROSELLO ------------------------------------*/
+    .s2picture>picture>img {
+        width: 18rem;
+        height: 15rem;
+    }
+
+
+    .s2picture {
+        height: 15rem;
+
+    }
+
+    .s2picture-trail {
+        height: 15rem;
+        margin: 3.5rem;
+
+    }
+
+    .s2picture__btnLearn {
+        background-color: #3abab4;
+        border: none;
+        border-radius: 2px;
+        padding: 0.5rem 1rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .s2picture__btnService {
+        position: absolute;
+        top: 90%;
+        right: 5%;
+        border-radius: 10px;
+        border: none;
+        padding: 0.4rem 0.6rem;
+        background-color: #1d1d2080;
+        font-size: 0.6rem;
+    }
+
+    .s2bottom__arrow--L {
+        background-color: #2e2e33;
+        width: max-content;
+        height: max-content;
+        font-size: 1rem;
+        margin: 0;
+        border: none;
+        padding: 1.5rem;
+    }
+
+    .s2bottom__arrow--R {
+        width: max-content;
+        height: max-content;
+        font-size: 1rem;
+        margin: 0;
+        background-color: #2e2e33;
+        border: none;
+        padding: 1.5rem;
+    }
+
+    .arrowcolor {
+        fill: #A2A2A8;
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+
+    .s2picture>picture:nth-child(1) {
+        position: absolute;
+        top: 50%;
+        left: -10%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .s2picture>picture:nth-child(2) {
+
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+
+
+    }
+
+    .s2picture>picture:nth-child(3) {
+
+        position: absolute;
+        top: 50%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+
+
     }
 
     /*----------------------- CAROSELLO ------------------------------------*/
@@ -527,5 +625,199 @@
         margin-top: 1.5rem;
     }
 
+    /*----------------------------------SECTION SIX -------------------------*/
+    .s6card {
+        margin-top: 0;
+        width: 100%;
+        height: max-content;
+        gap: 0;
+        justify-content: space-evenly;
+    }
 
+    .s6card__testimonial {
+        width: max-content;
+        align-self: center;
+        margin-top: 0;
+        gap: 2.5rem;
+    }
+
+    .s6card__testimonial--box>.testimonial1 {
+        background-image: url("../img/testimonial-01.jpg");
+        background-position: center;
+        background-size: contain;
+        height: 4.6rem;
+        width: 4.6rem;
+    }
+
+    .s6card__testimonial--box>.testimonial2 {
+        background-image: url("../img/testimonial-02.jpg");
+        background-position: center;
+        background-size: contain;
+        height: 4.6rem;
+        width: 4.6rem;
+    }
+
+    .s6card__testimonial--box>.testimonial3 {
+        background-image: url("../img/testimonial-03.jpg");
+        background-position: center;
+        background-size: contain;
+        height: 4.6rem;
+        width: 4.6rem;
+    }
+
+    .s6card__testimonial--box>.testimonial4 {
+        background-image: url("../img/testimonial-04.jpg");
+        background-position: center;
+        background-size: contain;
+        height: 4.6rem;
+        width: 4.6rem;
+    }
+
+    .s6card__testimonial--box {
+        width: max-content;
+        height: 20rem;
+        color: gray;
+        text-align: center;
+    }
+
+    .s6card__testimonial--box>p {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    /*------------------END SECTION SIX---------------------------------*/
+    /*------------------SECTION SEVEN---------------------------------*/
 }
+
+.infobox {
+    margin: 1.5rem 0rem;
+    gap: 0.5rem;
+}
+
+.medias7 {
+    gap: 0.5rem;
+}
+
+.infobox__square {
+    height: 10rem;
+    width: 12.5rem;
+    padding: 1rem;
+}
+
+.infobox__square--details>h5 {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.infobox__square--details>p {
+    font-size: 1rem;
+    color: white;
+}
+
+.s7card__endbar {
+    width: 95%;
+    height: 9rem;
+    padding: 2%;
+    background-color: #2e2e33;
+}
+
+label[for="#"] {
+    display: flex;
+    gap: 1rem;
+}
+
+label>input {
+    padding: 0.15rem 0.625rem;
+    border-radius: 2px;
+    width: 12rem;
+}
+
+label>input::placeholder {
+    font-size: 0.9rem;
+}
+
+label>button {
+    padding: 0.75rem 0.8rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.s7list {
+    margin-top: 0;
+    gap: 3.5rem;
+    padding: 2rem;
+}
+
+.policy {
+    justify-content: space-between;
+    height: max-content;
+    margin-top: 1.5rem;
+}
+
+/* --- footer --- */
+
+.buttons__logo {
+    background-color: #2f3237;
+    border: none;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons__container {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 5px;
+}
+
+.s7title {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.s7list__block>ul {
+    line-height: 0.7;
+}
+
+.policy>p {
+    font-size: 0.7rem;
+}
+
+.s7card {
+    margin: 0;
+}
+
+.svg__media--XR {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.s7card__endbar>h4 {
+    font-size: 1.5rem;
+}
+
+.s7list__block>p>a {
+    font-size: 0.8rem;
+}
+
+.s7list__block>ul>li>a {
+    font-size: 0.8rem;
+}
+
+.logo--footer {
+    width: 2.0rem;
+    height: 2.0rem;
+}
+
+.s7list__block>ul>li {
+    line-height: 0.7rem;
+}
+
+footer{
+    margin-top: 2.5rem;
+}
+
+/*------------------END ---------------------------------*/
