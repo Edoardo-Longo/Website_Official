@@ -2,8 +2,6 @@ body {
     background-color: #1d1d20;
     overflow-x: hidden;
     padding: 0% 6%;
-    border:1px solid yellow;
-    
 }
 
 header {
@@ -15,7 +13,6 @@ footer {
     gap: 30px;
     justify-content: center;
     margin-top: 5rem;
-
 }
 
 section {
@@ -27,12 +24,9 @@ section {
     min-height: min-content;
 }
 
-
-
 h1 {
     font-size: 6rem;
     font-family: 'Red Hat Display', sans-serif;
-
 }
 
 h2 {

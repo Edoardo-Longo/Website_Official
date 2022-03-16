@@ -238,11 +238,9 @@
     margin: 7rem 0px;
     gap: 3rem;
     position: relative;
-    border:1px solid rgb(68, 0, 255);
     
 } 
  .s2picture {
-    border:1px solid red;
     display: flex;
     width:100%;
     height: 46rem;
@@ -283,60 +281,7 @@
 
  
  }
- .s2picture>picture:nth-child(4){
-    
-    position: absolute;
-    top:50%;
-    left:-50%;
-  transform: translate(-50%,-50%);
 
- 
- }
- .s2picture>picture:nth-child(5){
-    
-    position: absolute;
-    top:50%;
-    left:-150%;
-  transform: translate(-50%,-50%);
-
- 
- }
- .s2picture>picture:nth-child(6){
-    
-    position: absolute;
-    top:50%;
-    left:-200%;
-  transform: translate(-50%,-50%);
-
- 
- }
- .s2picture>picture:nth-child(7){
-    
-    position: absolute;
-    top:50%;
-    left:-250%;
-  transform: translate(-50%,-50%);
-
- 
- }
- .s2picture>picture:nth-child(8){
-    
-    position: absolute;
-    top:50%;
-    left:-300%;
-  transform: translate(-50%,-50%);
-
- 
- }
- .s2picture>picture:nth-child(9){
-    
-    position: absolute;
-    top:50%;
-    left:-350%;
-  transform: translate(-50%,-50%);
-
- 
- }
  /*----------------------------- FINE TEST CAROSELLO--------------------------------*/
 
 
