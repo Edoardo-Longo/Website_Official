@@ -167,6 +167,18 @@
     align-self: center;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4topCard__title {
+
+        
+        font-size: 4rem;
+       
+        
+        
+    }
+}
+
 .s4topCard__description {
 
     color: grey;
@@ -291,10 +303,30 @@ li>a {
     font-weight: 300;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s6img>.s6img_container_1>.profile__container>.name>h4 {
+
+        font-size: 1rem;
+        
+        
+    }
+}
+
 .s6img>.s6img_container_2>.profile__container>.name>h4 {
     color: #D4D4D8;
     font-size: 1.8rem;
     font-weight: 300;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s6img>.s6img_container_2>.profile__container>.name>h4 {
+
+        font-size: 1rem;
+        
+        
+    }
 }
 
 .s6_button {

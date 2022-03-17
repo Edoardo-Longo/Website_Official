@@ -418,6 +418,15 @@ body {
     flex-flow: column;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4 {
+
+        
+        width: 100%;
+    }
+}
+
 .s4topCard {
     height: 21rem;
     width: 100%;
@@ -455,6 +464,17 @@ body {
 
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4bottomCard {
+
+        
+        width: 60rem;
+    }
+}
+
+
+
 .s4list {
     height: 20rem;
     width: 18rem;
@@ -468,6 +488,16 @@ body {
     align-items: center;
     flex-wrap: wrap;
 
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4list { 
+
+        float: left;
+
+        
+    }
 }
 
 
@@ -500,12 +530,30 @@ body {
 
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4careersBox__container--img1 {
+
+        height: 50rem;
+        width: 50rem;
+    }
+}
+
 .s4careersBox__container--img2 {
 
     display: flex;
     justify-content: space-around;
     gap: 25px;
 
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4careersBox__container--img2 {
+
+        height: 50rem;
+        width: 50rem;
+    }
 }
 
 .container--img {
@@ -524,6 +572,14 @@ body {
 
 
 
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .container--img>img {
+
+        width: auto;
+        height: auto;
+    }
 }
 
 /*----------------- END OF FOURTH SECTION-----------------*/
@@ -546,6 +602,18 @@ body {
 .s5upperCard>h2 {
 
     color: white;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s5upperCard>h2 {
+
+        
+        font-size: 4rem;
+       
+        
+        
+    }
 }
 
 .s5description {
@@ -606,6 +674,16 @@ body {
     justify-content: center;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s6img>.s6img_container_1>.profile__container {
+
+        width: 7rem;
+        height: 7rem;
+        
+    }
+}
+
 .s6img>.s6img_container_1>.profile__container>picture {
     width: 8rem;
     height: 8rem;
@@ -647,6 +725,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s6img>.s6img_container_2>.profile__container {
+
+        width: 7rem;
+        height: 7rem;
+        
+    }
 }
 
 .s6img>.s6img_container_2>.profile__container>picture {
@@ -714,4 +802,30 @@ body {
 
     background-color: #1d1d20;
     border: none;
+}
+
+/*-------FOOTER------*/
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s7list flex-row justify-between {
+
+        width: 25rem;
+        height: 8rem;
+       
+        
+        
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .policy flex-row justify-between>p {
+
+        width: 15rem;
+        height: 8rem;
+        font-size: 1rem;
+       
+        
+        
+    }
 }
