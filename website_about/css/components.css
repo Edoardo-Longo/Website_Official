@@ -9,14 +9,19 @@ body {
 
     
 }
+
 .s1 {
     width: 100%;
+    position: relative;
+    z-index: 0;
 }
+
+
 
 
 .background-img {
     height: auto;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
@@ -70,21 +75,13 @@ body {
     max-width: 20rem;
     display: flex;
     justify-content: center;
+
     
 
 }
 }
 
-@media screen and (max-width: 900px) {
 
-    .topbar { 
-    
-        
-        
-    
-    }
-
-}
 
 .topbar__leftcontainer {
     height: 100%;
@@ -105,10 +102,34 @@ body {
 
 }
 
+@media screen and (max-width: 900px) {
+
+    .topbar__button { 
+    
+        
+        margin-top: 4rem;
+    
+    }
+
+}
+
+
+
 
 .topbar__rightcontainer {
     height: 100%;
     gap: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+
+    .topbar__rightcontainer { 
+    
+        
+        align-items: flex-start;
+    
+    }
+
 }
 
 
@@ -308,6 +329,18 @@ body {
     margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s2img {
+
+        width: auto;
+        height: auto;
+        
+    }
+}
+
+
+
 /*----------------- END OF SECOND SECTION-----------------*/
 /*----------------- START THIRD SECTION -----------------*/
 .s3section {
@@ -468,8 +501,8 @@ body {
 
     .s4bottomCard {
 
+        justify-content: space-between;
         
-        width: 60rem;
     }
 }
 
@@ -495,6 +528,10 @@ body {
     .s4list { 
 
         float: left;
+        height: 30rem;
+        width: 8rem;
+        align-items: flex-end;
+        justify-content: flex-start;
 
         
     }
@@ -513,9 +550,18 @@ body {
     justify-content: space-around;
     gap: 2rem;
     margin-bottom: 5rem;
-
-
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4careersBox { 
+
+        height: 45rem;
+
+        
+    }
+}
+
 
 .s4careersBox>p {
 
@@ -553,6 +599,7 @@ body {
 
         height: 50rem;
         width: 50rem;
+        justify-content: center;
     }
 }
 
@@ -562,6 +609,18 @@ body {
     width: 240px;
     position: relative;
     z-index: 1;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .container--img {
+
+        height: 20rem;
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .container--img>img {
