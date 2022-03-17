@@ -38,6 +38,7 @@
     justify-content: center;
     align-self: center;
     gap: 2rem;
+    margin-top: 5rem;
 
 }
 
@@ -45,7 +46,8 @@
 
     .s1title {
 
-        justify-content: space-around;
+        
+        font-size: 6rem;
         
     }
 }
@@ -167,6 +169,18 @@
     align-self: center;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4topCard__title {
+
+        
+        font-size: 4rem;
+       
+        
+        
+    }
+}
+
 .s4topCard__description {
 
     color: grey;
@@ -189,11 +203,27 @@
     margin-bottom: 1.5rem;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s4list>h3 {
+        font-size: 1.5rem;
+    }
+}
+
 .s4list>a {
 
     font-size: medium;
 
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    .s4list>a {
+        font-size: 1rem;
+    }
+}
+
+
 
 .container--img>h4 {
 
@@ -208,6 +238,17 @@
     line-height: 1.5;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .container--img>h4 { 
+
+        font-size: 9px;
+        
+
+        
+    }
+}
+
 .container--img>em {
 
     position: absolute;
@@ -219,11 +260,18 @@
     font-size: 1.5rem;
 }
 
-li>a {
+@media screen and (min-width: 700px) and (max-width: 900px) {
 
-    font-size: 1.6rem;
-    line-height: 1.6;
+    .container--img>em { 
+
+        font-size: 9px;
+        
+
+        
+    }
 }
+
+
 
 
 /*------END OF FOURTH SECTION------*/
@@ -291,10 +339,30 @@ li>a {
     font-weight: 300;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s6img>.s6img_container_1>.profile__container>.name>h4 {
+
+        font-size: 1rem;
+        
+        
+    }
+}
+
 .s6img>.s6img_container_2>.profile__container>.name>h4 {
     color: #D4D4D8;
     font-size: 1.8rem;
     font-weight: 300;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s6img>.s6img_container_2>.profile__container>.name>h4 {
+
+        font-size: 1rem;
+        
+        
+    }
 }
 
 .s6_button {
@@ -305,7 +373,12 @@ li>a {
 
 
 
-
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+     footer>p {
+        font-size: 1rem;
+    }
+}
 
 
 .s7list__block>ul {

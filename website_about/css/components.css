@@ -9,14 +9,19 @@ body {
 
     
 }
+
 .s1 {
     width: 100%;
+    position: relative;
+    z-index: 0;
 }
+
+
 
 
 .background-img {
     height: auto;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
@@ -70,21 +75,13 @@ body {
     max-width: 20rem;
     display: flex;
     justify-content: center;
+
     
 
 }
 }
 
-@media screen and (max-width: 900px) {
 
-    .topbar { 
-    
-        
-        
-    
-    }
-
-}
 
 .topbar__leftcontainer {
     height: 100%;
@@ -105,10 +102,34 @@ body {
 
 }
 
+@media screen and (max-width: 900px) {
+
+    .topbar__button { 
+    
+        
+        margin-top: 4rem;
+    
+    }
+
+}
+
+
+
 
 .topbar__rightcontainer {
     height: 100%;
     gap: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+
+    .topbar__rightcontainer { 
+    
+        
+        align-items: flex-start;
+    
+    }
+
 }
 
 
@@ -308,6 +329,18 @@ body {
     margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s2img {
+
+        width: auto;
+        height: auto;
+        
+    }
+}
+
+
+
 /*----------------- END OF SECOND SECTION-----------------*/
 /*----------------- START THIRD SECTION -----------------*/
 .s3section {
@@ -418,6 +451,15 @@ body {
     flex-flow: column;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4 {
+
+        
+        width: 100%;
+    }
+}
+
 .s4topCard {
     height: 21rem;
     width: 100%;
@@ -455,6 +497,17 @@ body {
 
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4bottomCard {
+
+        justify-content: space-between;
+        
+    }
+}
+
+
+
 .s4list {
     height: 20rem;
     width: 18rem;
@@ -470,6 +523,20 @@ body {
 
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4list { 
+
+        float: left;
+        height: 30rem;
+        width: 8rem;
+        align-items: flex-end;
+        justify-content: flex-start;
+
+        
+    }
+}
+
 
 
 .s4careersBox {
@@ -483,9 +550,18 @@ body {
     justify-content: space-around;
     gap: 2rem;
     margin-bottom: 5rem;
-
-
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4careersBox { 
+
+        height: 45rem;
+
+        
+    }
+}
+
 
 .s4careersBox>p {
 
@@ -500,12 +576,31 @@ body {
 
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4careersBox__container--img1 {
+
+        height: 50rem;
+        width: 50rem;
+    }
+}
+
 .s4careersBox__container--img2 {
 
     display: flex;
     justify-content: space-around;
     gap: 25px;
 
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s4careersBox__container--img2 {
+
+        height: 50rem;
+        width: 50rem;
+        justify-content: center;
+    }
 }
 
 .container--img {
@@ -516,6 +611,18 @@ body {
     z-index: 1;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .container--img {
+
+        height: 20rem;
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 .container--img>img {
 
     position: relative;
@@ -524,6 +631,14 @@ body {
 
 
 
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .container--img>img {
+
+        width: auto;
+        height: auto;
+    }
 }
 
 /*----------------- END OF FOURTH SECTION-----------------*/
@@ -546,6 +661,18 @@ body {
 .s5upperCard>h2 {
 
     color: white;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s5upperCard>h2 {
+
+        
+        font-size: 4rem;
+       
+        
+        
+    }
 }
 
 .s5description {
@@ -606,6 +733,16 @@ body {
     justify-content: center;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s6img>.s6img_container_1>.profile__container {
+
+        width: 7rem;
+        height: 7rem;
+        
+    }
+}
+
 .s6img>.s6img_container_1>.profile__container>picture {
     width: 8rem;
     height: 8rem;
@@ -647,6 +784,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s6img>.s6img_container_2>.profile__container {
+
+        width: 7rem;
+        height: 7rem;
+        
+    }
 }
 
 .s6img>.s6img_container_2>.profile__container>picture {
@@ -714,4 +861,30 @@ body {
 
     background-color: #1d1d20;
     border: none;
+}
+
+/*-------FOOTER------*/
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .s7list flex-row justify-between {
+
+        width: 25rem;
+        height: 8rem;
+       
+        
+        
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .policy flex-row justify-between>p {
+
+        width: 15rem;
+        height: 8rem;
+        font-size: 1rem;
+       
+        
+        
+    }
 }
