@@ -1,34 +1,23 @@
 /*-------------- TOPBAR -------------- */
 
 
-.topbar__leftcontainer>a {
-  text-decoration: none;
-  color: rgb(212 212 216);
-  font-weight: bold;
-  align-self: center;
-
-}
 
 .topbar__button {
   color: white;
   font-weight: 800;
 
 }
+
+
+
+.topbar__leftcontainer>a {
+  text-decoration: none;
+  color: rgb(212 212 216);
+  align-self: center;
+}
+
 
 /*-------------- END OF TOPBAR -------------- */
-
-
-.topbar__leftcontainer>a {
-  text-decoration: none;
-  color: rgb(212 212 216);
-  font-weight: bold;
-  align-self: center;
-}
-
-.topbar__button {
-  color: white;
-  font-weight: 800;
-}
 
 /*inizio-section1-------------*/
 

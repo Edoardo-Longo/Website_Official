@@ -2,18 +2,29 @@ header {
     height: min-content;
 }
 
+@media screen and (max-width: 600px) {
+
+    .header {
+    
+        width: 100%;
+    }
+        
+    }
+
 footer {
     color: white;
     gap: 30px;
     justify-content: space-between;
+    
     margin-top: 5rem;
     width: 100%;
 }
 
+
+
 section {
     width: 100%;
     height: max-content;
-    position: relative;
 }
 
 h1 {
@@ -26,9 +37,25 @@ h1 {
 
 }
 
+@media screen and (max-width: 600px) {
+
+    h1 {
+
+        font-size: 4rem;
+    }
+}
+
 h2 {
     font-size: 5rem;
     font-family: 'Red Hat Display', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+
+    h2 {
+
+        font-size: 3.5rem;
+    }
 }
 
 h3 {
@@ -38,9 +65,25 @@ h3 {
     font-weight: 900;
 }
 
+@media screen and (max-width: 600px) {
+
+    h3 {
+
+        font-size: 3rem;
+    }
+}
+
 h4 {
     font-size: 3rem;
     font-family: 'Red Hat Display', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+
+    h4 {
+
+        font-size: 2.5rem;
+    }
 }
 
 h5 {
@@ -53,6 +96,14 @@ h6 {
     font-style: medium;
 }
 
+@media screen and (max-width: 600px) {
+
+    h4 {
+
+        font-size: 9px;
+    }
+}
+
 p {
 
     font-family: inter;
@@ -61,10 +112,39 @@ p {
     font-size: 2rem;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    p {
+
+        font-size: 1.5rem;
+    }
+}
+
 a {
     font-size: 1.6rem;
-    font-size: 1.6rem;
     font-family: 'Inter', sans-serif;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    
+    a {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    a {
+
+        font-size: 8px;
+    }
 }
 
 button {
@@ -76,7 +156,7 @@ button {
 body {
 
     background-color: #1d1d20;
-    padding: 0% 21%;
+    padding: 0% 10%;
 
 }
 
