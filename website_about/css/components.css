@@ -4,16 +4,21 @@ body {
     z-index: 0;
 }
 
-@media screen and (max-width: 600px) {
 
-
-    
-}
 
 .s1 {
     width: 100%;
     position: relative;
     z-index: 0;
+}
+
+@media screen and (max-width: 600px) {
+
+    .s1 {
+
+        width: 100%;
+    }
+
 }
 
 
@@ -36,24 +41,24 @@ body {
 
     .background-img {
 
-        width: 100vw;
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
 
-    .background-img { 
-    
-      max-width: 100%;  
-      
-        
-    
+    .background-img {
+
+        max-width: 100%;
+
+
+
     }
 
 }
 
 
-    
+
 
 
 
@@ -67,25 +72,22 @@ body {
     background-color: rgba(0, 0, 0, 0.034);
 }
 
-@media screen and (max-width: 600px) {
 
-    
-.topbar { 
-    
-    max-width: 20rem;
-    display: flex;
-    justify-content: center;
-
-    
-
-}
-}
 
 
 
 .topbar__leftcontainer {
     height: 100%;
     gap: 4rem;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .topbar__leftcontainer {
+
+        gap: 3px;
+    }
 
 }
 
@@ -104,11 +106,27 @@ body {
 
 @media screen and (max-width: 900px) {
 
-    .topbar__button { 
-    
-        
+    .topbar__button {
+
+
         margin-top: 4rem;
-    
+
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .topbar__button {
+
+        width: auto;
+        margin-top: 1rem;
+        height: 3rem;
+        width: 6.5rem;
+        padding: 0.8rem 1.6rem;
+        margin-top: rem;
+        font-size: smaller;
     }
 
 }
@@ -123,11 +141,20 @@ body {
 
 @media screen and (max-width: 900px) {
 
-    .topbar__rightcontainer { 
-    
-        
+    .topbar__rightcontainer {
+
+
         align-items: flex-start;
-    
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .topbar__button {
+
+        width: auto;
     }
 
 }
@@ -206,7 +233,6 @@ body {
 
 
 
-
 .imgSquare {
     height: 400px;
     width: 700px;
@@ -215,6 +241,17 @@ body {
     background-size: contain;
     -webkit-mask-image: linear-gradient(to top, transparent 12.5%, black 300%);
     mask-image: linear-gradient(to top, transparent 12.5%, black 200%);
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .imgSquare {
+
+        width: 30rem;
+        height: 20rem;
+        background-repeat: no-repeat;
+    }
 
 }
 
@@ -245,7 +282,7 @@ body {
     height: max-content;
     margin-top: 5rem;
     width: 100%;
-    border: 1px solid green;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,7 +296,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
@@ -267,7 +304,7 @@ body {
     .s2iconBar {
         display: flex;
         justify-content: space-between;
-        
+
     }
 }
 
@@ -275,10 +312,10 @@ body {
 
     width: 15rem;
     height: 15rem;
-    border: 1px solid rgb(226, 27, 176);
+  
     border-radius: 1rem;
     display: flex;
-    
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
@@ -293,8 +330,8 @@ body {
 
 .s2topCard {
 
-    display:flex;
-    
+    display: flex;
+
 }
 
 
@@ -302,7 +339,7 @@ body {
 
     height: max-content;
     width: 100%;
-    border: 1px solid aqua;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -321,7 +358,7 @@ body {
 }
 
 .s2container__img {
-    border: 1px solid red;
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -335,7 +372,7 @@ body {
 
         width: auto;
         height: auto;
-        
+
     }
 }
 
@@ -351,7 +388,7 @@ body {
 .s3card__top {
     height: max-content;
     width: 100%;
-    border: 1px solid aqua;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -362,10 +399,10 @@ body {
 @media screen and (min-width: 700px) and (max-width: 900px) {
 
     .s3card__top>p {
-        
+
         display: flex;
         flex-flow: column;
-        font-size: 1.6rem; 
+        font-size: 1.6rem;
     }
 }
 
@@ -386,10 +423,20 @@ body {
     }
 }
 
+@media screen and (max-width: 600px) {
+
+    .s3card_central {
+
+        width: 25rem;
+        
+    }
+
+}
+
 .s3card__central--list {
     height: max-content;
     width: max-content;
-    border: 1px solid aqua;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -398,7 +445,7 @@ body {
 .s3card__bottom--container {
     height: 35rem;
     width: 89rem;
-    border: 1px solid aqua;
+    
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
@@ -412,11 +459,24 @@ body {
 
 }
 
+
+
 .s3card__bottom--box {
 
     display: flex;
     flex-wrap: wrap;
     background-color: rgba(82, 80, 80, 0.39);
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .s3card__bottom--box {
+
+        width: auto;
+        height: auto;
+        
+    }
 
 }
 
@@ -455,7 +515,7 @@ body {
 
     .s4 {
 
-        
+
         width: 100%;
     }
 }
@@ -463,7 +523,7 @@ body {
 .s4topCard {
     height: 21rem;
     width: 100%;
-    border: 1px solid green;
+    
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -476,10 +536,7 @@ body {
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
 
-    .s4topCard {
-
-        
-    }
+    .s4topCard {}
 }
 
 
@@ -491,7 +548,7 @@ body {
     flex-wrap: wrap;
     flex-flow: row;
     flex-direction: row;
-    border: 1px solid yellow;
+    
     justify-content: space-evenly;
     align-items: center;
 
@@ -502,7 +559,7 @@ body {
     .s4bottomCard {
 
         justify-content: space-between;
-        
+
     }
 }
 
@@ -511,7 +568,7 @@ body {
 .s4list {
     height: 20rem;
     width: 18rem;
-    border: 1px solid red;
+   
     color: grey;
     display: flex;
     align-self: flex-start;
@@ -525,7 +582,7 @@ body {
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
 
-    .s4list { 
+    .s4list {
 
         float: left;
         height: 30rem;
@@ -533,7 +590,7 @@ body {
         align-items: flex-end;
         justify-content: flex-start;
 
-        
+
     }
 }
 
@@ -542,7 +599,7 @@ body {
 .s4careersBox {
     height: max-content;
     width: fit-content;
-    border: 1px solid violet;
+   
     display: flex;
     flex-direction: column;
     color: whitesmoke;
@@ -554,11 +611,11 @@ body {
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
 
-    .s4careersBox { 
+    .s4careersBox {
 
         height: 45rem;
 
-        
+
     }
 }
 
@@ -632,6 +689,7 @@ body {
 
 
 }
+
 @media screen and (min-width: 700px) and (max-width: 900px) {
 
     .container--img>img {
@@ -647,7 +705,7 @@ body {
 .s5upperCard {
     height: max-content;
     width: 100%;
-    border: 1px solid violet;
+    
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
@@ -667,11 +725,11 @@ body {
 
     .s5upperCard>h2 {
 
-        
+
         font-size: 4rem;
-       
-        
-        
+
+
+
     }
 }
 
@@ -684,7 +742,7 @@ body {
 
     height: max-content;
     width: 100%;
-    border: 1px solid violet;
+    
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
@@ -695,7 +753,7 @@ body {
 .s6title_1 {
     width: 100%;
     height: 20rem;
-    border: 1px solid red;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -704,7 +762,7 @@ body {
 
 .s6title_2 {
 
-    border: 1px solid red;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -715,7 +773,7 @@ body {
 .s6img_container_1 {
     width: 100%;
     height: 17rem;
-    border: 1px solid blue;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -725,7 +783,7 @@ body {
 }
 
 .s6img>.s6img_container_1>.profile__container {
-    border: 1px solid green;
+   
     height: max-content;
     width: 127px;
     display: flex;
@@ -739,7 +797,7 @@ body {
 
         width: 7rem;
         height: 7rem;
-        
+
     }
 }
 
@@ -768,7 +826,7 @@ body {
 .s6img>.s6img_container_2 {
     width: 100;
     height: 17rem;
-    border: 1px solid blue;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -778,7 +836,7 @@ body {
 }
 
 .s6img>.s6img_container_2>.profile__container {
-    border: 1px solid green;
+    
     height: max-content;
     width: 127px;
     display: flex;
@@ -792,7 +850,7 @@ body {
 
         width: 7rem;
         height: 7rem;
-        
+
     }
 }
 
@@ -826,7 +884,7 @@ body {
 }
 
 .s6_end {
-    border: 1px solid green;
+    
     width: 100%;
     height: 280px;
     display: flex;
@@ -871,11 +929,12 @@ body {
 
         width: 25rem;
         height: 8rem;
-       
-        
-        
+
+
+
     }
 }
+
 @media screen and (min-width: 700px) and (max-width: 900px) {
 
     .policy flex-row justify-between>p {
@@ -883,8 +942,8 @@ body {
         width: 15rem;
         height: 8rem;
         font-size: 1rem;
-       
-        
-        
+
+
+
     }
 }
