@@ -1,6 +1,7 @@
 @media screen and (min-width:1400px) {
     body {
         padding: 0 21%;
+        width: max-content;
     }
 
     .card__container--left {
@@ -25,15 +26,48 @@
         align-self: flex-start;
     }
 
+    .s2picture-trail {
+        width: 100%;
+        height: 47rem;
+        margin: 7rem 0px;
+        gap: 3rem;
+        position: relative;
+    }
+
     .s2picture {
         display: flex;
-        width: 200vw;
-        height: max-content;
+        width: 100%;
+        height: 46rem;
         gap: 3rem;
         position: absolute;
         top: 50%;
-        left: 14.2%;
+        left: 50%;
         justify-content: center;
+        transform: translate(-50%, -50%);
+    }
+
+    /*-----------------------------TEST CAROSELLO--------------------------------*/
+    /*Per eliminare l'overflow inserisco tutte le pic in position absolute, questo
+     le dovrebbe rendere incorporee eliminando il problema overflow nelle media query*/
+
+    .s2picture>picture:nth-child(1) {
+        position: absolute;
+        top: 50%;
+        left: -5%;
+        transform: translate(-50%, -50%);
+    }
+
+    .s2picture>picture:nth-child(2) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .s2picture>picture:nth-child(3) {
+        position: absolute;
+        top: 50%;
+        left: 105%;
         transform: translate(-50%, -50%);
     }
 }

@@ -8,24 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Andrea Trentadue">
     <meta name="author" content="Sebastian Gutierrez">
+    <section>
 
-
-    <!-- Inter sans serif (Link e paragrafi)-->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
-    <!-- Red hat display (Titoli) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap" rel="stylesheet">
+   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    
+        <!-- Red hat display (Titoli) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+    </section>
     <title>About - Appy Demo</title>
     <link rel="stylesheet" href="./index.css">
-
 </head>
 
 <body>
+    <section class="s1">
+        <!-- First section -->
 
     <!-- Topbar -->
     <header class="topbar flex-row-nowrap justify-between">
@@ -40,10 +41,13 @@
         </div>
         <div class="topbar__rightcontainer w-max-content flex-row-nowrap ">
             <div class="circlebg"></div>
+
+
             <div class="rightcontainer__switchbtn justify-between ">
                 <div></div>
                 <div>
                     <div class="rightcontainer__switchitem topbar_switch"></div>
+
                 </div>
             </div>
             <a href="https://www.google.it" target="_blank">
@@ -54,20 +58,20 @@
                 <div></div>
                 <div></div>
             </div>
+        </div> <!-- end of topbar -->
+    </header>
+
+
+
+
+
+        <div class="s1container">
+            <div class="imgSquare"></div>
+            <h1 class="s1title">Make Your Own
+                <span>Way</span>
+            </h1>
         </div>
 
-    </header><!-- end of topbar -->
-    <img src="./asset/hero-bg-03.jpg" alt="backgroung-img" class="background-img">
-    <!-- First section -->
-    <section class="mandracata">
-        <h1 class="s1title">
-            Make your own
-            <span>way</span>
-        </h1>
-        <div class="s1container">
-            <div class="imgSquare">
-            </div>
-        </div>
     </section>
     <!-- End first section -->
 
@@ -80,30 +84,32 @@
                 deserunt</p>
             <p class="s2topCard__line"> mollit
                 anim id est.</p>
-            
-            <figure class="s2iconBar">
-                <picture class="icon aereo"><embed class="svg__position" src="svg/aereoplano.svg" type="image/svg+xml"></picture>
-                <picture class="icon handsheart"><embed src="svg/handsheart.svg" type="image/svg+xml"></picture>
-                <picture class="icon stars"><embed src="svg/stars.svg" type="image/svg+xml"></picture>
-                <picture class="icon hands"><embed src="svg/hands.svg" type="image/svg+xml"></picture>
-            </figure>
+
+
+            <div class="s2iconBar">
+                <div class="s2iconBar__img"><embed src="svg/img1.svg" type="image/svg+xml"></div>
+                <div class="s2iconBar__img"><embed src="svg/img2.svg" type="image/svg+xml"></div>
+                <div class="s2iconBar__img"><embed src="svg/img3.svg" type="image/svg+xml"></div>
+                <div class="s2iconBar__img"><embed src="svg/img4.svg" type="image/svg+xml"></div>
+
+            </div>
+
         </article>
-       
         <div class="s2bottomCard">
             <div class="s2container__img">
-                <picture><img class="img-6" src="asset/about-grid-01.jpg" width="360" height="270" alt="About grid 01">
+                <picture><img class="s2img" src="asset/about-grid-01.jpg" width="360" height="270" alt="About grid 01">
                 </picture>
-                <picture><img class="img-7" src="asset/about-grid-02.jpg" width="270" height="270" alt="About grid 02">
+                <picture><img class="s2img" src="asset/about-grid-02.jpg" width="270" height="270" alt="About grid 02">
                 </picture>
-                <picture> <img class="img-8" src="asset/about-grid-03.jpg" width="450" height="270" alt="About grid 03">
+                <picture> <img class="s2img" src="asset/about-grid-03.jpg" width="450" height="270" alt="About grid 03">
                 </picture>
             </div>
             <div class="s2container__img">
-                <picture><img class="img-9" src="asset/about-grid-04.jpg" width="270" height="270" alt="About grid 04">
+                <picture><img class="s2img" src="asset/about-grid-04.jpg" width="270" height="270" alt="About grid 04">
                 </picture>
-                <picture><img class="img-10" src="asset/about-grid-05.jpg" width="450" height="270" alt="About grid 05">
+                <picture><img class="s2img" src="asset/about-grid-05.jpg" width="450" height="270" alt="About grid 05">
                 </picture>
-                <picture><img class="img-11" src="asset/about-grid-06.jpg" width="360" height="270" alt="About grid 06">
+                <picture><img class="s2img" src="asset/about-grid-06.jpg" width="360" height="270" alt="About grid 06">
                 </picture>
             </div>
         </div>
@@ -111,7 +117,7 @@
     <!-- End second section -->
 
     <!-- Third section-->
-    <section>
+    <section class="s3">
         <article class="s3card__top">
             <h1>What we’ve achieved</h1>
             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
@@ -121,48 +127,50 @@
         <div class="s3card__central">
             <aside class="s3card__central--list">
                 <ul>
-                    <li> <a href="#">2020</a></li>
-                    <li> <a href="#">2019</a></li>
-                    <li> <a href="#">2018</a></li>
-                    <li> <a href="#">2017</a></li>
-                    <li> <a href="#">2016</a></li>
+                    <li> <a>2020</a></li>
+                    <li> <a>2019</a></li>
+                    <li> <a>2018</a></li>
+                    <li> <a>2017</a></li>
+                    <li> <a>2016</a></li>
                 </ul>
             </aside>
             <div class="s3card__bottom--container">
 
                 <article class="s3card__bottom--box">
-                    <h3 class="s3card__title">Launched Appy Business</h3>
+                    <h3 class="text-7">Launched Appy Business</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                     </p>
-                    <a class="link" href="#"><span>Learn more</span></a>
+                    <a class="link" href="#0"><span>Learn more</span></a>
                 </article>
                 <article class="s3card__bottom--box">
-                    <h3 class="s3card__title">Series B fundraising</h3>
+                    <h3 class="text-7">Series B fundraising</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                     </p>
-                    <a class="link" href="#"><span>Learn more</span></a>
+                    <a class="link" href="#0"><span>Learn more</span></a>
                 </article>
 
-                <article class="s3card__bottom--box">
-                    <h3 class="s3card__title">1M Customers</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                    </p>
-                    <a class="link" href="#"><span>Learn more</span></a>
-                </article>
 
                 <article class="s3card__bottom--box">
-                    <h3 class="s3card__title">Mobile builder enabled</h3>
+                    <h3 class="text-7">1M Customers</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                     </p>
-                    <a class="link" href="#"><span>Learn more</span></a>
+                    <a class="link" href="#0"><span>Learn more</span></a>
                 </article>
+                <article class="s3card__bottom--box">
+                    <h3 class="text-7">Mobile builder enabled</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                    <a class="link" href="#0"><span>Learn more</span></a>
+                </article>
+
             </div>
+        </div>
         </div>
     </section>
     <!-- End third section-->
 
     <!-- Fourth section-->
-    <section>
+    <section class="s4">
         <div class="s4topCard">
             <h1 class="s4topCard__title">Explore roles at Appy’s </h1>
             <h1 class="s4topCard__title"> offices around the world</h1>
@@ -173,68 +181,71 @@
         <div class="s4bottomCard">
             <aside class="s4list">
                 <h3>Locations</h3>
-                <ul>
-                    <li>
-                        <div class="s4list__option"> <embed src="svg/list.svg" type="image/svg+xml">
-                            <span class="list__locations">All Locations</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="s4list__option"><embed src="svg/list.svg" type="image/svg+xml">
-                            <span>London,UK</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="s4list__option">
-                            <embed src="svg/list.svg" type="image/svg+xml">
-                            <span>Milan,Italy</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="s4list__option"><embed src="svg/list.svg" type="image/svg+xml"><span>New York,
-                                NYC</span> </a></div>
-                    </li>
-                    <li>
-                        <div class="s4list__option"><embed src="svg/list.svg" type="image/svg+xml"><span>Berlin, DE
-                            </span></a></div>
-                    </li>
-                </ul>
-            </aside>
-            <picture class="s4careersBox">
 
-                <div class="s4careersBox__container--img1">
-                    <picture class="container--img"><img src="asset\career-01.jpg" alt="career-01" width="240px"
-                            height="240px">
-                        <h4>Development</h4><em>4 Positions</em>
-                    </picture>
-                    <picture class="container--img"><img src="asset\career-02.jpg" alt="career-02" width="240px"
-                            height="240px">
-                        <h4>Product&Design</h4><em>56 Positions</em>
-                    </picture>
-                    <picture class="container--img"><img src="asset/career-03.jpg" alt="career-03" width="240px"
-                            height="240px">
-                        <h4>Marketing</h4><em>3 Positions</em>
-                    </picture>
-                </div>
+                <ul >
 
-                <div class="s4careersBox__container--img2">
-                    <picture class="container--img"><img src="asset/career-04.jpg" alt="career-04" width="240px"
-                            height="240px">
-                        <h4>Data Science</h4><em>12 Positions</em>
-                    </picture>
+                    <li>
+                        <div class="s4list__option"><a href=""> <embed src="svg/list.svg" type="image/svg+xml">
+                                <span>All Locations</span></a></div>
+                    </li>
+                    <li><a href="">
+                            <div class="s4list__option"><embed src="svg/list.svg" type="image/svg+xml"><span>London,
+                                    UK</span> </div>
+                        </a></li>
+                    <li><a href="">
+                            <div class="s4list__option"> <embed src="svg/list.svg" type="image/svg+xml"><span>Milan,
+                                    Italy</span>
+                        </a>
+        </div>
+        </li>
+        <li>
+            <div class="s4list__option"><a href=""><embed src="svg/list.svg" type="image/svg+xml"><span>New York,
+                        NYC</span> </a></div>
+        </li>
+        <li>
+            <div class="s4list__option"><a href=""><embed src="svg/list.svg" type="image/svg+xml"><span>Berlin, DE
+                    </span></a></div>
+        </li>
+        </ul>
 
-                    <picture class="container--img"><img src="asset/career-05.jpg" alt="career-05" width="240px"
-                            height="240px">
-                        <h4>Internal System</h4><em>23 Positions</em>
-                    </picture>
+        </aside>
+        <picture class="s4careersBox">
 
-                    <picture class="container--img"><img src="asset/career-06.jpg" alt="career-06" width="240px"
-                            height="240px">
-                        <h4>Administrative</h4><em>7 Positions</em>
-                    </picture>
-                </div>
+            <div class="s4careersBox__container--img1">
+                <picture class="container--img"><img src="asset\career-01.jpg" alt="career-01" width="240px"
+                        height="240px">
+                    <h4>Development</h4><em>4 Positions</em>
+                </picture>
 
-            </picture>
+                <picture class="container--img"><img src="asset\career-02.jpg" alt="career-02" width="240px"
+                        height="240px">
+                    <h4>Product&Design</h4><em>56 Positions</em>
+                </picture>
+
+                <picture class="container--img"><img src="asset/career-03.jpg" alt="career-03" width="240px"
+                        height="240px">
+                    <h4>Marketing</h4><em>3 Positions</em>
+                </picture>
+            </div>
+            <div class="s4careersBox__container--img2">
+                <picture class="container--img"><img src="asset/career-04.jpg" alt="career-04" width="240px"
+                        height="240px">
+                    <h4>Data Science</h4><em>12 Positions</em>
+                </picture>
+
+                <picture class="container--img"><img src="asset/career-05.jpg" alt="career-05" width="240px"
+                        height="240px">
+                    <h4>Internal System</h4><em>23 Positions</em>
+                </picture>
+
+                <picture class="container--img"><img src="asset/career-06.jpg" alt="career-06" width="240px"
+                        height="240px">
+                    <h4>Administrative</h4><em>7 Positions</em>
+                </picture>
+
+            </div>
+
+        </picture>
         </div>
     </section>
 
@@ -252,124 +263,127 @@
                 est.
             </p>
         </article>
-        <picture class="s5Graphic">
+        <figure class="s5Graphic">
             <img src="asset/graphic-01.png" alt="graphic-01">
-        </picture>
+        </figure>
     </section>
 
     <!--End of fifth section-->
 
     <!--Sixth section-->
     <!--X-->
-    <section>
-        <article class="s6title">
+    <section class="section-6">
+        <article class="s6title_1">
             <h2>Your future teammates</h2>
             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
             <p>mollit anim id est.</p>
         </article>
         <div class="s6img">
-            <div class="profile__container">
-                <div class="profile">
+            <div class="s6img_container_1">
+                <div class="profile__container">
                     <picture>
                         <img src="asset/team-member-01.jpg" alt="team-member-01">
                     </picture>
-                    <div class="profile__name">
+                    <div class="name">
                         <h4>Sergey Filkov</h4>
                     </div>
-                    <div class="profile__icon"><img src="asset/twitter.png"></div>
+                    <div class="icon"><img src="asset/twitter.png"></div>
                 </div>
-                <div class="profile">
+                <div class="profile__container">
                     <picture>
                         <img src="asset/team-member-02.jpg" alt="team-member-02">
                     </picture>
-                    <div class="profile__name">
+                    <div class="name">
                         <h4>Mary Champ</h4>
                     </div>
-                    <div class="profile__icon"><img src="asset/twitter.png"></div>
+                    <div class="icon"><img src="asset/twitter.png"></div>
                 </div>
-                <div class="profile">
+                <div class="profile__container">
                     <picture>
                         <img src="asset/team-member-03.jpg" alt="team-member-03">
                     </picture>
-                    <div class="profile__name">
+                    <div class="name">
                         <h4>Mark Varsano</h4>
                     </div>
-                    <div class="profile__icon"><img src="asset/twitter.png"></div>
+                    <div class="icon"><img src="asset/twitter.png"></div>
                 </div>
-                <div class="profile">
+                <div class="profile__container">
                     <picture>
                         <img src="asset/team-member-04.jpg" alt="team-member-04">
                     </picture>
-                    <div class="profile__name">
+                    <div class="name">
                         <h4>George Hurley</h4>
                     </div>
-                    <div class="profile__icon"><img src="asset/twitter.png"></div>
+                    <div class="icon"><img src="asset/twitter.png"></div>
                 </div>
-                <div class="profile">
+                <div class="profile__container">
                     <picture>
                         <img src="asset/team-member-05.jpg" alt="team-member-05">
                     </picture>
-                    <div class="profile__name">
+                    <div class="name">
                         <h4>Ellie Lepisov</h4>
                     </div>
-                    <div class="profile__icon"><img src="asset/twitter.png"></div>
+                    <div class="icon"><img src="asset/twitter.png"></div>
                 </div>
             </div>
-            <div class="profile__container">
-                <div class="profile">
+            <div class="s6img_container_2">
+                <div class="profile__container">
                     <picture>
                         <img src="asset/team-member-06.jpg" alt="team-member-06">
                     </picture>
-                    <div class="profile__name">
+                    <div class="name">
                         <h4>Ellie Lepisov</h4>
                     </div>
-                    <div class="profile__icon"><img src="asset/twitter.png"></div>
+                    <div class="icon"><img src="asset/twitter.png"></div>
                 </div>
-                <div class="profile">
+                <div class="profile__container">
                     <picture>
                         <img src="asset/team-member-07.jpg" alt="team-member-07">
                     </picture>
-                    <div class="profile__name">
+                    <div class="name">
                         <h4>Marko Sharma</h4>
                     </div>
-                    <div class="profile__icon"><img src="asset/twitter.png"></div>
+                    <div class="icon"><img src="asset/twitter.png"></div>
                 </div>
-                <div class="profile">
+                <div class="profile__container">
                     <picture>
                         <img src="asset/team-member-08.jpg" alt="team-member-08">
                     </picture>
-                    <div class="profile__name">
+                    <div class="name">
                         <h4>Mick Esposito</h4>
                     </div>
-                    <div class="profile__icon"><img src="asset/twitter.png"></div>
+                    <div class="icon"><img src="asset/twitter.png"></div>
                 </div>
-                <div class="profile">
+                <div class="profile__container">
                     <picture>
                         <img src="asset/team-member-09.jpg" alt="team-member-09">
                     </picture>
-                    <div class="profile__name">
+                    <div class="name">
                         <h4>Daniel Smith</h4>
                     </div>
-                    <div class="profile__icon"><img src="asset/twitter.png"></div>
+                    <div class="icon"><img src="asset/twitter.png"></div>
                 </div>
-                <div class="profile">
+                <div class="profile__container">
                     <picture>
                         <img src="asset/team-member-10.jpg" alt="team-member-10">
                     </picture>
-                    <div class="profile__name">
+                    <div class="name">
                         <h4>Patricia Long</h4>
                     </div>
-                    <div class="profile__icon"><img src="asset/twitter.png"></div>
+                    <div class="icon"><img src="asset/twitter.png"></div>
                     <div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="s6__footer">
+        <div class="s6_end">
+            <article class="s6title_2">
                 <h2>We Want to talk to you</h2>
                 <p>Do not worry too about picking exactly the right role; we can always give you more</p>
                 <p>options after starting the conversation.</p>
+            </article>
             <button class="s6_button">Send us a message</button>
+        </div>
         </div>
     </section>
     <!--End sixth section-->
@@ -455,26 +469,20 @@
             <p> terms privacy policy </p>
             <!-- social button-->
             <div class="buttons__container">
-
                 <a class="buttons__logo" href="" target="">
                     <embed src="svg/twitter.svg" type="image/svg+xml" />
                 </a>
-
                 <a class="buttons__logo" href="" target="">
                     <embed src="svg/github.svg" type="image/svg+xml">
                 </a>
-
                 <a class="buttons__logo" href="" target="">
                     <embed src="svg/facebook.svg" type="image/svg+xml">
                 </a>
-
                 <a class="buttons__logo" href="" target="">
                     <embed src="svg/instagram.svg" type="image/svg+xml">
                 </a>
-
                 <a class="buttons__logo" href="" target="">
                     <embed src="svg/linkedin.svg" type="image/svg+xml">
-
                 </a>
             </div>
         </div>
