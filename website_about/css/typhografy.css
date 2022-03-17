@@ -52,6 +52,14 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+
+    .s1title {
+
+        font-size: 4rem;
+    }
+}
+
 .s1title>span {
     color: #3abab4;
 }
@@ -130,6 +138,7 @@
     }
 }
 
+
 .container__box {
 
     display: flex;
@@ -164,6 +173,9 @@
 }
 
 
+
+
+
 .s4topCard__title {
     font-size: 5rem;
     align-self: center;
@@ -191,6 +203,13 @@
     
     .s4topCard__description {
         font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .s3card__top>h3 {
+        font-size: 2rem;
     }
 }
 
