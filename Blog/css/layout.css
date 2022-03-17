@@ -9,14 +9,12 @@ header {
 }
 
 footer {
-
     color: white;
     gap: 30px;
     justify-content: center;
     border-top: 1px solid gray;
     margin-top: 3rem;
     padding: 2rem;
-
 }
 
 section {
@@ -24,7 +22,6 @@ section {
     border-right: none;
     max-height: max-content;
     min-height: min-content;
-
 }
 
 h1 {

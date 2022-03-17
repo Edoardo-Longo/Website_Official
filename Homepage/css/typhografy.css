@@ -1,20 +1,16 @@
 /*-------------- TOPBAR -------------- */
 
-
 .topbar__leftcontainer>a {
     text-decoration: none;
     color: rgb(212 212 216);
     align-self: center;
-
 }
 
 .topbar__button {
     color: white;
     font-weight: 800;
-
 }
 
-/*-------------- END OF TOPBAR -------------- */
 /*-------------- FIRST SECTION -------------- */
 
 .container__left--title>h1 {
@@ -34,8 +30,8 @@
     color: #A2A2A8;
 }
 
-/*-------------- END FIRST SECTION -------------- */
 /*-------------- SECOND SECTION -------------- */
+
 li>span {
     color: #4fd1c5;
 }
@@ -50,9 +46,7 @@ li>span {
     color: #9a9a9b;
 }
 
-
 .block__info>h1 {
-
     color: #f4f4f5;
     font-size: 5.6rem;
 }
@@ -80,13 +74,11 @@ li>span {
     font-size: 1.2rem;
 }
 
-
-/*-------------- END SECOND SECTION -------------- */
 /*----------------- THIRD SECTION --------------- */
+
 .videoDescription__visual {
     font-size: 1.2rem;
 }
-
 
 .s3top>h1 {
     align-self: center;
@@ -105,8 +97,8 @@ li>span {
     font-size: 1.6rem;
 }
 
-/*-------------- END THIRD SECTION -------------- */
 /*---------------FOURTH SECTION --------------- */
+
 .s4title {
     margin-top: 10rem;
     font-size: 6rem;
@@ -120,9 +112,8 @@ li>span {
     color: #9a9a9b;
 }
 
-
-/*-------------- END FOURTH SECTION -------------- */
 /*------------------FIFTH SECTION --------------- */
+
 .s5top>h1 {
     font-size: 5.6rem;
     color: white;
@@ -158,12 +149,10 @@ li>span {
 }
 
 .button__style--1 {
-
     font-family: 'Inter', sans-serif;
 }
 
 .button__style--2 {
-
     font-family: 'Inter', sans-serif;
 }
 
@@ -172,45 +161,37 @@ li>span {
     color: #3ec9c5;
 }
 
-
 .list>p {
     font-size: 1.8rem;
     font-family: 'Red Hat Display', sans-serif;
     color: white;
 }
 
-/*-------------- END FIFTH SECTION -------------- */
 /*----------------- SIXTH SECTION --------------- */
+
 .s6card__testimonial--box>p {
     font-size: 2rem;
     font-weight: bold;
-
 }
 
-
-
 .name {
-
     color: rgb(255, 255, 255);
     font-weight: bold;
-
 }
 
 .site {
-
     color: #3abab4;
     font-weight: bold;
 }
 
-/*-------------- END SIXTH SECTION -------------- */
 /*--------------- SEVENTH SECTION --------------- */
+
 .s7title {
     font-size: 5.6rem;
     text-align: center;
     color: white;
     margin-top: 10rem;
 }
-
 
 .infobox__square--details>h5 {
     color: white;
@@ -227,7 +208,6 @@ li>span {
 
 .s7card__endbar>label {
     align-self: center;
-
 }
 
 .s7list__block>ul {

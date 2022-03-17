@@ -10,11 +10,15 @@
 .block-center {
     margin: 0 auto;
 }
+
 .border{
     border:1px solid red;
 }
+
 /* HELPER CLASSES - FLEX */
+
 /* FLEX - LAYOUT */
+
 .flex-row {
     display: flex;
     flex-flow: row wrap;
@@ -36,6 +40,7 @@
 }
 
 /* FLEX - JUSTIFY CONTENT */
+
 .justify-center {
     justify-content: center;
 }
@@ -61,6 +66,7 @@
 }
 
 /* FLEX - ALIGN ITEMS */
+
 .align-center {
     align-items: center;
 }
@@ -82,6 +88,7 @@
 }
 
 /* FLEX - ALIGN SELF */
+
 .align-self-center {
     align-self: center;
 }

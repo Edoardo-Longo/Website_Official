@@ -2,6 +2,10 @@ header {
     height: min-content;
 }
 
+body{
+    padding: 0 21%;
+}
+
 @media screen and (max-width: 600px) {
 
     .header {
@@ -156,7 +160,6 @@ button {
 body {
 
     background-color: #1d1d20;
-    padding: 0% 10%;
 
 }
 

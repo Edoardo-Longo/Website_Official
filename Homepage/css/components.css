@@ -10,6 +10,11 @@
     gap: 4rem;
 }
 
+.logo--topbar {
+    align-self: center;
+    width: 3.2rem;
+    height: 3.2rem;
+}
 .topbar__button {
     height: 4rem;
     width: 13.7rem;
@@ -28,14 +33,8 @@
     position: relative;
     z-index: 1;
     gap: 1rem;
-
 }
 
-.logo--topbar {
-    align-self: center;
-    width: 3.2rem;
-    height: 3.2rem;
-}
 
 .rightcontainer__switchbtn {
     height: 2.5rem;
@@ -76,7 +75,6 @@
     border-radius: 50%;
 }
 
-/*-------------- END OF TOPBAR -------------- */
 /*-------------- FIRST SECTION -------------- */
 
 .card__container {
@@ -124,15 +122,15 @@
 }
 
 .iphoneContainer {
-    height: 654px;
-    width: 340px;
+    height: 65.4rem;
+    width: 34rem;
     position: relative;
     z-index: 1;
 }
 
 .iphoneMockup {
-    height: 654px;
-    width: 340px;
+    height: 65.4rem;
+    width: 34rem;
     background-image: url("../img/iphone-mockup.png");
     background-size: contain;
     background-position: center;
@@ -145,8 +143,8 @@
 }
 
 .iphoneScreen {
-    height: 628px;
-    width: 329px;
+    height: 62.8rem;
+    width: 32.9rem;
     position: absolute;
     z-index: 0;
     top: 50%;
@@ -221,7 +219,6 @@
     justify-content: center
 }
 
-/*----------- END OF FIRST SECTION ---------- */
 /*-------------- SECOND SECTION -------------- */
 
 .s2title {
@@ -229,7 +226,6 @@
     height: max-content;
     text-align: center;
     overflow: hidden;
-
 }
 
 .s2picture-trail {
@@ -238,7 +234,6 @@
     margin: 7rem 0px;
     gap: 3rem;
     position: relative;
-
 }
 
 .s2picture {
@@ -262,31 +257,23 @@
     top: 50%;
     left: -5%;
     transform: translate(-50%, -50%);
-
 }
 
 .s2picture>picture:nth-child(2) {
-
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
 }
 
 .s2picture>picture:nth-child(3) {
-
     position: absolute;
     top: 50%;
     left: 105%;
     transform: translate(-50%, -50%);
-
-
 }
 
 /*----------------------------- FINE TEST CAROSELLO--------------------------------*/
-
 
 .s2picture__btnLearn {
     background-color: #3abab4;
@@ -304,7 +291,7 @@
     position: absolute;
     top: 90%;
     right: 5%;
-    border-radius: 20px;
+    border-radius: 2rem;
     border: none;
     padding: 0.8rem 1.2rem;
     background-color: #1d1d2080;
@@ -315,8 +302,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .s2bottom__arrow--L {
     background-color: #2e2e33;
@@ -342,13 +327,12 @@
     fill: #A2A2A8;
 }
 
-
-/*-------------- END OF SECOND SECTION -------------- */
 /*----------------- THIRD SECTION ------------------- */
 
 .s3top {
     margin-top: 4rem;
     height: max-content;
+    text-align:center;
 }
 
 .s3middle {
@@ -360,7 +344,6 @@
     height: 45rem;
     width: 80rem;
     gap: 20px;
-
 }
 
 .button__form {
@@ -402,7 +385,6 @@
     padding: 0.5rem 1rem;
 }
 
-/*-------------- END THIRD SECTION -------------- */
 /*---------------FOURTH SECTION ----------------- */
 
 .two-media {
@@ -440,8 +422,8 @@
 }
 
 .iphoneMockup-media {
-    height: 654px;
-    width: 340px;
+    height: 65.4rem;
+    width: 34rem;
     background-image: url("../img/iphone-mockup.png");
     background-size: contain;
     background-position: center;
@@ -454,8 +436,8 @@
 }
 
 .iphoneScreen-media {
-    height: 628px;
-    width: 329px;
+    height: 62.8rem;
+    width: 32.9rem;
     position: absolute;
     z-index: 0;
     top: 50%;
@@ -466,10 +448,11 @@
     border-radius: 50px;
 }
 
-/*-------------- END FOURTH SECTION -------------- */
 /*------------------FIFTH SECTION --------------- */
+
 .s5top {
     margin-top: 8rem;
+    text-align: center;
 }
 
 .lists5 {
@@ -521,13 +504,9 @@
     color: #4fd1c5;
 }
 
-/*-------------- END FIFTH SECTION -------------- */
 /*----------------- SIXTH SECTION --------------- */
 
-.row {
-    margin: 5rem 0rem;
-    width: 100%;
-}
+
 
 .s6card {
     margin-top: 1rem;
@@ -575,17 +554,15 @@
     border-radius: 50%;
 }
 
-
 .s6card__testimonial--box {
-
     width: max-content;
     height: 20rem;
     color: gray;
     text-align: center;
 }
 
-/*-------------- END SIXTH SECTION -------------- */
 /*--------------- SEVENTH SECTION --------------- */
+
 .infobox {
     margin: 3rem 0rem;
     gap: 1rem;
