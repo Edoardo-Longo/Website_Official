@@ -13,8 +13,8 @@
 - Revisione
 - Pianificazione, organizzazione e struttura CSS
 - Sviluppo struttura CSS
-- Revisione <-- Siamo qui
-- Release
+- Revisione 
+- Release <-- Siamo qui
 
 ## ORGANIZZAZIONE:
 
